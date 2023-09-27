@@ -12,7 +12,8 @@
         <p>Publication Information - multilingual glossary of nautical terms</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This is a born digital project</p>
+        <p>This project is based on 3x5 index cards of glossary information and notes which
+          have been transcribed</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -22,9 +23,9 @@
         <moduleRef key="header"/>
         <moduleRef key="core"/>
         <moduleRef key="tei"/>
-        <moduleRef key="textstructure"/>
+        <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
         <moduleRef key="namesdates"/>
-        <moduleRef key="dictionaries"/>
+        <moduleRef key="dictionaries" include="superEntry entry re sense figure standOff bibl orth note ref def xr etym form usg anchor"/>
 
         <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
           <attList>

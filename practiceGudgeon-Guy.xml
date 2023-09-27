@@ -6,13 +6,15 @@
   <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>Nautical Lexicon Project - GUDGEON_GUY Practice</title>
+            <editor role="creator">Claire Zak</editor>
          </titleStmt>
          <publicationStmt>
-            <p>Publication Information</p>
+            <p>Nautical Lexicon Project</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>This project is based on 3x5 index cards of glossary information and notes which
+               have been transcribed</p>
          </sourceDesc>
       </fileDesc>
   </teiHeader>

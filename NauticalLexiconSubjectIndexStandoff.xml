@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nautical Lexicon Project Standoff Markup for Subject Index</title>
+                <editor role="creator">Claire Zak</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information - multilingual glossary of nautical terms</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This project is based on 3x5 index cards of glossary information and notes which
+                    have been transcribed</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <standOff>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Anchors &amp; Mooring </orth>
+                </form>
+                <xr>(&amp; see Ropes)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>adrift, anchor, back-anchor, bower-anchor, best-bower anchor, small-bower
+                        anchor, ebb anchor, flood anchor, grapnel anchor, kedge anchor, mooring
+                        anchor, sheet anchor, spare anchor, stream anchor, anchor acockbill,
+                        anchor-arm, anchor-buoy, anchor-crown, anchor-crane, anchor-fluke,
+                        anchor-ring, anchor-shank, anchor-shoe, anchor-stock, to anchor, anchorage,
+                        anchorage tax, athwart-hawse, awash, back, bend/anchor, break out, buoy,
+                        buoy-rope, cable-tier, capstan, capstan-bar, capstan-barrel,
+                        capstan-drumhead, capstan-pawl, capstan-saucer, capstan-spindle,
+                        capstan-whelp, carry out, cat, cat-back, cat-block, cat-fall, cathead,
+                        cathead-stopper, cathead cat-hook, cathead-tackle, clinch, davit, dolphin,
+                        drag anchor, to fish, to fish-block, to fish-boom, fish-hook (1),
+                        fish-hook-pendant, fish-hook-tackle, float, foul, freshen hawse,
+                        ground-tackle, grow, heave, hold, messenger, moor, moorings, mooring-post,
+                        mooring-post-swivel, nipper, puddening, range, rats, road, run out, scope,
+                        shank-painter, shot, cable-shot, to slip, spring-line, stopper, to stopper,
+                        to swing, turn, turn in the hawse, underrun, up and down, walk back, warp
+                        (1), weigh </orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Belaying Devices</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>belay, belaying-pin, bitt, cross-bitt, to bitt, to bitt-pin, bitts,
+                        bowline-bitts, cross-bitts, sheet-bitts, bollard, breastwork, chesstree,
+                        cleat, fasten, haul taut, kevel, knight, knighthead, norman, rack, pin-rack,
+                        range, tako</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Cargoes </orth>
+                </form>
+                <xr>(incl. stowage, containers)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>aburton, alum, alum, -ata, bale, barley, barrel, barrel-head,
+                        barrel-stave, barrel-wood, basket, Brazil wood, broken down, bulk, bundle,
+                        bushel, bushel, cant-, cargo, case, cask, chock, complete, cotton, crane,
+                        discharge, dunnage, embark, fish-sauce, frame, in-frame, fustian, grain,
+                        jar, last, lift, light, lighter, load, to load, loading place, log-book,
+                        malmsey, massicot, mastic, millet, overload, package, passenger, pepper,
+                        pilgrim, purple, rice, rummage, sable fur, sack, scarce, separation, shift,
+                        shifting-boards, shovelling, silk, slave, spice, stow, stowage, stowaway,
+                        sugar, tarragon, tier, trim, ullage, unloading, wheat</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Commerce</orth>
+                </form>
+                <xr>(incl. ship's business; &amp; see Cargoes, Measures)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>agio, angary, articles, ship’s articles, average, bank, barratry, barter,
+                        bazaar, bezant, bill of health, bill of lading, bottomry, burden, caravan,
+                        cataplus, charter, charter-party, coin, commenda, commerce, contraband,
+                        contract, convoy, costs, counter (1), crew-list, customs, deadfreight,
+                        deadweight, demurrage, denarius, dispatch, dockage, dues, earnest money,
+                        embargo, exchange, factory, fix, florin, fondaco, free overside, free port,
+                        freight, good and sufficient, insurance, invoice, jettison, keel duty, lay
+                        days, lodge, lumpsum, magazine, manifest, maravedi, mark, market, matapan,
+                        maximum, minimum, merchandise, money, moorage, package, passage, passport,
+                        pilotage, place, portage, post (2), pratique, primage, prize, protest,
+                        quarantine, raid, risk, rob, roll, safe and sound, salvage, scale, share,
+                        solidus, staple, stay, sterling, storehouse, tare, tariff, toll, tonnage
+                        tax, trade, traffic, tramp, tranship, transit, truck, voyage, weigh,
+                        weighing, wharfage, to winter, zero</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Cordage</orth>
+                </form>
+                <xr>(incl. knots, splices; &amp; see Ropes, Small Stuff)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>bowline, running-bowline, broom, Spanish broom, cable-laid, cat’s paw,
+                        coil, cordage, esparto grass, eye-splice, fake, fiber, flax, flemish down,
+                        hawser-laid, heart, hemp, hitch, blackwall-hitch, clove-hitch, half-hitch,
+                        timber-hitch, junk, kink, knot (1), running knot, lay, left-handed lay,
+                        plain lay, right-handed lay, water lay, marry, mouse, to part, pointing,
+                        ropewalk, running know, sheepshank, size, rope size, skein, spart, spin,
+                        splice, strand, tail, tar, to tar, tarred, tie, turn, untarred, untie,
+                        wall-knot, to whip, yarn, rope yarn, spun yarn</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Etymology</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>adjust, adjust, -amen, ankino, apostle, argosy, astella, -ata, -aticum,
+                        barba, cant, cappuccio, contra, direct, drom, escora, English etymology,
+                        floor, forca, force, form, gamba, gangam, garwian, gassa, gordin, grip,
+                        guarda, guardamano, guardian, jocus, kank, karabo, kramp, lanceare, larg,
+                        lasso, last, lev, levant, lofo, makari, matafion, men-, -men, -ment, muda,
+                        mustache, nauclerus, orza, -otto, paloma, para-, parrot, passarin, place,
+                        poggia, quadr-, rancho, reduplication, regula, rombo, scontron, siccus,
+                        skaf, skar, sola, sosta, sotto, spart, spon, stapula, station, streng, tako,
+                        tertiarol, tiramola, tombar, tragrant, tragula, tramp, travers, traversa,
+                        trink, truck, verga, vigilia, wind, -zon, zonta</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Fasteners</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>bolt, to bolt, bolting, cotter, dowel, fastening, forelock, nail, nails,
+                        peg, pin, treenail, washer</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Fish &amp; Fishing</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>anchovy, cast, cod, cork, dolphin, to fish, fish-hook (2), fish-pond,
+                        gangam, grip, herring, line, long line, mackerel, mesh, net, pair-trawler,
+                        pike, school, shad, sponge, trawl, trout, tuna, whale</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Galley Terminology</orth>
+                </form>
+                <xr>(incl. rowing)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>admiral, against the wind, ahead!, alier, al-wazir, anchor, artimon, back
+                        water, backwater turn, bagnio, beam, bench, bench-locker, biscuit,
+                        boatswain, cap, capitana, chains, galley chains, clothing, comito, crew,
+                        galley crew, crossbow-shot, deck, flagship, fora, force, forward, fusta,
+                        galleass, galleon, galley (1), galley construction, galley (2), gangway,
+                        guardian, hold fast, kid, knee, lay on your oars!, Lepanto, mariuolo,
+                        nauclerus, oar, oar-blade, oar-fish, oar-handle, oar-loom, oar-web, oars,
+                        rabbit oars, ship oars, trail oars, unship oars, orza, outrigger, pass the
+                        word, patron, patrona, person-to-person, poggia, pull away, ram, remolar,
+                        row, rower, first rower, second rower, third rower, fourth rower, fifth
+                        rower, forward rower, aft rower, free rower, paid rower, stroke rower,
+                        rowing, rowlock, sail, lateen sail, shackle, slave, galley slave, scull,
+                        storeroom, stretcher, strop, tabernacle, tapera, tholepin, thwart, whip,
+                        yoke</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Hull &amp; Deck Parts</orth>
+                </form>
+                <xr>(see also Belaying Devices)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>afterpeak, apostle, apron, astella, batten, beak-head, beam, deck beam,
+                        hold beam, bench, bench-locker, bilge (1), bilge (2), turn of bilge,
+                        bulwark, binnacle, boatswain’s locker, bottom, bow, bow-assembly, bows,
+                        break, deck break, breast-hook, breastwork, bulkhead, bull’s-eye, bulwark,
+                        cabin, cappuccio, carling, castle, cathead-knee, ceiling, floor ceiling,
+                        centina, chine, chock, butt-chock, clamp, coaming, coat, mast coat,
+                        companion, counter (2), counter-timber, crotch, crutch (1), crutch (2),
+                        cuddy, cutwater, deadwood, deck, tween deck, fore deck, half deck, orlop
+                        deck, poop deck, quarter deck, deck-house, double-bottom, entance and run,
+                        fashion-piece, floor-board, floor-head, floor-timber, fore-and-after,
+                        forecastle, monkey forecastle, forefoot, forepeak, frame, cant-frame,
+                        filling frame, loof frame, master frame, midship frame, square frame,
+                        framework, futtock, gallery, stern gallery, galley (2), gangway, garboard,
+                        grating, gripe (1), gripe (2), gunwale, hatch, hatchway, hawse-bolster,
+                        hawse-hole, hawse-piece, hawse-pipe, head, head-rail, head-timber,
+                        helm-port, hold, lower hold, hull, keelson, knee, cheek-knee, hanging knee,
+                        lodging knee, knee of the head, lacing, ledge, lid, limber-board,
+                        limber-board-hole, longitudinal, loof, loosen, lopsided, luff, mast-hole,
+                        paramezzale, parapet, paraschena, partners, peak, pilot-house, port-hole,
+                        posselexe, post, inner post, prow, quadr-, quarter, rail, railing, ram,
+                        regula, rider, room and space, Santa Barbara, scupper, scuttle, sheathing,
+                        sheer-molding, shelf, side, sill, port-sill, skeg, sola, spirketing,
+                        stanchion, stealer, steerage, stem, step, mast-step, stern, stern-assembly,
+                        stern-frame, stern-knee, stern-post, storeroom, strake, bilge-strake,
+                        binding-strake, black-strake, limber-strake, sheer-strake, thick-strake,
+                        stringer, taffrail, tako, tank, timber-head, top-timber, tragant, transom,
+                        deck transom, filling transom, helport transom, wing transom, transom-frame,
+                        trunk, waist, wale, wash-board, waterway, weather-cloth, works, lower works,
+                        upper works</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Hydrography</orth>
+                </form>
+                <xr>(incl. sea conditions; see also Topography)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>arm, bank, bar, bay, bed, bottom, sea bottom, to break, breakers, canal,
+                        channel, clean, coast, surgy coast, coral, cove, current, deep, ebb,
+                        estuary, flats, flood-tide, foul, gravel, gulf, high seas, high-water,
+                        mouth, mud, open sea, rats, reef (1), rip-rap, rise, roar, sand, sea (?),
+                        sea (?), sea (?), beam-sea, choppy sea, confused sea, cross-sea, heavy sea,
+                        hollow sea, long sea, rough sea, short sea, seaweed, shallows, shingle,
+                        siccus, slack water, spindrift, straits, surf, swell, tide, neap tide,
+                        spring tide, turn of the tide, undertow, wave</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Maintenance</orth>
+                </form>
+                <xr>(see also Ship-building)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>boot-topping, bream, careen, careening-outrigger, careening-place,
+                        careening-pontoon, careening-tackle, caulk, caulking-tools, cement, chinse,
+                        dive, doubling, fother, furring, grave, graving piece, leak, mend, oakum,
+                        overhaul, plug, raft, repair, shipworm, skid, stage, start, staunch, stop,
+                        stove, stuff, tallow, to tallow, thrum, turpentine, varnish</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Measures</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>arroba, artab, avoirdupois, bushel, cable-length, canna, carat,
+                        crossbow-shot, cubit, fathom, food, goa, inch, league, liter, measures,
+                        mezzarol, mile, millarol, mina, modius, oka, ounce, pace, palm, pitcher,
+                        pound, quintal, salma, sextarius, strickle, ton, tonnage, yard</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Miscellany</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>breakdown, chafe, chain, check, chest, sea chest, chock, clear, cleat,
+                        complete, creak, to dip, downstream, drag, drown, English loanwords, fender,
+                        fleet, flotilla, gear, grease, guess-rope, gull, gunpowder, half, hand,
+                        heaving-line, hole, to house, kettle, lash, lexicographical pitfalls, lock,
+                        made-up, mat, number, opa!, order, overseas, propellor, retreat, ring,
+                        safety, screw, screw-jack, to secure, signal, single, to slip, spare, spile,
+                        spindle, steel, stop!, sure, survey, tarp, trial, tub, turn, upright, valve,
+                        wheel, wind</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Navigation &amp; Piloting</orth>
+                </form>
+                <xr>(see also Ship-handling)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>astrolabe, awake, awash, bearings, berth, safe-berth, binnacle, box (?),
+                        buoy, chart, compass (1), compass (2), compass-needle, course, cross-staff,
+                        dead-reckoning, disorient, engulf, hour-glass, isba, kamal, knot, lead, log,
+                        log-book, log-line, log-reel, low-water, mark, mirage, navigation, noon,
+                        pelorus, point (?), half point, point (?), portolano, rose, compass rose,
+                        run, day’s run, rutter, to sound, soundings, traverse-board, waters,
+                        whitecap, windlipper</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>People</orth>
+                </form>
+                <xr>(incl. personal gear)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>admiral, agent, alier, al-wazir, bailo, barba, barbarian, boatman,
+                        boatswain, boss, bow-man, boy, broker, brothel, cap, captain, carpenter,
+                        caulker, cloak, clothing, coat, comito, consul, cook, cooper, cot,
+                        counsellor, coxswain, crew (?), galley crew, diver, dragoman, easterner,
+                        fisherman, foreman, Frank, guardian, guilds, hammock, harbor-master, hat,
+                        helmsman, interpreter, joiner, kid, lascar, leventi, longshoreman, lookout,
+                        lubber (?), mariuolo, master, mate, mattress, merchant, mess, mess-can,
+                        nauclerus, notary, officers, owner, packer, patron, penese, pilot, pirate,
+                        porter, quartermaster, rancho, ration, remolar, rigger, Roger of Loria,
+                        roll, ropemaker, runner (2), sail-maker, saracen, scribe, seaman, seasick,
+                        share-holder, ship-keeper, shipper, shipwright, shirt, tar shirt, sign on,
+                        slave, galley slave, sotto, stern-man, stevedor, steward, supercargo,
+                        supersaliens, tavern, third mate, topman, translator, turner, watch, watch
+                        and watch, westerner, Zaccaria</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Pidgin</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>cider, fora, Frank, good, know, Lingua Franca, merchandise, roba, small,
+                        take</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Placenames</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>candia, Cos, Fraxinetum, Kaisareia, Lepanto, Mediterranean, Morea, Roma,
+                        la Tana, Trebizond, Venice</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Port Facilities</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>bed (?), berth, breakwater, bridge, catabolum, cove, crane, dock, dredge,
+                        fondaco, gate, granary, Kaisareia, lazaret, light, loading place, magazine,
+                        mole, piling, port, quay, scala, shack, sheers, silo, stapula,
+                        station</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Position/Direction</orth>
+                </form>
+                <xr>(see also Wind)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>abaft, abeam, aboard, abreast, across, across from, aft, ahead, aloft,
+                        along, alongside, amidships, astern, athwart, athwart-hawse, beam, before,
+                        below, bow, on the bow, downstream, east, fore and aft, forward, lee, north,
+                        northeast, northwest, off, orza, overboard, poggia, portside, south,
+                        southeast, southwest, starboard, from stem to stern, upstream, west,
+                        windward</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Provisions</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>beans, beverages, biscuit, bottle, brine, cider, coop, provisions, rice,
+                        salthorse, stockfish, water, wood, firewood</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Rigging</orth>
+                </form>
+                <xr>(see also Shiphandling)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>amain, backstay, backstay-stool, becket, belay, boatswain’s chair,
+                        bobstay, bowline, bowse, brace, brail up, bridle, bowline bridle, towing
+                        bridle, bull’s-eye, buntline, burro, candelette, cappuccio, cat-harpings,
+                        cat-hole, chafe, chains, chainwale, chock-a-block, to clew, to
+                        clew-downhaul, to clew-line, collar, crow’s foot, deadeye, dipping-line,
+                        double, on the double, downhaul, eye, fid, fid-hole, fit out, footrope (?),
+                        forestay, foul (?), frap, futtock-shrouds, futtock-shrouds-staff, gammoning,
+                        girtline, guy, halyard, flag halyard, gaff-sail halyard, hand-over-hand,
+                        handsomely, haul, haul down, haul in, haul taut, hoist, hold fast, to jam,
+                        jeer, jerk, jury, keckling, lanyard, lateen, lead (?), leech-line, let go!,
+                        lift, yard lift, boom lift, lizard, lower, man-rope, martingale, martnet,
+                        masthead rigging, rig the masthead, mast-rope, morganal, mouton, moustache,
+                        orza, overhaul (?), parrel, parrel-rib, parrel-rope, parrel-tackle,
+                        parrel-truck, passarin, pateraz, to pay out, pendant, masthead pendant,
+                        poggia, preventer, pull, ratline, ride down, rigging, running rigging,
+                        standing rigging, runner (1), set up, shackle, sheave-hole, sheer-batten,
+                        sheet, sheet-hole, sheet home, shroud, after shroud, preventer shroud,
+                        shroud-tackles, slab-line, slack, slacken, slack off, sling (?), snake,
+                        sosta, span, spilling-line, square-rigged, square the yards, stay,
+                        jack-stay, spring-jack, staysail-jack, sway up, swig up, swivel, tack,
+                        tally, taut, thimble, tighten, timenoguy, tiramola, together!, toggle,
+                        tombar, topping-lift, tragula, traveller, to trice, tricing-line, turn (?),
+                        tye, tye-block, vang, woolding</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Ropes</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>barbet, bend, carrick-bend, sheet-bend, bight, breaking-point, cable,
+                        cable-laid, cablet, cable-tier, hawser, white hawser, hawser-laid, painter,
+                        paloma, parcel, rope, bow rope, breast rope, hand rope, head (?) rope,
+                        headfast rope, shorefast rope, sternfast rope, tow rope, track rope, warp
+                        rope, selvagee, serve, sling, stopper, strop, worm</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Sails</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>artemo, ave Maria, batten, bend, bolt-rope, bonnet, bunt, canvas, clew,
+                        course, cringle, crossjack, drop, earing, eyelet, flap, foot, footrope (?),
+                        fore-and-aft sail, foresail, full, full and by, furl, gasket, giz, grommet,
+                        head, headrope, hoist, jib, flying jib, inner jib, middle jib, outer jib,
+                        standing jib, jigger, kalos, lace, leech, leech-rope, lining, luff, lugsail,
+                        main, matafion, mizzen, papagifo, reef (2), reef-band, reef-line,
+                        reef-points, roach, roband, royal, sail, large sail, lateen sail,
+                        lateen-sail-parts, lateen-sail-storm, to sail, sail-cloth, sails, shake out
+                        a reef, skysail, spanker, spritsail (1), spritsail (2), staysail,
+                        fore-staysail, fore-topmast staysail, upper staysail, stitch, studding-sail,
+                        tabling, tack, topgallant sail, topsail, gaff topsail, mizzen topsail,
+                        spritsail topsail, trim, trysail, unfurl, yard-rope</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Ship-building</orth>
+                </form>
+                <xr>(see also Fasteners, Hull &amp; Deck Parts, Maintenance)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>arsenal, astella, batten, molding batten, beam (?), bevel, blocks, stock
+                        blocks, board, boards, breadth, extreme breadth, build, butt, buttock,
+                        camber, carvel-work, caulk, shalk, chamfer, to clinch, clinker-built, coak,
+                        costs, cradle, cross-log, cross-piece, cross-plank, cut down, cutting-down
+                        line, depth of hold, displacement, dogshore, dovetail, dowel, dub, fasten,
+                        filling, fir, form, freeboard, grained, cross-grained, joint, keel,
+                        keel-assembly, false-keel, keelson, knot (2), reef knot, larch, launch,
+                        launching, launching-tackle, launching-wedge, length, lignum vitae, measure,
+                        member, mold, mold-loft, molding, mortise, naval stores, oak, oakum,
+                        packing, to pay, pinewood, pitch, bastard pitch, black pitch, naval pitch,
+                        pitch-kettle, pitch-works, plank, gang-plank, planking, planksheer, plate,
+                        pledget (?), plumb-line, poplar, poppet, rabbet, rake, ribband, framing
+                        ribband, launching ribband, rising, rising-line, rising-wood, roller, rosin,
+                        sapwood, scantling, scarf, seam, seating, sheer, shipbuilding, shipyard,
+                        shore (?), skeg-shore, shore up, siding, sirmark, sleeper, slip-way, to
+                        smear, spreader (2), steeve, stocks, stop-water, tar, make tar, to tar, to
+                        tar-bucket, to tar-ladle, to tar-mop, to tar-trough, tenon, timber, compass
+                        timber, construction timber, tumble-home, warp (2), water-line, ways,
+                        launching ways, wedge</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Ship-handling</orth>
+                </form>
+                <xr>(see also Belaying Devices, Navigation, Rigging, Winds)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>aback, adrift, come adrift, afloat, against the wind, aground, run
+                        around, ahull, alongsde, answer, apeak, approachable, arrive, atrip, avast,
+                        aye-aye!, back and fill, back down, back water, backwater turn, bail,
+                        ballast, to ballast, bare poles, under bare poles, to breach, beam-ends, on
+                        her beam-ends, bear up, beat, becalm, before the wind, beneaped, bending,
+                        berth, safe berth, to board, boatswain’s pipe, botar, box haul, boxing off,
+                        broach to, capsize, cast, cast off, change, chapel, clear, clear for
+                        action!, close-hauled, to coast, coasting, collo, command, convoy, crank,
+                        crowd sail, cruise, deballast, depart, departure, point of departure, dip,
+                        double a cape, down by the head, down by the stern, draft, draft-mark, draw
+                        (?), draw (?), drift, embay, fall off, fetch way, fill, flatten in, float,
+                        frap, to free, griping, to hail, handle, hard-alee!, hard-aweather!, hard
+                        over, haul the wind, head for, heave to, to heel, helm down!, hog, hug,
+                        jibe, kentledge, labor, to land, land, make land, to lay up, lee, bring by
+                        the lee, lee-side, lee-way, make lee, let go and haul!, lie to, list, luff,
+                        to luff, mainsail haul!, to man, maneuver, meet her!, navigate, off and on,
+                        offing, orza, overhaul (?), parting shot, pass the word, person-to-person,
+                        to pitch, play, ply, plyer, poggia, to point, to poop, port, make port, post
+                        (1), push off, put back, put in, ready, ready about!, to reef, reefed, close
+                        reefed, to right, to rock, roll, round in, rouse, to run, sag, to scuttle,
+                        sea-room, to secure, seize, seizing, set sail, sew, sheer off, shelter,
+                        shift (?), shift (?), shipwreck, shiver, shove off!, shudder, sink, to
+                        speak, spill, stability, stand by, in stays, stays, miss stays, steady!,
+                        steer, to stem, stiff, tack, to tack, haul tacks aboard, tender, touch (?),
+                        tow, in town, to track, trim, trumpet, speaking trumpet, to try, under way,
+                        get under way, unmoor, up tacks and sheets!, vane, veer/wear, veer and haul,
+                        wake, watch, watchdog, watch out!, watch out below!, wave, bow wave, way,
+                        head-way, stern-way, weather-side, wing and wing, yaw</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Small Stuff</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>fox, hambroline, houseline, marl, marline, nettle, ratline-stuff,
+                        round-line, sennit, small-stuff, stop, string, twin, sail twine</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Spars</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>boom, jib boom, boomkin, booms, bowsprit, bowsprit-bees, bowsprit-pillow,
+                        cap, mast cap, careening-outrigger, cheeks, crossjack-yard, crosstree,
+                        dolphin-striker, fid, mast-fid, fish, mast-fish, foremast, gaff, gaff-jaw,
+                        giz, heel, hounds, lubber-hole, luff, mast, lower mast, made mast, pole
+                        mast, singletree mast, to mast, masthead, mizzen, octave, outrigger, peak,
+                        to peak, pole, rough, skysail-pole, spar, spindle, spreader (1), to spring,
+                        sprit, staff, to step, top, to top up, topgallant mast, topmast,
+                        trestle-tree, truck, mast truck, yard, yard-butt, yard-peak, yard-slings,
+                        yardarm, zonta</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Tackle</orth>
+                </form>
+                <xr>(see also Anchoring)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>apparel, awning, belfry, bell, block, cheek-block, clump-block,
+                        fiddle-block, gin-block, leading-block, snatch-block, block-becket,
+                        block-bushing, block-cheek, block-maker, block-pin, block-score,
+                        block-sheavehole, block-shell, block-strap, block-swallows, boom, riding
+                        boom, capstan, crane, davit, ensign, fall (?), fish (?), flag, to fleet,
+                        grappling iron, gudgeon, helm, jigger-tackle, ladder, Jacob’s ladder,
+                        lantern, overhaul (?), overturn, parbuckle, part (?), pennant, pintle,
+                        pulley, pump, pump-gutter, pump-handle, pump-well, reeve, rolling tackle,
+                        rudder, sternpost rudder, rudder-blade, rudder-irons, rudder-pendant,
+                        rudder-stock, Spanish windlass, standard (?), tackle, hauling part tackle,
+                        standing part tackle, tiller, tiller-rope, trestle, unreeve, whipstaff,
+                        winch, winch-barrel, windlass</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Tools</orth>
+                </form>
+                <xr>(see also Maintenance, Ship-building)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>adze, awl, ax, barr, broom, brush, bucket, caulking-tools, chisel,
+                        crowbar, draw-knife, drill, fid, splicing fid, file, funnel, gaff, hammer,
+                        handle, handspike, hatchet, hook, boat-hook, to hook, hose, jack, knife,
+                        jack-knife, level, marlinespike, mop, needle, net needle, sail needle, palm,
+                        sailmaker’s palm, pickaxe, plane, punch, rasp, roller, saw, saw-pad, scoop,
+                        scraper, shovel, skeet, square, swab</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Topography</orth>
+                </form>
+                <xr>(see also Hydrography)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>beach, beaching-place, cape, coast, ford, headland, island,
+                        landing-place, mainland, point (1), river, road, rock, saltworks, shore,
+                        steep-shore, toward-shore, steep, terra firma, village</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Vessel types</orth>
+                </form>
+            </entry>
+            <entry>
+                <form>
+                    <orth>advice-boat, argosy, balam, ballast-lighter, barca canterii, barcaccia,
+                        barca longa, barge, fishing-barge, bark, bertone, bilander, boat,
+                        brigantine, buss, caique, caramousal, caravel, carrack, cat, caupulus,
+                        chelandion, coast-guard, cog, condura, corvette, dromon, felucca, ferry,
+                        fire-ship, flag-ship, flute, frigate, fusta, galiot, galleass, galleon,
+                        galley (1), gondola, grip, griparion, hooker, horse-transport, hulk, jerm,
+                        karabo, karamusal, ketch, kombarion, laud, launch, lembus, lighter, lugger,
+                        lunter, mahone, marticana, mistico, packet-boat, pair-trawler, palandra,
+                        panfilo, panzonus, patache, patrona, pilot-boat, pink, pinnace, plata,
+                        polacca, pontoon, punt, raft, sagitta, saic, sambuk, sandal, schooner, scow,
+                        ship, skiff, sloop, smack, snow, steamer, tarette, tartan, trabaccolo, tug,
+                        vessel, whaler, xebec, yawl, zabra</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+        <superEntry>
+            <entry>
+                <form>
+                    <orth>Wind &amp; Weather</orth>
+                </form>
+                <xr>(see also Position)</xr>
+            </entry>
+            <entry>
+                <form>
+                    <orth>aback, to back, bad, before the wind, blow, bonanza, breeze, land-breeze,
+                        sea-breeze, calm, cross-wind, down wind, etesian, fog, fresh, gust, haul
+                        forward, head-wind, large wind, leading wind, light, lightning, moderate,
+                        monsoon, orza, poggia, provenza, quarter wind, reach, rise (?), roar (?),
+                        scant, shift, squall, storm, tail-wind, traverse-wind, veer, veer aft,
+                        viraçao, waterspout, weather, whirlwind, whistle, wind, N wind, NNE wind, NE
+                        wind, E wind, SE wind, S wind, SW wind, W wind, NW wind,
+                        wind-direction</orth>
+                </form>
+            </entry>
+        </superEntry>
+
+    </standOff>
+</TEI>
