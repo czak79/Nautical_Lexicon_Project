@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="out/NauticalLexiconODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <entry xml:id="abc789" type="concept">
+            <form>
+               <orth xml:lang="eng">
+                  gudgeon
+                  <bibl>Jal s.v. femelot:</bibl>
+               </orth>
+            </form>
+            <sense n="1">
+               <xr>see <ref target="#[xml:id]">pintle</ref></xr>
+               <xr>see <ref target="#[xml:id]">rudder-braces</ref></xr>
+               <xr>see <ref target="#[xml:id]">eyebolt</ref></xr>
+               <form>
+                  <orth xml:lang="litModGk">θήλυκα</orth>
+                  <orth xml:lang="modGk">τζαβεττα θηλύκη</orth>
+                  <orth xml:lang="oVen">axola, cancara</orth>
+                  <orth xml:lang="it">femella, feminella, bandella del agugliotto</orth>
+                  <orth xml:lang="gen">famella</orth>
+                  <orth xml:lang="cat">hembra del timón</orth>
+                  <orth xml:lang="sp">hembra del timón</orth>
+                  <orth xml:lang="port">femea</orth>
+                  <orth xml:lang="eng">googin</orth>
+                  <orth xml:lang="nAfrAr">
+                     fibia
+                     <note type="footnote">NAfr</note>
+                  </orth>
+                  <orth xml:lang="vulgFr">conassière</orth>
+                  <orth xml:lang="oVen"> cancara</orth>
+                  <bibl>(1431) (Jal s.v.)</bibl>
+                  <orth xml:lang="oFr">
+                     berteveilles
+                     <note>
+                        "j gouvernail garny de toute sa ferreure tant de gons comme de berteveilles”
+                        <bibl>Rouen 1382-84, Bréard 1893 p.80</bibl>
+                     </note>
+                  </orth>
+                  <orth xml:lang="it">femminelle</orth>
+                  <orth xml:lang="oIt">femella</orth>
+                  <orth xml:lang="ven">fémene</orth>
+                  <orth xml:lang="sicil">fimminèddi</orth>
+                  <orth xml:lang="gen">famelle</orth>
+                  <note>femella is &lt; Fr. femelle</note>
+                  <bibl>DMA</bibl>
+                  <orth xml:lang="sp"><!-- Model orth with bibl -->
+                     hẽbras
+                     <bibl>
+                        1587 Garcia de Palacio, 
+                        <citedRange unit="folio">f.93 r</citedRange>
+                        <ptr target="#xmlIDforthisbibl"/>
+                     </bibl>
+                  </orth>
+                  
+                  <orth xml:lang="eng">gudgeon</orth>
+                  <note>cf. hollow-chisel</note>
+                  <orth xml:lang="gdaProv">femelót</orth>
+                  <orth xml:lang="dalm">fèmena</orth>
+                  <note>XVI</note>
+                  <bibl>Deanović 1937 p. 275</bibl>
+                  <orth xml:lang="prov">femelot</orth>
+                  <note>(s.m.)</note>
+                  <orth xml:lang="prov">counassiero</orth>
+                  <note>(Mistral)</note>
+                  <orth xml:lang="gen">fümela</orth>
+                  <orth xml:lang="prov">fumelot</orth>
+                  <bibl>Jal s.vv.</bibl>
+                  <note>cf. Prov. goujoun (s.m.) ‘goujon, sorte de cheville de fer’ (Mistral)</note>
+                  <orth xml:lang="cat">femella</orth>
+                  <note>(naut.)</note>
+                  <bibl>(A.&amp;M.)</bibl>
+                  <orth xml:lang="cat">góndol</orth>
+                  <orth xml:lang="port">fêmea</orth>
+                  <note>(A.D.)</note>
+                  <bibl>Leitão 1963</bibl>
+               </form>
+               
+            </sense>
+         </entry>
+            
+            <superEntry xml:id="abc789">
+               <form>
+                  <orth xml:lang="eng">guess-rope</orth>
+               </form>
+               <entry>
+                  <sense n="1">
+                     <form>
+                        <orth xml:lang="fr">faux bras</orth>
+                           <bibl>de Kerchove 1961</bibl>
+                        <orth xml:lang="sp">falsa amarra</orth>
+                           <bibl>Williams</bibl>
+                        <orth xml:lang="sp">guia de embarcaciònes menores</orth>
+                           <bibl>O’Scanlan</bibl>
+                        <orth xml:lang="gk">πάρολκος</orth>
+                           <bibl>Kourbelis</bibl>
+                        <orth xml:lang="tu">vardakavo</orth>
+                           <note>'guest-rope or warp'</note>
+                           <bibl>Redhouse</bibl>
+                        <orth xml:lang="port">cabo de reboque; espia, proiz; retenida</orth>
+                           <bibl>(A.D.)</bibl>
+                        <note>
+                           <bibl>de Kerchove 1961</bibl>
+                           (s.vv. guess-warp, guest rope):
+                           1.) line or hawser carried out to buoy or lang to warp ship
+                           2.) line on boat-boom
+                           3.) line to assist tow-line as steadier, lengthener or preventer
+                           4.) live alongside to assist boats.
+                        </note>
+                     </form>
+                  </sense>
+               </entry>
+            </superEntry>
+              
+               <superEntry xml:id="abc789">
+                  <form>
+                     <orth xml:lang="eng">guilds</orth>
+                     <bibl>DMA s.v.</bibl>
+                     <orth xml:lang="it">maestranze</orth>
+                     <note>1) ‘gli operai d'un arsenale, o di un cantiere’
+                        2) m. di bordo ‘i marinai della categoria carpentieri, calafati e stipettai [cabinet-makers], che hanno a capo il maestro d'ascia, sulle navi da guerra denominato Capo carico carpentiere’ 3) ‘la maestranza addetta a una galea era composta d'un falegname (mastrodascia), d'un Calafatto, d'un Remorario, d'un Barilaro, di 2 Bombardieri con... aiutanti' (1602 Crescenzio)</note>
+                  </form>
+                  <entry>
+                     <sense n="1">
+                        <form>
+                           <orth xml:lang="ven">maistranza</orth>
+                              <bibl>(1365 Capitoler della Tana, Jal s.v. fuxo)</bibl>
+                           <orth xml:lang="fr">maistrance</orth>
+                              <note>(1627, &lt; Ven.)</note>
+                              <bibl>(Jal s.v.)</bibl>
+                        </form>
+                        <xr>see <ref target="#[xml:id]">master</ref></xr>
+                     </sense>
+                  </entry>
+               </superEntry>
+      </body>
+  </text>
+</TEI>

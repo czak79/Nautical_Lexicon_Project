@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI Customization for the Nautical Lexicon Project</title>
+        <editor role="creator">Claire Zak</editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information - multilingual glossary of nautical terms</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>This is a born digital project</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="NameoftheODDfilehere" start="TEI">
+        <moduleRef key="header"/>
+        <moduleRef key="core"/>
+        <moduleRef key="tei"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="dictionaries"/>
+
+        <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
+          <attList>
+            <attDef ident="ref" mode="change">
+              <constraintSpec ident="nautical-ref" scheme="schematron">
+                <constraint>
+                  <sch:rule context="//@ref">
+                    <sch:report test="contains(., ' ')" role="error">The Nautical Lexicon Project
+                      only allows one value on a @ref attribute.</sch:report>
+                  </sch:rule>
+                  <sch:rule context="//tei:orth/@ref">
+                    <sch:assert test="matches(., concat('http://syriaca.org/person/', '\d+'))"
+                      role="error"> The @ref attribute on &lt;persName&gt; must take a term URI
+                      which reqires the form 'http://syriaca.org/person/{\d+}' (where {\d+} is a
+                      number). </sch:assert>
+                  </sch:rule>
+                </constraint>
+              </constraintSpec>
+            </attDef>
+          </attList>
+        </classSpec>
+
+        <classSpec ident="att.global" type="atts" mode="change">
+          <attList>
+            <attDef ident="xml:lang" mode="change">
+              <valList type="closed" mode="replace">
+                <valItem ident="eng">
+                  <gloss>English</gloss>
+                  <desc>Appears as "Eng" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="mEng">
+                  <gloss>Middle English</gloss>
+                  <desc>Appears as "ME" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oEng">
+                  <gloss>Old English</gloss>
+                  <desc>Appears as "OE" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="scot">
+                  <gloss>Scottish</gloss>
+                  <desc>Appears as "Scot" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nEng">
+                  <gloss>Northern English</gloss>
+                  <desc>Appears as "N Eng" and "Northern England" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="gmc">
+                  <gloss>Germanic</gloss>
+                  <desc>Appears as "Gmc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="ger">
+                  <gloss>German</gloss>
+                  <desc>Appears as "Germ" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="wGer">
+                  <gloss>Western German</gloss>
+                  <desc>Appears as "WGerm" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="modDialGer">
+                  <gloss>Modern Dialectic German</gloss>
+                  <desc>Appears as "mod dial Germ" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oGer">
+                  <gloss>Old German</gloss>
+                  <desc>Appears as "OGerm" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oHGer">
+                  <gloss>Old High German</gloss>
+                  <desc>Appears as "OHG" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="mHGer">
+                  <gloss>Middle High German</gloss>
+                  <desc>Appears as "MHG" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nHGer">
+                  <gloss>New High German</gloss>
+                  <desc>Appears as "NHG" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="hGer">
+                  <gloss>High German</gloss>
+                  <desc>Appears as "High Ger" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="mLGer">
+                  <gloss>Midlde Low German</gloss>
+                  <desc>Appears as "MLG" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lGer">
+                  <gloss>Low German</gloss>
+                  <desc>Appears as "LG" and "Low Germ" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="frank">
+                  <gloss>Frankish</gloss>
+                  <desc>Appears as "Frank" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="du">
+                  <gloss>Dutch</gloss>
+                  <desc>Appears as "Du" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="mDu">
+                  <gloss>Middle Dutch</gloss>
+                  <desc>Appears as "MDu" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oDu">
+                  <gloss>Old Dutch</gloss>
+                  <desc>Appears as "ODu" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="flem">
+                  <gloss>Flemish</gloss>
+                  <desc>Appears as "Flem" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="goth">
+                  <gloss>Gothic</gloss>
+                  <desc>Appears as "Goth" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="scand">
+                  <gloss>Scandinavian</gloss>
+                  <desc>Appears as "Scan" on Hartley's notecards</desc>
+                  <desc>Refers to all the North Germanic languages</desc>
+                </valItem>
+                <valItem ident="oNor">
+                  <gloss>Old Norse</gloss>
+                  <desc>Appears as "ON" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oIcel">
+                  <gloss>Old Icelandic</gloss>
+                  <desc>Appears as "OIcela" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="icel">
+                  <gloss>Icelandic</gloss>
+                  <desc>Appears as "Isl" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="modNorw">
+                  <gloss>Modern Norwegian</gloss>
+                  <desc>Appears as "Mod Norw" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="dan">
+                  <gloss>Danish</gloss>
+                  <desc>Appears as "Dan" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="swed">
+                  <gloss>Swedish</gloss>
+                  <desc>Appears as "Swe" and "Swd" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="celt">
+                  <gloss>Celtic</gloss>
+                  <desc>Appears as "Celt" and "Celtic" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="gall">
+                  <gloss>Gallic</gloss>
+                  <desc>Appears as "Gall" on Hartley's notecards</desc>
+                  <desc>Might also reference Gallo-Romance languages</desc>
+                </valItem>
+                <valItem ident="bret">
+                  <gloss>Breton</gloss>
+                  <desc>Appears as "Bret" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lBret">
+                  <gloss>Lower Breton</gloss>
+                  <desc>Appears as "Low Bret" and "Bas Bret" on Hartley's notecards</desc>
+                  <desc>Designations as Lower and Low Breton</desc>
+                </valItem>
+                <valItem ident="welsh">
+                  <gloss>Welsh</gloss>
+                  <desc>Appears as "Welsh" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="rom">
+                  <gloss>Romance</gloss>
+                  <desc>Appears as "Rom" on Hartley's notecards</desc>
+                  <desc>This abbreviation could apply to Romanian, depending on the context</desc>
+                </valItem>
+                <valItem ident="galloRom">
+                  <gloss>Gallo-Romance</gloss>
+                  <desc>Appears as "Gallo-Romance" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="occ">
+                  <gloss>Occitan</gloss>
+                  <desc>Appears as "Oc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oOcc">
+                  <gloss>Old Occitan</gloss>
+                  <desc>Appears as "Old Oc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="prov">
+                  <gloss>Provencal</gloss>
+                  <desc>Appears as "Prov" and "Fr (Prov.)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="modProv">
+                  <gloss>Modern Provencal</gloss>
+                  <desc>Appears as "Mod Prov" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oProv">
+                  <gloss>Old Provencal</gloss>
+                  <desc>Appears as "Old Prov" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="gdaProv">
+                  <gloss>Provencal Grau d'Agde</gloss>
+                  <desc>Appears as "Prov (Grau d'Agde)" and "provAgde" on Hartley's notecards</desc>
+                  <desc>This is the Provencal of Le Grau d'Agde, France</desc>
+                </valItem>
+                <valItem ident="gascProv">
+                  <gloss>Provencal Gascony</gloss>
+                  <desc>Appears as "Prov(Gascony)" on Hartley's notecards</desc>
+                  <desc>This is the Provencal of Gascony, France</desc>
+                </valItem>
+                <valItem ident="gasc">
+                  <gloss>Gascon</gloss>
+                  <desc>Appears as "Gascon" and "Gasc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oGasc">
+                  <gloss>Old Gascon</gloss>
+                  <desc>Appears as "OGasc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nice">
+                  <gloss>Nicard</gloss>
+                  <desc>Appears as "Nice" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="fr">
+                  <gloss>French</gloss>
+                  <desc>Appears as "Fr" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oFr">
+                  <gloss>Old French</gloss>
+                  <desc>Appears as "OFr" and "OF" and "Fr anc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="mFr">
+                  <gloss>Middle French</gloss>
+                  <desc>Appears as "MFr" and "MF" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="vulgFr">
+                  <gloss>Vulgur French</gloss>
+                  <desc>Appears as "Fr vulg" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="soFr">
+                  <gloss>Southern French</gloss>
+                  <desc>Appears as "SoFr" and "South Fr" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nAmFr">
+                  <gloss>North American French</gloss>
+                  <desc>Appears as "N Amer Fr" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nFr">
+                  <gloss>North French</gloss>
+                  <desc>Appears as "North France" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="dialFr">
+                  <gloss>Dialectic French</gloss>
+                  <desc>Appears as "dial Fr" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oNormFr">
+                  <gloss>Old Norman French</gloss>
+                  <desc>Appears as "ONorm" and "ONFr" and "ONF" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="angNormFr">
+                  <gloss>Anglo-Norman French</gloss>
+                  <desc>Appears as "AF" and "AN" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="normFr">
+                  <gloss>Norman French</gloss>
+                  <desc>Appears as "Norm Fr" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="hisp">
+                  <gloss>Hispania</gloss>
+                  <desc>Appears as "Hisp" on Hartley's notecards</desc>
+                  <desc>Used for an Italian term indicated to have descended from "Hisp."</desc>
+                </valItem>
+                <valItem ident="ast">
+                  <gloss>Asturian</gloss>
+                  <desc>Appears as "Ast" and" Asturian" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="arag">
+                  <gloss>Aragonese</gloss>
+                  <desc>Appears as "Arag" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="cat">
+                  <gloss>Caralan</gloss>
+                  <desc>Appears as "Cat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oCat">
+                  <gloss>Old Catalan</gloss>
+                  <desc>Appears as "OCat" and "Cat anc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="val">
+                  <gloss>Valencian</gloss>
+                  <desc>Appears as "Valencian" on Hartley's notecards</desc>
+                  <desc>Catalan dialect</desc>
+                </valItem>
+                <valItem ident="sp">
+                  <gloss>Spanish</gloss>
+                  <desc>Appears as "Sp" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oSp">
+                  <gloss>Old Spanish</gloss>
+                  <desc>Appears as "OSp" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oSpCyp">
+                  <gloss>Old Spanish Cyprus</gloss>
+                  <desc>Appears as "OSp Cyrus" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oSpSyr">
+                  <gloss>Old Spanish Syria</gloss>
+                  <desc>Appears as "OSp Syria" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oSpSic">
+                  <gloss>Old Spanish Sicily</gloss>
+                  <desc>Appears as "OSp Sicily" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="spAmer">
+                  <gloss>US Spanish</gloss>
+                  <desc>Appears as "Sp(Amer)" on Hartley's notecards</desc>
+                  <desc>US Spanish or North American Spanish or Spanish of the Americas</desc>
+                </valItem>
+                <valItem ident="murSp">
+                  <gloss>Murcian Spanish</gloss>
+                  <desc>Appears as "Murcian" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="cast">
+                  <gloss>Castilian</gloss>
+                  <desc>Appears as "Cast" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="port">
+                  <gloss>Portuguese</gloss>
+                  <desc>Appears as "Port" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oPort">
+                  <gloss>Old Portuguese</gloss>
+                  <desc>Appears as "OPort" and "Port anc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="modPort">
+                  <gloss>Modern Portuguese</gloss>
+                  <desc>Appears as "Mod Port" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="vulgBasq">
+                  <gloss>Vulgar Basque</gloss>
+                  <desc>Appears as "Basq Vulg" and "Basq(vulg)" on Hartley's notecards</desc>
+                  <desc>Colloquial Basque</desc>
+                </valItem>
+                <valItem ident="basqLit">
+                  <gloss>Basque Literature</gloss>
+                  <desc>Appears as "Basq Lit" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="it">
+                  <gloss>Italian</gloss>
+                  <desc>Appears as "It" and "I" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oIt">
+                  <gloss>Old Italian</gloss>
+                  <desc>Appears as "OIt" and "It anc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medIt">
+                  <gloss>Medieval Italian</gloss>
+                  <desc>Appears as "Med It" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="anconIt">
+                  <gloss>Ancona Italian</gloss>
+                  <desc>Appears as "Ancon" on Hartley's notecards</desc>
+                  <desc>Ancona Italian dialect, Varano</desc>
+                </valItem>
+                <valItem ident="lascIt">
+                  <gloss>Lascari Italian</gloss>
+                  <desc>Appears as "Lasc" on Hartley's notecards</desc>
+                  <desc>Italian from Lascari, Italy</desc>
+                </valItem>
+                <valItem ident="calab">
+                  <gloss>Calabrian</gloss>
+                  <desc>Appears as "Calabr" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="catanIt">
+                  <gloss>Catania Italian</gloss>
+                  <desc>Appears as "It (Catan)" on Hartley's notecards</desc>
+                  <desc>Italian of Catania, Sicily</desc>
+                </valItem>
+                <valItem ident="pisaIt">
+                  <gloss>Pisa Italian</gloss>
+                  <desc>Appears as "Pisa" on Hartley's notecards</desc>
+                  <desc>Italian of Pisa, Italy</desc>
+                </valItem>
+                <valItem ident="oPisa">
+                  <gloss>Old Pisan</gloss>
+                  <desc>Appears as "OPisan" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="luccaIt">
+                  <gloss>:ucca Italian</gloss>
+                  <desc>Appears as "Lucca" on Hartley's notecards</desc>
+                  <desc>Italian of Lucca, Italy</desc>
+                </valItem>
+                <valItem ident="romeIt">
+                  <gloss>Roman Italian</gloss>
+                  <desc>Appears as "Roman Italian" on Hartley's notecards</desc>
+                  <desc>Italian of Rome, Italy</desc>
+                </valItem>
+                <valItem ident="nIt">
+                  <gloss>Northern Italian</gloss>
+                  <desc>Appears as "N Ital" and "North It" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lomb">
+                  <gloss>Lombardic</gloss>
+                  <desc>Appears as "Lombard" and "Lombardic" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="triesIt">
+                  <gloss>Trieste Italian</gloss>
+                  <desc>Appears as "Triest" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="corsIt">
+                  <gloss>Corsica Italian</gloss>
+                  <desc>Appears as "It (Cors)" on Hartley's notecards</desc>
+                  <desc>Italian of Corsica</desc>
+                </valItem>
+                <valItem ident="taranIt">
+                  <gloss>Taranto Italian</gloss>
+                  <desc>Appears as "Taranto" and "Tarant" on Hartley's notecards</desc>
+                  <desc>Italian or Taranto</desc>
+                </valItem>
+                <valItem ident="ven">
+                  <gloss>Venetian</gloss>
+                  <desc>Appears as "Ven" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oVen">
+                  <gloss>Old Venetian</gloss>
+                  <desc>Appears as "OVen" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="eVen">
+                  <gloss>Eastern Venetian</gloss>
+                  <desc>Appears as "E Ven" on Hartley's notecards</desc>
+                  <desc>Eastern, coastal Venetian</desc>
+                </valItem>
+                <valItem ident="mVen">
+                  <gloss>Middle Venetian</gloss>
+                  <desc>Appears as "MVen" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="modVen">
+                  <gloss>Modern Venetian</gloss>
+                  <desc>Appears as "Ven mod" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lig">
+                  <gloss>Ligurian</gloss>
+                  <desc>Appears as "Lig" and "Ligurian" and "Ligur" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oLig">
+                  <gloss>Old Ligurian</gloss>
+                  <desc>Appears as "OLig" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="gen">
+                  <gloss>Genoese</gloss>
+                  <desc>Appears as "Gen" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oGen">
+                  <gloss>Old Genoese</gloss>
+                  <desc>Appears as "OGen" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="mGen">
+                  <gloss>Middle Genoese</gloss>
+                  <desc>Appears as "MGen" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="sicil">
+                  <gloss>Sicilian</gloss>
+                  <desc>Appears as "Sicil" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oSicil">
+                  <gloss>Old Sicilian</gloss>
+                  <desc>Appears as "OSicil" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="taranSicil">
+                  <gloss>Taranto Sicilian</gloss>
+                  <desc>Appears as "Sicil Taranto" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="neap">
+                  <gloss>Neapolitan</gloss>
+                  <desc>Appears as "Neap" and "Nap" and "Napol" on Hartley's notecards</desc>
+                  <desc>Neapolitan and Naples</desc>
+                </valItem>
+                <valItem ident="oNeap">
+                  <gloss>Old Neapolitan</gloss>
+                  <desc>Appears as "ONeapol" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="modNeap">
+                  <gloss>Modern Neapolitan</gloss>
+                  <desc>Appears as "Mod Neap" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="cors">
+                  <gloss>Corsican</gloss>
+                  <desc>Appears as "Cors" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="sard">
+                  <gloss>Sardinian</gloss>
+                  <desc>Appears as "Sard" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lat">
+                  <gloss>Latin</gloss>
+                  <desc>Appears as "Lat" and "La" and "L" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lLat">
+                  <gloss>Low Latin</gloss>
+                  <desc>Appears as "LLat" and "Low Lat" and "BasLat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medLat">
+                  <gloss>Medieval Latin</gloss>
+                  <desc>Appears as "Med Lat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medLatVen">
+                  <gloss>Medieval Latin Venice</gloss>
+                  <desc>Appears as "Med Lat (Ven)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medLatProv">
+                  <gloss>Medieval Latin Provence</gloss>
+                  <desc>Appears as "Med Lat (Prov)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medLatMars">
+                  <gloss>Medieval Latin Marseilles</gloss>
+                  <desc>Appears as "Med Lat (Mars)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medLatNar">
+                  <gloss>Medieval Latin Narbonne</gloss>
+                  <desc>Appears as "Med Lat (Narbonne)" and "ML (Narbonne)" on Hartley's
+                    notecards</desc>
+                </valItem>
+                <valItem ident="vulgLat">
+                  <gloss>Vulgar Latin</gloss>
+                  <desc>Appears as "VLat" and "popLat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="clasLat">
+                  <gloss>Classical Latin</gloss>
+                  <desc>Appears as "Class Lat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="impLat">
+                  <gloss>Imperial Latin</gloss>
+                  <desc>Appears as "Imp Lat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="angLat">
+                  <gloss>Anglo-Latin</gloss>
+                  <desc>Appears as "AL" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="romLat">
+                  <gloss>Rome Latin</gloss>
+                  <desc>Appears as "Lat (Rome)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="balkLat">
+                  <gloss>Balkan Latin</gloss>
+                  <desc>Appears as "Balkan Lat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lLatprov">
+                  <gloss>Late Latin Provencal</gloss>
+                  <desc>Appears as "LL(Prov)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="dalm">
+                  <gloss>Dalmatian</gloss>
+                  <desc>Appears as "Dalm" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oDalm">
+                  <gloss>Old Dalmatian</gloss>
+                  <desc>Appears as "Old Dalm" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="vegl">
+                  <gloss>Vegliote</gloss>
+                  <desc>Appears as "Vegl" on Hartley's notecards</desc>
+                  <desc>Dalmatian dialect</desc>
+                </valItem>
+                <valItem ident="rom">
+                  <gloss>Romanian</gloss>
+                  <desc>Appears as "Rom" and "Rum" and "Roum" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="wallach">
+                  <gloss>Wallachian</gloss>
+                  <desc>Appears as "Wallach" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="maceRom">
+                  <gloss>Macedo-Romanian</gloss>
+                  <desc>Appears as "Maced-Rom" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="gk">
+                  <gloss>Greek</gloss>
+                  <desc>Appears as "Gk" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="ancGk">
+                  <gloss>Ancient Greek</gloss>
+                  <desc>Appears as "Anc Gk" and "Gk anc" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="ntGk">
+                  <gloss>New Testament Greek</gloss>
+                  <desc>Appears as "NT Gk" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="byzGk">
+                  <gloss>Byzantine Greek</gloss>
+                  <desc>Appears as "Byz Gk" and "Byz Greek" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="litGk">
+                  <gloss>Greek Literature</gloss>
+                  <desc>Appears as "Gk litt" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="litModGk">
+                  <gloss>Greek Modern Literature</gloss>
+                  <desc>Appears as "Gk litt mod" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lGk">
+                  <gloss>Low Greek</gloss>
+                  <desc>Appears as "LGk" and "Low Greek" and "Bas Grec" and "Gk Vulg" on Hartley's
+                    notecards</desc>
+                </valItem>
+                <valItem ident="classGk">
+                  <gloss>Classical Greek</gloss>
+                  <desc>Appears as "Class Gk" and "CGk" and "Cl Gk" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="medGk">
+                  <gloss>Medieval Greek</gloss>
+                  <desc>Appears as "MGk" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nGk">
+                  <gloss>New Greek</gloss>
+                  <desc>Appears as "N Gk" on Hartley's notecards</desc>
+                  <desc>Greek since the Medieval period</desc>
+                </valItem>
+                <valItem ident="myc">
+                  <gloss>Mycenaean Greek</gloss>
+                  <desc>Appears as "Myc" on Hartley's notecards</desc>
+                  <desc>Linear B script</desc>
+                </valItem>
+                <valItem ident="modGk">
+                  <gloss>Modern Greek</gloss>
+                  <desc>Appears as "ModGk" and "Gk mod" on Hartley's notecards</desc>
+                </valItem>
+
+                <valItem ident="modVulgGk">
+                  <gloss>Modern Vulgur Greek</gloss>
+                  <desc>Appears as "Mod Gk (vulg)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="cypGk">
+                  <gloss>Cypriot Greek</gloss>
+                  <desc>Appears as "Gk (Cyprus)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="illyr">
+                  <gloss>Illyrian</gloss>
+                  <desc>Appears as "Illyrian" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="alban">
+                  <gloss>Albanian</gloss>
+                  <desc>Appears as "Alban" and "Alb" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="slav">
+                  <gloss>Slavic</gloss>
+                  <desc>Appears as "Slav" on Hartley's notecards</desc>
+                  <desc>Might also refer to Slovak or Slavonic</desc>
+                </valItem>
+                <valItem ident="serbCroat">
+                  <gloss>Serbo-Croatian</gloss>
+                  <desc>Appears as "Sb-Cr" and "SerboCroat" and "Serb-Cr" on Hartley's
+                    notecards</desc>
+                </valItem>
+                <valItem ident="serb">
+                  <gloss>Serbian</gloss>
+                  <desc>Appears as "Serb" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="croat">
+                  <gloss>Croatian</gloss>
+                  <desc>Appears as "Croat" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="dubCroat">
+                  <gloss>Dubrovnik Croation</gloss>
+                  <desc>Appears as "Croat (Dubrovnik)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="istrianCroat">
+                  <gloss>Istria Croatian</gloss>
+                  <desc>Appears as "Istrian" on Hartley's notecards</desc>
+                  <desc>Istria region in Croatia</desc>
+                </valItem>
+                <valItem ident="bulg">
+                  <gloss>Bulgarian</gloss>
+                  <desc>Appears as "bulg" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="maced">
+                  <gloss>Macedonian</gloss>
+                  <desc>Appears as "Maced" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="russ">
+                  <gloss>Russian</gloss>
+                  <desc>Appears as "Russian" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="czech">
+                  <gloss>Czech</gloss>
+                  <desc>Appears as "Czech" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="boh">
+                  <gloss>Bohemian</gloss>
+                  <desc>Appears as "Boh" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="pol">
+                  <gloss>Polish</gloss>
+                  <desc>Appears as "Polish" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="hung">
+                  <gloss>Hungarian</gloss>
+                  <desc>Appears as "Hung" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="ira">
+                  <gloss>Iranian</gloss>
+                  <desc>Appears as "Ira" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="pers">
+                  <gloss>Persian</gloss>
+                  <desc>Appears as "Pers" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="oPers">
+                  <gloss>Old Persian</gloss>
+                  <desc>Appears as "OPers" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="tu">
+                  <gloss>Turkish</gloss>
+                  <desc>Appears as "tu" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="sabir">
+                  <gloss>Sabir</gloss>
+                  <desc>Appears as "Sabir" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="persGulf">
+                  <gloss>Persian Gulf</gloss>
+                  <desc>Appears as "Persian Gulf" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="eAfrCoast">
+                  <gloss>East African Coast</gloss>
+                  <desc>Appears as "East African Coast" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="egyptDem">
+                  <gloss>Egyptian Demotic</gloss>
+                  <desc>Appears as "Egyp Demotic" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="egypt">
+                  <gloss>Egyptian</gloss>
+                  <desc>Appears as "Egypt" on Hartley's notecards</desc>
+                  <desc>May refer to Egyptian Arabic, depending on the context</desc>
+                </valItem>
+                <valItem ident="coptic">
+                  <gloss>Coptic</gloss>
+                  <desc>Appears as "coptic" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="berber">
+                  <gloss>Berber</gloss>
+                  <desc>Appears as "Berber" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="swahili">
+                  <gloss>Swahili</gloss>
+                  <desc>Appears as "Swahili" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="semit">
+                  <gloss>Semitic</gloss>
+                  <desc>Appears as "semit" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="ar">
+                  <gloss>Arabic</gloss>
+                  <desc>Appears as "Arab" and "Ar" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="msAr">
+                  <gloss>Modern Standard Arabic</gloss>
+                  <desc>Appears as "MS Arab" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="tunAr">
+                  <gloss>Tunisian Arabic</gloss>
+                  <desc>Appears as "Arab (Tun)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="egyptAr">
+                  <gloss>Egyptian Arabic</gloss>
+                  <desc>Appears as "Arab (Egypt)" and "Eg" and "Masri" on Hartley's notecards</desc>
+                  <desc>Most cases, Eg refers to Egyptian Arabic but check context for ancient
+                    Egyptian</desc>
+                </valItem>
+                <valItem ident="maltAr">
+                  <gloss>Maltese Arabic</gloss>
+                  <desc>Appears as "Arab (Malta)" and "Ar (Malta)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="nAfrAr">
+                  <gloss>North African Arabic</gloss>
+                  <desc>Appears as "Arab (NAfr)" and "Maghreb" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="iraqAr">
+                  <gloss>Iraqi Arabic</gloss>
+                  <desc>Appears as "Arab (Iraq)" on Hartley's notecards</desc>
+                  <desc>Mesopotamian Arabic</desc>
+                </valItem>
+                <valItem ident="syrAr">
+                  <gloss>Syrian Arabic</gloss>
+                  <desc>Appears as "Syr Arab" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="algAr">
+                  <gloss>Algerian Arabic</gloss>
+                  <desc>Appears as "Alg" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="malt">
+                  <gloss>Maltese</gloss>
+                  <desc>Appears as "Malt" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="morAr">
+                  <gloss>Moroccan Arabic</gloss>
+                  <desc>Appears as "Arab (Mor)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lebAr">
+                  <gloss>Lebanese Arabic</gloss>
+                  <desc>Appears as "Arab (Leb)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="morAr">
+                  <gloss>Moroccan Arabic</gloss>
+                  <desc>Appears as "Arab (Mor)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="maghreb">
+                  <gloss>Maghrebi Arabic</gloss>
+                  <desc>Appears as "Maghreb" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="saudiAr">
+                  <gloss>Saudi Arabia Arabic</gloss>
+                  <desc>Appears as "Ar S Arabia" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="libAr">
+                  <gloss>Libya Arabic</gloss>
+                  <desc>Appears as "Arab (Libya)" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="vulgAr">
+                  <gloss>Vulgar Arabic</gloss>
+                  <desc>Appears as "Vulg Arab" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="classAr">
+                  <gloss>Classical Arabic</gloss>
+                  <desc>Appears as "Class Arab" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="aram">
+                  <gloss>Aramaic</gloss>
+                  <desc>Appears as "Aram" on Hartley's notecards</desc>
+                  <desc>Assyrian and Syriac and Aramaic are different designations</desc>
+                </valItem>
+                <valItem ident="assy">
+                  <gloss>Assyrian</gloss>
+                  <desc>Appears as "Assyrian" on Hartley's notecards</desc>
+                  <desc>Assyrian and Syriac and Aramaic are different designations</desc>
+                </valItem>
+                <valItem ident="syr">
+                  <gloss>Syriac</gloss>
+                  <desc>Appears as "Syriac" on Hartley's notecards</desc>
+                  <desc>Assyrian and Syriac and Aramaic are different designations</desc>
+                </valItem>
+                <valItem ident="heb">
+                  <gloss>Hebrew</gloss>
+                  <desc>Appears as "Hebrew" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="punic">
+                  <gloss>Punic</gloss>
+                  <desc>Appears as "Punic" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="phoen">
+                  <gloss>Phoenician</gloss>
+                  <desc>Appears as "Phoen" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="ugar">
+                  <gloss>Ugaritic</gloss>
+                  <desc>Appears as "Ugar" on Hartley's notecards</desc>
+                  <desc>cuneiform writing</desc>
+                </valItem>
+                <valItem ident="akkad">
+                  <gloss>Akkadian</gloss>
+                  <desc>Appears as "Akkad" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="lAkkad">
+                  <gloss>Late Akkadian</gloss>
+                  <desc>Appears as "Late Akkad" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="elam">
+                  <gloss>Elamite</gloss>
+                  <desc>Appears as "Elam" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="hindi">
+                  <gloss>Hindi</gloss>
+                  <desc>Appears as "Hindi" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="camBom">
+                  <gloss>Cambay-Bombay</gloss>
+                  <desc>Appears as "Cambay-Bombay" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="wCoastInd">
+                  <gloss>West Coast of India</gloss>
+                  <desc>Appears as "W Coast of India" on Hartley's notecards</desc>
+                </valItem>
+                <valItem ident="malay">
+                  <gloss>Malay</gloss>
+                  <desc>Appears as "Malay" on Hartley's notecards</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </classSpec>
+
+
+        <elementSpec ident="orth" module="dictionaries" mode="change">
+          <constraintSpec ident="xmlID-on-orth" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:orth/@ref">
+                <sch:let name="standoff" value=""/>
+                <sch:let name=""
+                  value="$standoff//tei:orth/@xml:id"/>
+                <sch:let name="orthRef" value="for $i in $orth return concat('#', $i)"></sch:let>
+                <sch:let name="error" value ="."/>
+                <sch:assert test=". = $orthRef" role="warning">
+                  <sch:value-of select="$error"/> is not currently in use.
+                </sch:assert>        
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <attList>
+            <attDef ident="xml:lang" mode="change" usage="req"/>
+          </attList>
+          <exemplum>
+            <eg></eg>
+          </exemplum>
+          <remarks>
+            <p>In this example, each term is associated with a reference ID associated only with that term. These values are listed in the standoff markup.</p>
+          </remarks>
+        </elementSpec>
+
+
+        <elementSpec ident="bibl" module="dictionaries" mode="change">
+          <constraintSpec ident="ref-on-bibl" scheme="schematron">
+            <constraint>
+              <sch:rule context="tei:bibl/@ref">
+                <sch:let name="standoff" value=""/>
+                <sch:let name="" value="$standoff//tei:bibl/@xml:id"/>
+                <sch:let name="biblRef" value="for $i in $bibl return concat('#', $i)"/>
+                <sch:let name="error" value="."/>
+                <sch:assert test=". = $biblRef" role="warning">
+                  <sch:value-of select="$error"/> is not currently in use. </sch:assert>
+              </sch:rule>
+            </constraint>
+          </constraintSpec>
+          <exemplum>
+            <eg/>
+          </exemplum>
+          <remarks>
+            <p>In this example, each bibliographic citation is associated with a reference ID
+              associated only with that citation. These values are listed in the standoff
+              markup.</p>
+          </remarks>
+        </elementSpec>
+
+
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

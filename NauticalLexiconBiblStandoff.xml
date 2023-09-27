@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nautical Lexicon Project Standoff Markup for Bibliographic References</title>
+                <editor role="creator">Claire Zak</editor>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information - multilingual glossary of nautical terms</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>This project is based on 3x5 index cards of glossary information and descs which have been transcribed</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <standOff>
+        <listBibl type="a">
+            <bibl xml:id="insertHere">Abell, W. 1948. The Shipwright’s Tale. Cambridge: Cambridge
+                University Press.</bibl>
+            <bibl>Abrate, M. 1957. “Creta, colonia veneziana nei secoli XIII - XV.” Economia e
+                storia 4: 251-77.</bibl>
+            <bibl>Abulafia, D. 1974. “Corneto-Tarquinia and the Italian Mercantile republics: the
+                earliest evidence.” PBSR 42: 224-34.</bibl>
+            <bibl>Abulafia, D. 1976. “Dalmation Ragusa and the Norman Kingdom of Sicily.” Slavonic
+                &amp; East European Review 54: 412-28.</bibl>
+            <bibl>Abulafia, D. 1980. “Marseilles, Acre and the Mediterranean, 1200-1291.” In Coinage
+                in the Latin East: The Fourth Oxford Symposium on Coinage and Monetary History,
+                edited by P.W. Edbury and D.M. Metcalf, 19-39.Oxford: BAR International
+                Series.</bibl>
+            <bibl>Abulafia, D. 1980. “Venice and the Kingdom of Naples in the Last Years of Robert
+                the Wise 1332-1343.” PBSR 48: 186-204.</bibl>
+            <bibl>Abulafia, D. 1981. “Southern Italy and the Florentine economy, 1265-1370.”
+                Economic History Review 33: 377-88.</bibl>
+            <bibl>Abulafia, D. 1983. “The Crown and the economy under Roger II and his successors.”
+                DOP 37: 1-14.</bibl>
+            <bibl>Abulafia, D. 1983. “Sul commercio del grano siciliano nel tardo Duecento.” In La
+                società mediterranea all'epoca del Vespro: XI Congresso di Storia della Corona
+                d'Aragona, Palermo-Trapani-Erice, 23-30 aprile 1982, 5-22. Palermo: Accademia di
+                Scienze, Lettere e Arti.</bibl>
+            <bibl>Abulafia, D. 1984. “Ancona, Byzantium and the Adriatic, 1155-1173.” PBSR 52:
+                195-216.</bibl>
+            <bibl>Abulafia, D. 1985. “Catalan Merchants and the Western Mediterranean, 1236-1300:
+                Studies in the Notarial Acts of Barcelona and Sicily.” Viator 16: 209-42.</bibl>
+            <bibl>Abulafia, D. 1987. Italy, Sicily and the Mediterranean, 1100-1400. UK: Variorum
+                Reprints.</bibl>
+            <bibl>Abulafia, D. 1993. Commerce and Conquest in the Mediterranean, 1100–1500. UK:
+                Routledge.</bibl>
+            <bibl>Adelson, H.L. 1960. “Early medieval trade routes.” AHR 65: 271-87.</bibl>
+            <bibl>Adler, M.N., ed. 1907. The Itinerary of Benjamin of Tudela. London.</bibl>
+            <bibl>Ahrweiler, H. 1966. Byzance et la Mer: La Marine de Guerre, la Politique et Les
+                Institutions Maritimes de Byzance aux VIIe–XVe Siècles. Paris: Presses
+                Universitaires de France.</bibl>
+            <bibl>Aistleitner, J. 1963. Wörterbuch der ugaritischen Sprache. Berlin: Akademie
+                Verlag.</bibl>
+            <bibl>Alighieri, D. 1966. The Divine Comedy. Translated by L. Biancolli. New York:
+                Washington Square Press.</bibl>
+            <bibl>Alberti, S. Diccionari castellà-català, català-castellà (Mitja). </bibl>
+            <bibl>Albion, R.G. 1926. Forests and Sea Power. Cambridge: Harvard University
+                Press.</bibl>
+            <bibl>Antoni M., A.M. Alcover and F. de B. Moll. 1930-62. Diccionari
+                català-valencià-balear, 10 vols.</bibl>
+            <bibl>Alt, A. 1945. Ägyptisch-Ugaritisches. AfO 15: 69-74.</bibl>
+            <bibl>Amit, M. 1962. “The sailors of the Athenian fleet.” Athenaeum 60: 157-78.</bibl>
+            <bibl>Anderson, R.C. 1925. “Italian naval architecture about 1445.” Mariner’s Mirror 11:
+                135-63.</bibl>
+            <bibl>Anderson, R.C. 1928. “English galleys in 1295.” Mariner’s Mirror 14:
+                220-41.</bibl>
+            <bibl>Anderson, R.C. 1945. “Jal’s ‘Memoire No. 5’ and the manuscript ‘Fabbrica di
+                Galere.’” Mariner’s Mirror 31: 160-67.</bibl>
+            <bibl>Anderson, R.C. 1962. Oared Fighting Ships: From Classical Times To The Coming Of
+                Steam. London: Argus Books.</bibl>
+            <bibl>André, J. 1964. “La résine et la poiz dans l’antiquité, technique et
+                terminologie.” AntCl 33: 86-97.</bibl>
+            <bibl>Andriotes, N. 1951. ‘Ετυμολογικὸ Λεξικὸ τῡς Κοινῡς Νεοελλυνικῡς [Etymological
+                Dictionary Of Standard Modern Greek]. 1st ed. Thessaloniki: Institute of Modern
+                Greek Studies.</bibl>
+            <bibl> Antoniadis-Bibicou, H. 1966. Etudes d’Histoire Maritime de Byzance: a Propos du
+                "Thème des Caravisiens". Paris: S. E. V. P. E. N.</bibl>
+            <bibl>Anonymous. 1370. Llibre del Consolat de Mar. Libro del Consulado del Mar.
+                Consolato del Mare.</bibl>
+            <bibl>Anonymous. 1967. Technical-Nautical Dictionary (Ital.-Eng., Eng.-Ital.). Genoa:
+                Libreria Mario Bozzi.</bibl>
+            <bibl>Anonymous. 1970. Sansoni-Harrap Standard Italian and English Dictionary. London:
+                Chambers Harrap Publishers Ltd.</bibl>
+            <bibl>Applebaum, S. 1976. “Economic life in Palestine.” In The Jewish People in the
+                First Century, Volume 2, edited by S. Safrai, M. Stern, D. Flusser, and W.C. van
+                Unnik, 631-700. Leiden: Brill.</bibl>
+            <bibl>Arbil, B., B. Hamilton, and D. Jacoby, ed. 1989. Latins and Greeks in the
+                Mediterranean after 1204. UK: Routledge.</bibl>
+            <bibl>Arkell, A.J. 1959. “Early shipping in Egypt.” Antiquity 33: 52-53.</bibl>
+            <bibl>Ash, H.B., ed. 1945. Res Rustica, by Lucius Junius Moderatus Columella. Translated
+                by H.B. Ash, Loeb Classical Library Series. Cambridge: Harvard University
+                Press.</bibl>
+            <bibl>Ashburner, W. 1909. Nomos Rodion Nautikos: The Rhodian Sea-Law. Oxford: Clarendon
+                Press.</bibl>
+            <bibl>Ashtor, E. 1970. “Quelques observations d’un orientaliste sur la Thèse de
+                Pirenne.” JESHO 13: 166-94.</bibl>
+            <bibl>Ashtor, E. 1970. “Nouvelles réflexions sur la thèse de Pirenne.” Revue suisse
+                d'histoire 20: 601-07.</bibl>
+            <bibl>Ashtor, E. 1974. “The Venetian Supremacy in Levantine Trade: Monopoly or
+                Pre-Colonialism?” Journal of European Economic History 3: 5-53.</bibl>
+            <bibl>Ashtor, E. 1976. “Observations on Venetian trade in the Levant in the XIVth
+                Century.” Journal of European Economic History 5: 533-86.</bibl>
+            <bibl>Ashtor, E. 1976. A Social and Economic History of the Near East in the Middle
+                Ages. Los Angeles: University of California Press.</bibl>
+            <bibl>Ashtor, E. 1977. “Aperçus sur les Radhanites.” Revue suisse d'histoire 27:
+                245-75.</bibl>
+            <bibl>Ashtor, E. 1978. Studies on the Levantine Trade in the Middle Ages: Collected
+                Studies Series 74. London: Variorum Reprints.</bibl>
+            <bibl>Ashtor, E. 1984. “The Wheat Supply of the Mamlūk Kingdom." Asian and African
+                Studies: Journal of the Israel Oriental Society 18: 283-95.</bibl>
+            <bibl>Ashtor, E. 1986. East-West Trade in the Medieval Mediterranean. Edited by B.Z.
+                Ḳedar. London: Variorum Reprints.</bibl>
+            <bibl>Astour, M.C. 1970. “Maʾḫadu, the Harbor of Ugarit.” JESHO 13: 113-27.</bibl>
+            <bibl>Astour, M.C. 1973. “Ugarit and the Aegean.” AOAT 22: 17-27.</bibl>
+            <bibl>Austin, M.M. 1970. Greece and Egypt in the Archaic Age. Cambridge: Cambridge
+                Philological Society.</bibl>
+            <bibl>Austin, M.M., and P. Vidal-Naquet. 1981. Economic and Social History of Ancient
+                Greece: An Introduction. Los Angeles: University of California Press.</bibl>
+            <bibl>Avienus, L.F. Ora Maritima. Edited by R. Berthelot, 1934. Paris: Librairie
+                Ancienne Honore Champion.</bibl>
+            <bibl>Avramea, A. 1985. “Maps of the Aegean.” In Maps and Mapmakers of the Aegean,
+                edited by V. Sphyroeras, A. Avramea, and S. Asdrahas, 22-32. Athens: Olkos.</bibl>
+        </listBibl>
+
+        <listBibl type="b">
+            <bibl>Bagrow, L. 1964. History of Cartography: Revised and Enlarged by R. A. Skelton.
+                London: C.A. Watts.</bibl>
+            <bibl>Bakker, P. 1987. “A Basque Nautical Pidgin: A Missing Link in the History of FU.”
+                Journal of Pidgin and Creole Languages 2:1: 1–30.</bibl>
+            <bibl>Bakker, P. 1988. “Basque Pidgin Vocabulary in European-Algonquian Trade
+                Contacts.” In Papers of the Nineteenth Algonquian Conference, edited by W. Cowan,
+                7-15. Ottawa: Carleton University.</bibl>
+            <bibl>Balard, M. 1973. Gênes et l'outre-mer. I. Les actes de Caffa du notaire Lamberto
+                di Sambuceto, 1289-1290. Paris-La Haye: Mouton &amp; Co.</bibl>
+            <bibl>Balard, M. 1978. La Romanie génoise (xiie-début du xve siècle), 2 vol.
+                Gênes-Rome: Bibliothèque des Écoles françaises d’Athènes et de Rome.</bibl>
+            <bibl>Balard, M. 1981. “Les équipage des flottes génoises au XIVe siècle.” In Le genti
+                del mare Mediterraneo, edited by R. Ragosta, 511-534. Naples: L. Pironti.</bibl>
+            <bibl>Balard, M. 1994. “Coastal Shipping and Navigation in the Mediterranean, Cogs,
+                caravels and Galleons: the sailing ship 1000-1650.” In Conway’s History of the Ship,
+                edited by R. Gardiner, 131-138. London: Naval Institute Press.</bibl>
+            <bibl>Balsan, L. 1951. “L'industrie de la résine dans les Causses et son extension dans
+                l'Empire romain.” Gallia 9: 53-55.</bibl>
+            <bibl>Balsdon, J.P.V.D. 1979. Romans and Aliens. Chapel Hill: University of North
+                Carolina Press.</bibl>
+            <bibl>Banford, P.W. 1965. “Slaves for the galleys of France, 1665-1700.” In Merchants
+                and Scholars, edited by J.Parker, 171-91. Minneapolis: University of
+                Minnesota.</bibl>
+            <bibl>Banford, P.W. 1973. Fighting Ships and Prisons - The Mediterranean Galleys of
+                France in the Age of Louis XIV. Minneapolis: University of Minnesota.</bibl>
+            <bibl>Barnett, R.D. 1958. “Early Shipping in the Near East.” Antiquity 32:
+                220-30.</bibl>
+            <bibl>Barras de la Penne, J.-A. de. 1697. La science des galères qui renferme tout ce
+                qui regarde la Construction, l’Armement, la Manæuvre, le Combat et la Navigation des
+                Galères. Paris: Musée de la Manche.</bibl>
+            <bibl>Basch, L. 1978. “Le navire msn et autres notes de voyage en Égypte.” Mariner’s
+                Mirror 64: 99-123.</bibl>
+            <bibl>Bass, G.F. 1972. A History of Seafaring: Based on Underwater Archaeology. NY:
+                Walker and Co.</bibl>
+            <bibl>Bass, G.F. 1972. “The earliest seafarers in the Mediterranean and the Near East.”
+                In A History of Seafaring: Based on Underwater Archaeology, edited by G.F. Bass. NY:
+                Walker and Co.</bibl>
+            <bibl>Bass, G.F. 1986. “A Bronze Age shipwreck at Ulu Burun (Kaș): 1985 campaign.” AJA
+                90: 269-96.</bibl>
+            <bibl>Bass, G.F. 1987. “Oldest Known Shipwreck Reveals Splendors of the Bronze Age.”
+                NatGeogRes 172.6: 692-733.</bibl>
+            <bibl>Bass, G.F. 1990. “Nautical archaeology and biblical archaeology.” Biblical
+                Archaeologist 53.1: 4-12.</bibl>
+            <bibl>Bass, G.F., C. Pulak, D. Collon, and J. Weinstein. 1989. “The Bronze Age
+                Shipwreck at Ulu Burun: 1986 Campaign.” AJA 93: 1-29.</bibl>
+            <bibl>Bass, G.F., F. van Doorninck, Jr. 1982. Yassi Ada: Volume I, a Seventh-Century
+                Byzantine Shipwreck. College Station: Texas A&amp;M University Press.</bibl>
+            <bibl>Bastard de Péré, R. 1972. “Navires Méditerranéens du temps de Saint Louis.” Revue
+                d’Histoire Économique et Sociale 50: 327-56.</bibl>
+            <bibl>Bathe, B., and A. Villiers. 1978. The Visual Encyclopedia of Nautical Terms Under
+                Sail. New York: Crown Publishing Group.</bibl>
+            <bibl>Bautier, A.-M. 1955. “ Contributions à un vocabulaire économique du Midi de la
+                France.” Archivum Latinitatis Medii Aevi 25: 5-28.</bibl>
+            <bibl>Bautier, R.-H. 1992. Commerce méditerranéen et banquiers italiens au Moyen Age.
+                UK: Routledge. </bibl>
+            <bibl>Beglinger, E. 1958. “Distillation of resinous wood.” USDA Forest Service
+                Laboratory Report 496. </bibl>
+            <bibl>Belgrano, L.T., and C. Imperiali. 1901. Annali genovesi di Caffaro e de'suoi
+                continuatori. Genoa and Rome. </bibl>
+            <bibl>Bell, H.I. 1948. Egypt, from Alexander the Great to the Arab Conquest: A Study in
+                the Diffusion and Decay of Hellenism. Oxford: Clarendon Press.</bibl>
+            <bibl>Bembo, M. 1497-82.</bibl>
+            <bibl>Bembo, M. 1482-84.</bibl>
+            <bibl>Bengtson, H. 1969. The Greeks and the Persians: From the Sixth to the Fourth
+                Centuries. London: Weidenfeld &amp; Nicolson.</bibl>
+            <bibl>Ben Jonah (of Tudela), B. 1575. Itinerarium Benjamini Tudelensis. Antwerp:
+                Christophe Plantin.</bibl>
+            <bibl>Best, J.G., and N.M. de Vries, eds. 1980-82. Interaction and Acculturation in the
+                Mediterranean (2 volumes). Amsterdam: B.R. Grüner.</bibl>
+            <bibl>Biddlecombe, G. 1848. rev. 2012. The Art of Rigging. Mineola: Dover
+                Publications.</bibl>
+            <bibl>Bill, Jan. 1994. “Ship construction: tools and techniques.” In Cogs, Caravels and
+                Galleons. The Sailing Ship 1000-1650, edited by R. Unger, 151-59. London: Robert
+                Gardiner.</bibl>
+            <bibl>Billingmeier, J.-Chr. 1977. “Origin of the Greek word Phoinix.” TALANTA 8-9:
+                1-4.</bibl>
+            <bibl>Blackman, D.J. 1982. “Ancient Harbours in the Mediterranean.” IJNA 11: 79-104,
+                185-211.</bibl>
+            <bibl>Boardman, J. 1980. The Greeks Overseas. London: Thames &amp; Hudson.</bibl>
+            <bibl>Boerio, G. 1856. Dizionario del dialetto veneziano. Venice: Reale tipografia di
+                G. Cecchini.</bibl>
+            <bibl>Boggs, R.S., L. Kasten, H. Keniston, and H. B. Richardson 1946. Tentative
+                Dictionary of Medieval Spanish. Chapel Hill: University of North Carolina
+                Press.</bibl>
+            <bibl>Bonfante, G. 1941. “The name of the Phoenicians.” CP 36: 1-20.</bibl>
+            <bibl>Bonino, M. 1978. “Lateen-rigged medieval ships.” IJNA 7: 9-15.</bibl>
+            <bibl>Bordone, B. 1537. Isolario…</bibl>
+            <bibl>Borghesi, V. 1976. Il Mediterraneo tra due rivoluzioni nautiche (secoli
+                XIV-XVII). Florence: La Nuova Italia Editrice.</bibl>
+            <bibl>Borsari, S. 1963. Il Dominio Veneziano a Creta nel XIII Secolo. Naples:
+                University of Naples.</bibl>
+            <bibl>Borsari, S. 1964. “Il commercio veneziano dell’Impero Bizantino nel XII secolo.”
+                Revista Storia Italiana 76: 985-86.</bibl>
+            <bibl>Boudy, P. 1948-58. Economie forestière nord-africaine. 4 vols. Paris:
+                Laros.</bibl>
+            <bibl>Bouzek, J. 1985. The Aegean, Anatolia and Europe: Cultural Interrelations in the
+                Second Millennium B.C. Göteborg: P. Åströms förlag.</bibl>
+            <bibl>Bowersock, G.W. 1983. Roman Arabia. Cambridge: Harvard University Press.</bibl>
+            <bibl>Bowman, A.K. 1986. Egypt After the Pharaohs 332 BC-AD 642: From Alexander to the
+                Arab Conquest. Berkeley and Los Angeles: University of California Press.</bibl>
+            <bibl>Bowman, R.A. 1948. “Arameans, Aramaic and the Bible.” JNES 7: 65-90.</bibl>
+            <bibl>Bragadin, M. 1951. Repubbliche Italiane sul Mare. Milan: Aldo Garzanti Ed.</bibl>
+            <bibl>Brand, C.M. 1968. Byzantium Confronts the West 1180-1204. Cambridge: Harvard
+                University Press.</bibl>
+            <bibl>Brand, C.M. 1984. “The Fourth Crusade: Some Recent Interpretations.” MedHum 12:
+                33-45.</bibl>
+            <bibl>Branigan, J.J., and H.R. Jarrett. 1969. The Mediterranean Lands. London:
+                Macdonald &amp; Evans.</bibl>
+            <bibl>Bratianu, G.I. 1929. Recherches Sur Le Commerce Génois Dans La Mer Noire Au XIIIe
+                Siècle. Paris: Librairie Orientaliste Paul Geuthner.</bibl>
+            <bibl>Bratianu, G.I. 1967. La mer Noire: Des origines à la conquête ottomane. (Acta
+                Historica, Number 9). Munich: Societas Academica Dacoromana.</bibl>
+            <bibl>Braun, G., and F. Hogenberg. 1572. Civitates Orbis Terrarvm. Cologne.</bibl>
+            <bibl>Braun-Blanquet, J., and J. Susplugas. 1937. “Reconnaissance phytogéographique
+                dans les Corbières.” Bulletin de la Société Botanique de France 84.5: 669-85.</bibl>
+            <bibl>Bravo, B. 1983. “Le commerce de céréales chez les Grec de l'époque archaïque.” In
+                Trade and Famine in Classical Antiquity, edited by P. Garnsey and C. R. Whittaker,
+                17-29. Cambridge: Cambridge Philological Society.</bibl>
+            <bibl>Bréard, C. 1894. “Le Compte du clos des galées de Rouen au XIVe siècle
+                (1382-1384).” Bibliothèque de l'École des chartes 55: 158-60.</bibl>
+            <bibl>Broch, I., and E.H. Jahr. 1981. Russenorsk et pidginspråk i Norge. Oslo:
+                Novus.</bibl>
+            <bibl>Broch, O. 1927. “Russenorsk.” Archiv für slavische Philologie 41: 209-62.</bibl>
+            <bibl>Broodbank, C. 1989. “The longboat and society in the Cyclades in the Keros-Syros
+                culture.” AJA 93.3: 319-37.</bibl>
+            <bibl>Brown, H.F. 1920. “The Venetians and the Venetian Quarter in Constantinople to
+                the Close of the Twelfth Century.” JHS 40: 68-70.</bibl>
+            <bibl>Browning, R. 1983. Medieval and Modern Greek. Cambridge: Cambridge University
+                Press.</bibl>
+            <bibl>Brunt, A. ed. 1974. The Roman Economy: Studies in Ancient Economic and
+                Administrative History. Oxford: Blackwell.</bibl>
+            <bibl>Bucks, C.D. 1949. A Dictionary of Selected Synonyms in the Principal
+                Indo-European Languages. Chicago: University of Chicago Press.</bibl>
+            <bibl>Bunbury, H.M. 1923. The Destructive Distillation of Wood. London: Benn.</bibl>
+            <bibl>Burn, A.R. 1984. Persia and the Greeks: The Defence of the West, c. 546-478 B.C..
+                London: Edward Arnold.</bibl>
+            <bibl>Burns, R.I. 1980. “Piracy as an Islamic-Christian interface in the Thirteenth
+                Century.” Viator 11: 165-78.</bibl>
+            <bibl>Byrne, E.H. 1920. “Genoese trade with Syria in the Twelfth Century.” AHR 25:
+                191-219.</bibl>
+            <bibl>Byrne, E.H. 1930. Genoese Shipping in the Twelfth and Thirteenth Centuries.
+                Cambridge: Medieval Academy of America.</bibl>
+        </listBibl>
+
+        <listBibl type="c"/>
+
+        <listBibl type="d"/>
+
+        <listBibl type="e"/>
+
+        <listBibl type="f"/>
+
+        <listBibl type="g"/>
+
+        <listBibl type="h"/>
+
+        <listBibl type="i">
+            <bibl>Immerwahr, S.A. 1960. “Mycenaean trade and colonization.” Archaeology 13:
+                4-13.</bibl>
+            <bibl>Isager, S., and M.H. Hansen. 1975. Aspects of Athenian Society in the Fourth
+                Century B.C.: A Historical Introduction to and Commentary on the Paragraphe-speeches
+                and the Speech Against Dionysodorus in the Corpus Demosthenicum (XXXII-XXXVIII and
+                LVI). Translated by J.H. Rosenmeier. Odense: Odense University Press.</bibl>
+        </listBibl>
+
+        <listBibl type="j">
+            <bibl>Jacoby, D. 1979. Recherches sur la Méditerranée orientale du XIIe au XVe siècle:
+                Peuples, Sociétés, Economies. London: Variorum Reprints.</bibl>
+            <bibl>Jados, S.S. 1973. The Consulate of the Sea and Related Documents. Tuscaloosa:
+                University of Alabama Press.</bibl>
+            <bibl>Jal, A. 1840. Archéologie navale: Tome I &amp; II. Paris: Arthus Bertrand.</bibl>
+            <bibl>Jal, A. 1848. Glossaire nautique: répertoire polyglotte de termes de marine
+                anciens et modernes. Paris: Firmin Didot.</bibl>
+            <bibl>James, E. 1982. The Origins of France: from Clovis to the Capetian, 500-1000.
+                London: The Macmillan Press Ltd.</bibl>
+            <bibl>Jane, C. ed. 1988. The Four Voyages of Columbus. Mineola: Dover
+                Publications.</bibl>
+            <bibl>Jasny, M. 1944. The Wheats of Classical Antiquity. Baltimore: Johns Hopkins
+                Press.</bibl>
+            <bibl>Jehel, G. 1985. Aigues-Mortes, un port pour un roi: Les Capétiens et la
+                Méditerranée. Roanne: Horvath.</bibl>
+            <bibl>Jenkins, N. 1980. The Boat Beneath the Pyramid: King Cheops’ Royal Ship. Austin:
+                Holt, Rinehart and Winston.</bibl>
+            <bibl>Johnstone, P. 1980. The Sea-Craft of Prehistory. London: Routledge.</bibl>
+            <bibl>Johnston, P. 1985. Ship and Boat Models in Ancient Greece. Annapolis: Naval
+                Institute Press.</bibl>
+            <bibl>Joinville, J. de. 1963. “Histoire de Saint Louis.” In Historiens et chroniqueurs
+                du moyen âge, edited by A. Pauphilet and E. Pognon. Paris: Bibliothèque de la
+                Pléiade.</bibl>
+            <bibl>Jones, A.H.M. 1964. The Later Roman Empire, 284-602: A Social, Economic, and
+                Administrative Survey. Baltimore: Johns Hopkins University Press.</bibl>
+            <bibl>Jones, T.B., and J.W. Snyder. 1961. Sumerian Economic Texts from the Third Ur
+                Dynasty. Minneapolis: University of Minnesota Press.</bibl>
+            <bibl>Judge, J. 1978. “Minoans and Mycenaeans: Sea kings of the Aegean.” NatGeogRes
+                153.2: 142-85.</bibl>
+        </listBibl>
+
+        <listBibl type="k"/>
+
+        <listBibl type="l"/>
+
+        <listBibl type="m"/>
+
+        <listBibl type="n"/>
+
+        <listBibl type="o"/>
+
+        <listBibl type="p"/>
+
+        <listBibl type="q">
+            <bibl>Quézel, P. 1976. “Les forêts du pourtour méditerranéen.” In Forêts et maquis
+                méditerranéens: écologie, conservation et aménagement. Notes techniques du MAB 2,
+                9-33. Paris: Les Presses de l’UNESCO.</bibl>
+        </listBibl>
+
+        <listBibl type="r"/>
+
+        <listBibl type="s"/>
+
+        <listBibl type="t"/>
+
+        <listBibl type="u">
+            <bibl>Unger, R.W. 1980. The Ship in the Medieval Economy. 600-1600. Montreal:
+                McGill-Queen’s University Press.</bibl>
+            <bibl>Unger, R.W., ed. 1994. Cogs, Caravels and Galleons - The Sailing Ship 1000-1650.
+                London: Conway Maritime.</bibl>
+        </listBibl>
+
+        <listBibl type="v"/>
+
+        <listBibl type="w"/>
+
+        <listBibl type="x">
+            <bibl>Xanthoudides, S. 1939. The Venetian Domination in Crete. Athens. (Greek).</bibl>
+        </listBibl>
+
+        <listBibl type="y">
+            <bibl>Yannai, A. 1983. Studies on Trade Between the Levant and the Aegean in the 14th to
+                12th Centuries B.C. Dissertation, Linacre College. Oxford.</bibl>
+            <bibl>Yeo, C. 1946. “Land and Sea Transportation in Imperial Italy.” TAPA 77:
+                221-44.</bibl>
+        </listBibl>
+
+        <listBibl type="z">
+            <bibl>Zeller, H.L. 1910. Die Assisen von Jerusalem: Sammlung älterer Seerechtsquellen,
+                Heft 4, herausg von H.L. Zeller. II Abteil (Mittelalter).</bibl>
+            <bibl>Zgusta, L. 1980. “Die Rolle des Griechischen im römischen Kaiserreich.” In Die
+                Sprachen im römischen Reich der Kaiserzeit: Kolloquium vom 8. bis 10. April 1974,
+                edited by G. Neumann and J. Untermann, 121-46. Köln: Rheinland Verlag.</bibl>
+        </listBibl>
+
+    </standOff>
+</TEI>
