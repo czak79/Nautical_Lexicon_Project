@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -13,12 +15,1405 @@
                 <p>Publication Information - multilingual glossary of nautical terms</p>
             </publicationStmt>
             <sourceDesc>
-                <p>This project is based on 3x5 index cards of glossary information and descs which have been transcribed</p>
+                <p>This project is based on 3x5 index cards of glossary information and descs which
+                    have been transcribed</p>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
 
     <standOff>
         <list>
-            <
+            <item xml:id="ABC">a hull</item>
+            <item>aback (1)</item>
+            <item>aback (2)</item>
+            <item>(take) aback</item>
+            <item>abaft</item>
+            <item>abeam</item>
+            <item>aboard</item>
+            <item>abreast</item>
+            <item>aburton</item>
+            <item>(stowage) aburton</item>
+            <item>across</item>
+            <item>across from</item>
+            <item>adjust</item>
+            <item>admiral (1)</item>
+            <item>admiral (2)</item>
+            <item>adrift</item>
+            <item>come adrift (from anchor)</item>
+            <item>advice-boat</item>
+            <item>adze</item>
+            <item>afloat</item>
+            <item>aft</item>
+            <item>after peak</item>
+            <item>go against the wind</item>
+            <item>agent (1)</item>
+            <item>agent (2)</item>
+            <item>agio</item>
+            <item>aground</item>
+            <item>run aground</item>
+            <item>run aground (1)</item>
+            <item>run aground (2)</item>
+            <item>ahead</item>
+            <item>ahead!</item>
+            <item>ahull</item>
+            <item>alee</item>
+            <item>alier</item>
+            <item>aloft</item>
+            <item>along</item>
+            <item>go alsongside (1)</item>
+            <item>go alsongside (2)</item>
+            <item>go alsongside (3)</item>
+            <item>go alsongside (4)</item>
+            <item>go alsongside (5)</item>
+            <item>go alsongside (misc)</item>
+            <item>alum</item>
+            <item>al-wazir</item>
+            <item>amain</item>
+            <item>-amen</item>
+            <item>amidships</item>
+            <item>anchor</item>
+            <item>anchor (1)</item>
+            <item>anchor (2)</item>
+            <item>anchor (misc)</item>
+            <item>back anchor</item>
+            <item>bower-anchor</item>
+            <item>best-bower anchor</item>
+            <item>small-bower anchor</item>
+            <item>ebb anchor</item>
+            <item>flood-anchor</item>
+            <item>(grapnel) anchor</item>
+            <item>(kedge) anchor</item>
+            <item>mooring-anchor</item>
+            <item>sheet anchor</item>
+            <item>spare anchor</item>
+            <item>stream-anchor</item>
+            <item>anchor a-cockbill</item>
+            <item>anchor-arm</item>
+            <item>anchor-buoy</item>
+            <item>anchor-crane</item>
+            <item>anchor-crown</item>
+            <item>anchor-fluke</item>
+            <item>anchor-ring</item>
+            <item>anchor-shank</item>
+            <item>anchor-shoe</item>
+            <item>anchor-stock (1)</item>
+            <item>anchor-stock (2)</item>
+            <item>anchor cross-reference</item>
+            <item>to anchor (1)</item>
+            <item>to anchor (2)</item>
+            <item>to anchor (3)</item>
+            <item>to anchor (4)</item>
+            <item>to anchor (5)</item>
+            <item>to anchor (misc.)</item>
+            <item>anchorage (1)</item>
+            <item>anchorage (2)</item>
+            <item>(misc.) anchorage (3)</item>
+            <item>(jal) anchorage (4)</item>
+            <item>(jal) anchorage (5)</item>
+            <item>anchorage (6)</item>
+            <item>anchorage (7)</item>
+            <item>anchorage (8)</item>
+            <item>anchorage (9)</item>
+            <item>anchorage</item>
+            <item>(tax) anchorage</item>
+            <item>anchovy (1)</item>
+            <item>andhovy (2)</item>
+            <item>anchovy</item>
+            <item>saint andrew</item>
+            <item>angary</item>
+            <item>anki(-no)</item>
+            <item>answer (the helm)</item>
+            <item>apeak</item>
+            <item>apostle</item>
+            <item>apparel</item>
+            <item>approachable</item>
+            <item>apron</item>
+            <item>argosy</item>
+            <item>arm (of sea)</item>
+            <item>arrive (1)</item>
+            <item>arrive (2)</item>
+            <item>arroba</item>
+            <item>(arab) arsenal</item>
+            <item>(ital.) arsenal</item>
+            <item>(gk) arsenal</item>
+            <item>(misc.) arsenal</item>
+            <item>(span.) arsenal</item>
+            <item>(cat.) arsenal</item>
+            <item>(fr.) arsenal</item>
+            <item>artab</item>
+            <item>ship’s articles</item>
+            <item>artimon</item>
+            <item>astella</item>
+            <item>astern</item>
+            <item>astern (1)</item>
+            <item>astrolabe</item>
+            <item>-ata</item>
+            <item>athwart</item>
+            <item>athwart-hawse</item>
+            <item>-aticum</item>
+            <item>(sail) atrip</item>
+            <item>avast! (1)</item>
+            <item>avast! (2)</item>
+            <item>ave maria</item>
+            <item>average (insur.)</item>
+            <item>average</item>
+            <item>avoirdupois</item>
+            <item>awake</item>
+            <item>awash</item>
+            <item>awl</item>
+            <item>awning (1)</item>
+            <item>awning (2)</item>
+            <item>ax</item>
+            <item>ax (1)</item>
+            <item>ax (2)</item>
+            <item>ax (3)</item>
+            <item>ax (4)</item>
+            <item>(broad) ax</item>
+            <item>aye, aye!</item>
+
+            <item>to back (an anchor)</item>
+            <item>(wind) to back </item>
+            <item>back and fill</item>
+            <item>to back down</item>
+            <item>back-stay</item>
+            <item>backstay (1)</item>
+            <item>backstay (2)</item>
+            <item>backstay (3)</item>
+            <item>backstay (4)</item>
+            <item>preventer-backstay</item>
+            <item>backstay stool</item>
+            <item>back water</item>
+            <item>back-water</item>
+            <item>back water-turn</item>
+            <item>back-water turn</item>
+            <item>(of weather) bad</item>
+            <item>bagnio</item>
+            <item>bail</item>
+            <item>bailo</item>
+            <item>balam</item>
+            <item>bale</item>
+            <item>ballast (1)</item>
+            <item>ballast (2)</item>
+            <item>ballast (3)</item>
+            <item>to ballast</item>
+            <item>ballast</item>
+            <item>ballast-lighter</item>
+            <item>bank</item>
+            <item>(sand)bank</item>
+            <item>bank (finan.)</item>
+            <item>(sand) bar (1)</item>
+            <item>bar (1)</item>
+            <item>(sand) bar (2)</item>
+            <item>(sand) bar (3)</item>
+            <item>barba</item>
+            <item>barbarian</item>
+            <item>barbet</item>
+            <item>barca canterii</item>
+            <item>barcaccia</item>
+            <item>barca longa</item>
+            <item>barge (1)</item>
+            <item>barge (2)</item>
+            <item>fishing barge</item>
+            <item>bark</item>
+            <item>barley</item>
+            <item>baron</item>
+            <item>barratry</item>
+            <item>barrel</item>
+            <item>barrel (1)</item>
+            <item>barrel (2)</item>
+            <item>barrel (3)</item>
+            <item>barrel (4)</item>
+            <item>barrel (5)</item>
+            <item>barrel (6)</item>
+            <item>barrel (7)</item>
+            <item>barrel (8)</item>
+            <item>barrel (9)</item>
+            <item>barrel (10)</item>
+            <item>barrel (11)</item>
+            <item>barrels (collect.)</item>
+            <item>barrel-head</item>
+            <item>barrel-stave</item>
+            <item>barrel-wood</item>
+            <item>barter</item>
+            <item>basket (1)</item>
+            <item>(sport) basket (2)</item>
+            <item>(canist) basket (3)</item>
+            <item>(cist) basket (4)</item>
+            <item>(cofin) basket (5)</item>
+            <item>(cof) basket 6</item>
+            <item>(carg) basket (8)</item>
+            <item>(banast) basket (9)</item>
+            <item>basket (10)</item>
+            <item>basket (misc.)</item>
+            <item>batten</item>
+            <item>(molding) batten</item>
+            <item>bay (1)</item>
+            <item>bay, cove (2)</item>
+            <item>bay (2)</item>
+            <item>bay (3)</item>
+            <item>bay (small) (4)</item>
+            <item>bay (5)</item>
+            <item>bay (miscell.)</item>
+            <item>bay (misc.)</item>
+            <item>bazaar</item>
+            <item>beach (1)</item>
+            <item>beach (2)</item>
+            <item>beach (3)</item>
+            <item>to beach</item>
+            <item>beach(-ing)(place)</item>
+            <item>beak(-head)</item>
+            <item>beam</item>
+            <item> 1. beam (1)</item>
+            <item>1. beam (2)</item>
+            <item>1. beam (3)</item>
+            <item>1. deck-beam (5)</item>
+            <item>1. beam (6)</item>
+            <item>(transtrum) 1. beam (6)</item>
+            <item>1. beam (8)</item>
+            <item>1. beam (9)</item>
+            <item>1. (midship) beam (10)</item>
+            <item>1. beam (11)</item>
+            <item>1. beam (12)</item>
+            <item>1. beam (13)</item>
+            <item>1. beam (14)</item>
+            <item>1. half-beam</item>
+            <item>1. hold-beam</item>
+            <item>(breadth) 2. beam</item>
+            <item>(direction) 3. beam</item>
+            <item>on her beam-ends</item>
+            <item>beams</item>
+            <item>bearing</item>
+            <item>bear up (1)</item>
+            <item>bear up (2)</item>
+            <item>(mol-) bear up (3)</item>
+            <item>bear up (misc.)</item>
+            <item>beat</item>
+            <item>becalm</item>
+            <item>becket</item>
+            <item>bed (of ship)</item>
+            <item>before</item>
+            <item>(sail) before the wind</item>
+            <item>before the wind</item>
+            <item>belay</item>
+            <item>belaying devices [list]</item>
+            <item>belaying pin</item>
+            <item>belfry</item>
+            <item>bell</item>
+            <item>(galley) bench</item>
+            <item>(galley) bench (1)</item>
+            <item>bench-locker</item>
+            <item>bend (rope)</item>
+            <item>bend (a rope)</item>
+            <item>anchor-bend</item>
+            <item>bend (sail)</item>
+            <item>carrick-bend</item>
+            <item>sheet-bend</item>
+            <item>bending</item>
+            <item>beneaped</item>
+            <item>berth</item>
+            <item>(safe/wide) berth</item>
+            <item>bertone</item>
+            <item>bevel</item>
+            <item>beverages</item>
+            <item>bezant</item>
+            <item>(in line) bight</item>
+            <item>bilander</item>
+            <item>1. bilge (1)</item>
+            <item>1. bilge (2)</item>
+            <item>2. bilge (1)</item>
+            <item>2. bilge (2)</item>
+            <item>2. bilge (3)</item>
+            <item>turn of bilge</item>
+            <item>bilingualism</item>
+            <item>bill of health</item>
+            <item>bill of lading</item>
+            <item>binnacle</item>
+            <item>biscuit (1)</item>
+            <item>biscuit (2)</item>
+            <item>biscuit (crumbled) (3)</item>
+            <item>biscuit (3)</item>
+            <item>biscuit (4)</item>
+            <item>biscuit (5)</item>
+            <item>bitt(s) (1)</item>
+            <item>bitt (1)</item>
+            <item>bitt (2)</item>
+            <item>to bitt</item>
+            <item>bitt pin</item>
+            <item>bitts</item>
+            <item>bowline/brace bitts</item>
+            <item>cross-bitt</item>
+            <item>small/sheet bitts</item>
+            <item>block</item>
+            <item>(massapre) block</item>
+            <item>(moton) block</item>
+            <item>(makara) block</item>
+            <item>(bozzel) block</item>
+            <item>(taglia) block</item>
+            <item>(pulley) block</item>
+            <item>(cheek) block</item>
+            <item>clump-block</item>
+            <item>fiddle-block</item>
+            <item>gin-block</item>
+            <item>leading block</item>
+            <item>sister-block</item>
+            <item>snatch-block</item>
+            <item>snatch block</item>
+            <item>(collective) blocks</item>
+            <item>block-becket</item>
+            <item>block-breech</item>
+            <item>block-bushing</item>
+            <item>(tampan) block-bushing</item>
+            <item>block-cheek</item>
+            <item>block-maker</item>
+            <item>block-pin (1)</item>
+            <item>block-pin</item>
+            <item>block sheave-hole</item>
+            <item>block-shell</item>
+            <item>block-score</item>
+            <item>block-strap</item>
+            <item>block-swallows</item>
+            <item>blocks</item>
+            <item>stock-blocks</item>
+            <item>blow</item>
+            <item>board (1)</item>
+            <item>board (2)</item>
+            <item>boards</item>
+            <item>board (an enemy) (1)</item>
+            <item>board (an enemy) (2)</item>
+            <item>board (an enemy) (3)</item>
+            <item>boat (1)</item>
+            <item>boat (2)</item>
+            <item>boat (3)</item>
+            <item>boat (4)</item>
+            <item>boatman</item>
+            <item>boatswain (1)</item>
+            <item>boatswain (2)</item>
+            <item>boatswain (3)</item>
+            <item>boatswain (4)</item>
+            <item>boatswain</item>
+            <item>boatswain’s chair</item>
+            <item>boatswain’s locker</item>
+            <item>boatswain’s pipe</item>
+            <item>bobstay</item>
+            <item>bollard</item>
+            <item>bollard (1)</item>
+            <item>bollard (2)</item>
+            <item>bollard (3)</item>
+            <item>bolt (1)</item>
+            <item>bolt (2)</item>
+            <item>bolt (misc.)</item>
+            <item>to bolt</item>
+            <item>bolting</item>
+            <item>bolt-rope</item>
+            <item>bonanza</item>
+            <item>bonnet</item>
+            <item>boom (1)</item>
+            <item>boom (2)</item>
+            <item>boom, et al. (3)</item>
+            <item>boom (3)</item>
+            <item>boom (4)</item>
+            <item>boom</item>
+            <item>jib-boom</item>
+            <item>boom/riding</item>
+            <item>booms</item>
+            <item>boomkin</item>
+            <item>boot-topping</item>
+            <item>boss</item>
+            <item>botar</item>
+            <item>bottle (1)</item>
+            <item>bottle (2)</item>
+            <item>(sea-)bottom</item>
+            <item>(carena) (ship’s) bottom</item>
+            <item>(fund-) (ship’s) bottom</item>
+            <item>(plan-) (ship) bottom</item>
+            <item>flat of bottom</item>
+            <item>bottomry</item>
+            <item>bow assembly</item>
+            <item>bow/head assembly</item>
+            <item>bow</item>
+            <item>bow(s)</item>
+            <item>on the bow</item>
+            <item>bowline (line)</item>
+            <item>bowline</item>
+            <item>bowline knot; boatswain’s chair</item>
+            <item>bowline knot</item>
+            <item>bowline (knot)</item>
+            <item>bowman</item>
+            <item>bowse</item>
+            <item>bowsprit</item>
+            <item>bowsprit (1)</item>
+            <item>bowsprit (2)</item>
+            <item>bowsprit bees</item>
+            <item>bowsprit pillow</item>
+            <item>box (the compass)</item>
+            <item>box-haul</item>
+            <item>boxing off</item>
+            <item>boy (1)</item>
+            <item>boy (2)</item>
+            <item>boy (3)</item>
+            <item>boy (4)</item>
+            <item>boy (5)</item>
+            <item>brace (1)</item>
+            <item>brace (2)</item>
+            <item>(preventer) brace</item>
+            <item>to brace</item>
+            <item>hair-bracket</item>
+            <item>brail (1)</item>
+            <item>brail (2)</item>
+            <item>brail (3)</item>
+            <item>brail (4)</item>
+            <item>brail</item>
+            <item>brail up</item>
+            <item>brail up (1)</item>
+            <item>brazil wood</item>
+            <item>extreme breadth</item>
+            <item>break</item>
+            <item>deck-break</item>
+            <item>breakdown</item>
+            <item>breakers</item>
+            <item>breaking point</item>
+            <item>break out (anchor)</item>
+            <item>break-water</item>
+            <item>bream</item>
+            <item>breast-hook</item>
+            <item>breastwork</item>
+            <item>breeze</item>
+            <item>land breeze</item>
+            <item>sea breeze</item>
+            <item>draw-bridge</item>
+            <item>bridle</item>
+            <item>bowline-bridle</item>
+            <item>towing bridle; sling</item>
+            <item>brigantine</item>
+            <item>brine</item>
+            <item>broach to</item>
+            <item>broken down</item>
+            <item>broker</item>
+            <item>broom</item>
+            <item>spanish broom</item>
+            <item>brothel</item>
+            <item>brush (1)</item>
+            <item>brush (2)</item>
+            <item>bucket (1)</item>
+            <item>bucket (2)</item>
+            <item>bucket (3)</item>
+            <item>bucket (4)</item>
+            <item>bucket (5)</item>
+            <item>bucket (6)</item>
+            <item>bucket (misc.)</item>
+            <item>build</item>
+            <item>bulk</item>
+            <item>bulkhead</item>
+            <item>break-/front-bulkhead</item>
+            <item>(deck-light) bull’s eye</item>
+            <item>bulwark</item>
+            <item>main-bulwark</item>
+            <item>topgallant bulwark</item>
+            <item>topgallant bulwark (1)</item>
+            <item>bundle, bale (1)</item>
+            <item>bundle (1)</item>
+            <item>bundle (2)</item>
+            <item>bundle (3)</item>
+            <item>bundle (4)</item>
+            <item>bunt</item>
+            <item>buntline (1)</item>
+            <item>buntline (2)</item>
+            <item>buntline (3)</item>
+            <item>buoy (1)</item>
+            <item>buoy (2)</item>
+            <item>buoy (3)</item>
+            <item>buoy (4)</item>
+            <item>buoy (5)</item>
+            <item>buoy (6)</item>
+            <item>buoy (7)</item>
+            <item>(trip-line) buoy-rope</item>
+            <item>buoy-rope</item>
+            <item>buoy-rope (3)</item>
+            <item>(deadweight) burden)</item>
+            <item>burden</item>
+            <item>burro</item>
+            <item>bushel</item>
+            <item>buss</item>
+            <item>(jal) buss</item>
+            <item>(burc-) buss</item>
+            <item>butt</item>
+            <item>buttock</item>
+
+            <item>cabin</item>
+            <item>cable</item>
+            <item>cable (1)</item>
+            <item>cable (2)</item>
+            <item>cable (3)</item>
+            <item>cable-laid rope</item>
+            <item>cable-length</item>
+            <item>cablet</item>
+            <item>cable-tier</item>
+            <item>cacafuego</item>
+            <item>caïque</item>
+            <item>calm (1)</item>
+            <item>calm (2)</item>
+            <item>calm (3)</item>
+            <item>camber</item>
+            <item>canal; channel (inclc. radio channel)</item>
+            <item>candalette</item>
+            <item>candia</item>
+            <item>canna</item>
+            <item>cant-</item>
+            <item>cant</item>
+            <item>canvas</item>
+            <item>cap (of a mast)</item>
+            <item>(sailor’s) cap</item>
+            <item>cape</item>
+            <item>cape</item>
+            <item>cappuccio</item>
+            <item>capsize (1)</item>
+            <item>capsize (2)</item>
+            <item>capsize</item>
+            <item>capstan (1)</item>
+            <item>capstan (2)</item>
+            <item>capstan (3)</item>
+            <item>capstan (4)</item>
+            <item>capstan</item>
+            <item>capstan bar</item>
+            <item>capstan-bar</item>
+            <item>capstan barrel</item>
+            <item>capstan-barrel</item>
+            <item>capstan drumhead</item>
+            <item>capstan pawl</item>
+            <item>(bearing) capstan-saucer</item>
+            <item>capstan spindle</item>
+            <item>capstan-whelp</item>
+            <item>captain (1)</item>
+            <item>captain (2)</item>
+            <item>captain (3)</item>
+            <item>captain (4)</item>
+            <item>caramousal</item>
+            <item>carat</item>
+            <item>caravan</item>
+            <item>caravel</item>
+            <item>careen</item>
+            <item>careen (1)</item>
+            <item>careen (2)</item>
+            <item>careen (3)</item>
+            <item>careened</item>
+            <item>careening outrigger</item>
+            <item>careening place</item>
+            <item>careening pontoon</item>
+            <item>careening tackle</item>
+            <item>cargo</item>
+            <item>carling</item>
+            <item>carling (1)</item>
+            <item>(ship’s) carpenter (1)</item>
+            <item>(ship’s) carpenter (2)</item>
+            <item>(ship’s) carpenter (3)</item>
+            <item>carrack</item>
+            <item>carry out (an anchor)</item>
+            <item>carvel work</item>
+            <item>case</item>
+            <item>cask</item>
+            <item>cast (of net)</item>
+            <item>cast</item>
+            <item>(a ship) cast</item>
+            <item>cast off</item>
+            <item>castle (1)</item>
+            <item>castle (2)</item>
+            <item>(ship) cat</item>
+            <item>to cat (anchor)</item>
+            <item>cat-back</item>
+            <item>cat-block</item>
+            <item>cat-fall</item>
+            <item>cat-harpings</item>
+            <item>cathead</item>
+            <item>cathead knee</item>
+            <item>cathead stopper</item>
+            <item>cat-hole</item>
+            <item>cat-hook</item>
+            <item>cat-tackle</item>
+            <item>cat’s paw</item>
+            <item>caulk (1)</item>
+            <item>caulk (2)</item>
+            <item>caulk (3)</item>
+            <item>caulk (4)</item>
+            <item>caulk (5)</item>
+            <item>caulker</item>
+            <item>caulking [list]</item>
+            <item>caulking</item>
+            <item>caulking tools</item>
+            <item>(irons) caulking tools</item>
+            <item>(padela) (irons) caulking tools</item>
+            <item>(making iron) caulking tools</item>
+            <item>(ravehook) caulking tools</item>
+            <item>(mallet) caulking tools</item>
+            <item>(drift)(set) caulking tools</item>
+            <item>(nail-set) caulking tools</item>
+            <item>(nail-puller) caulking tools</item>
+            <item>(seat) caulking tools</item>
+            <item>(wedge) caulking tools</item>
+            <item>caupŭlus (boat)</item>
+            <item>ceiling (1)</item>
+            <item>ceiling (2) </item>
+            <item>floor ceiling</item>
+            <item>cement (1)</item>
+            <item>cement (2)</item>
+            <item>cement (3)</item>
+            <item>centina</item>
+            <item>chafe</item>
+            <item>chain</item>
+            <item>heel chain of jib-boom (2)</item>
+            <item>(of shrouds) chain</item>
+            <item>chain plate</item>
+            <item>galley chains (1)</item>
+            <item>galley chains (2)</item>
+            <item>galley chains</item>
+            <item>chainwale</item>
+            <item>chainwale (1)</item>
+            <item>chalk</item>
+            <item>chamfer</item>
+            <item>change (1)</item>
+            <item>change (2)</item>
+            <item>channel</item>
+            <item>chapel</item>
+            <item>chart</item>
+            <item>chartering</item>
+            <item>charter</item>
+            <item>charter(ing)</item>
+            <item>charter party</item>
+            <item>check</item>
+            <item>(of mast) cheeks (1)</item>
+            <item>(of mast) cheeks</item>
+            <item>chelandion</item>
+            <item>chess-tree</item>
+            <item>sea-chest (1)</item>
+            <item>sea-chest (2)</item>
+            <item>chine</item>
+            <item>chinse</item>
+            <item>chisel</item>
+            <item>hollow-chisel</item>
+            <item>(boat) chock</item>
+            <item>butt-chock</item>
+            <item>(boat) chock</item>
+            <item>(filling) chock</item>
+            <item>(wedge) chock</item>
+            <item>chock-a-block</item>
+            <item>cider</item>
+            <item>cinque giorni</item>
+            <item>clamp</item>
+            <item>(of bottom) clean</item>
+            <item>clear</item>
+            <item>(of ropes, tackles) clear</item>
+            <item>(all) clear</item>
+            <item>clear for action</item>
+            <item>cleat</item>
+            <item>cleat (1)</item>
+            <item>cleat (2)</item>
+            <item>clew</item>
+            <item>clew down haul</item>
+            <item>to clew</item>
+            <item>clew-line/-garnet</item>
+            <item>clew-line</item>
+            <item>clinch</item>
+            <item>to clinch (a nail)</item>
+            <item>clinker(-built)</item>
+            <item>clinker-built</item>
+            <item>cloak (1)</item>
+            <item>cloak (2)</item>
+            <item>cloak (3)</item>
+            <item>cloak (4)</item>
+            <item>cloak (5)</item>
+            <item>close</item>
+            <item>close-hauled</item>
+            <item>(bolina) sail close-hauled</item>
+            <item>clothing</item>
+            <item>coak</item>
+            <item>coaming</item>
+            <item>coast (1)</item>
+            <item>coast (2)</item>
+            <item>coast (3)</item>
+            <item>coast (4)</item>
+            <item>surgy coast</item>
+            <item>to coast</item>
+            <item>coast guard</item>
+            <item>coasting</item>
+            <item>great-coat</item>
+            <item>(sailor’s) coat</item>
+            <item>mast-coat</item>
+            <item>cod</item>
+            <item>cog</item>
+            <item>(rope) coil</item>
+            <item>to coil</item>
+            <item>coin</item>
+            <item>(of stay) collar</item>
+            <item>collo</item>
+            <item>comito</item>
+            <item>(sotto) comito</item>
+            <item>command</item>
+            <item>commenda</item>
+            <item>commerce (1)</item>
+            <item>commerce (2)</item>
+            <item>companion</item>
+            <item>compass (1)</item>
+            <item>1. compass (1)</item>
+            <item>1. compass (2)</item>
+            <item>1. compass (3)</item>
+            <item>2. compasses, calipers</item>
+            <item>compass needle</item>
+            <item>compass needle, lodestone</item>
+            <item>complete (1)(2)</item>
+            <item>condura</item>
+            <item>consul(-ate)</item>
+            <item>consul</item>
+            <item>contra-</item>
+            <item>contraband</item>
+            <item>contract</item>
+            <item>convoy (1)</item>
+            <item>convoy (2)</item>
+            <item>convoy</item>
+            <item>cook (n.)</item>
+            <item>chicken-coop</item>
+            <item>cooper</item>
+            <item>coral</item>
+            <item>cordage</item>
+            <item>cork</item>
+            <item>corvette</item>
+            <item>cos</item>
+            <item>costs</item>
+            <item>cot</item>
+            <item>cotter</item>
+            <item>cotton</item>
+            <item>cotton (1)</item>
+            <item>cotton (2)</item>
+            <item>counselor</item>
+            <item>1. counter</item>
+            <item>(stern) 2. counter</item>
+            <item>counter-timber</item>
+            <item>course (1)</item>
+            <item>course (2)</item>
+            <item>course (3)</item>
+            <item>course (4)</item>
+            <item>course (sail)</item>
+            <item>cove (1)</item>
+            <item>cove</item>
+            <item>coxswain</item>
+            <item>(building) cradle</item>
+            <item>crane</item>
+            <item>crank</item>
+            <item>creak</item>
+            <item>crew</item>
+            <item>(galley) crew</item>
+            <item>(roman) mixed crews</item>
+            <item>(med.) mixed crews</item>
+            <item>(ren.) mixed crews</item>
+            <item>crew-list</item>
+            <item>cringle</item>
+            <item>to cross</item>
+            <item>crossbow shot</item>
+            <item>crossjack yard</item>
+            <item>crossjack yard (1)</item>
+            <item>cross-log</item>
+            <item>cross-piece</item>
+            <item>cross-plank</item>
+            <item>cross-staff</item>
+            <item>cross-tree (1)</item>
+            <item>crosstree (2)</item>
+            <item>cross-wind</item>
+            <item>crotch</item>
+            <item>crow-bar</item>
+            <item>crowd sail</item>
+            <item>crow’s foot; span</item>
+            <item>crow’s foot</item>
+            <item>cruise</item>
+            <item>crutch</item>
+            <item>crutch</item>
+            <item>cubit</item>
+            <item>cuddy</item>
+            <item>current (1)</item>
+            <item>current (2)</item>
+            <item>customs</item>
+            <item>cut down</item>
+            <item>cutter</item>
+            <item>cutting-down line</item>
+            <item>cutwater</item>
+
+            <item>davit</item>
+            <item>deadeye (1)</item>
+            <item>deadeye (misc.)</item>
+            <item>deadeye</item>
+            <item>(heart) deadeye</item>
+            <item>dead-freight</item>
+            <item>dead reckoning</item>
+            <item>deadweight</item>
+            <item>deadwood</item>
+            <item>to deballast</item>
+            <item>(ballator) deck</item>
+            <item>(coperta) deck</item>
+            <item>(pont) deck</item>
+            <item>(til) deck</item>
+            <item>(told-) deck</item>
+            <item>deck</item>
+            <item>(tween)deck</item>
+            <item>(corridor) (tween)deck (1)</item>
+            <item>deck (misc.)</item>
+            <item>half-deck</item>
+            <item>orlop deck</item>
+            <item>poop-deck</item>
+            <item>quarter-deck</item>
+            <item>deck-house</item>
+            <item>deep</item>
+            <item>demurrage (1)</item>
+            <item>demurrage (2)</item>
+            <item>denarius</item>
+            <item>depart(ure)</item>
+            <item>departure</item>
+            <item>(on the point of) departure</item>
+            <item>depth (of hold)</item>
+            <item>depth of hold</item>
+            <item>derrick</item>
+            <item>dip</item>
+            <item>(a flag) to dip</item>
+            <item>dipping-line</item>
+            <item>direct</item>
+            <item>discharge (1)</item>
+            <item>disorient</item>
+            <item>dispatch</item>
+            <item>displacement</item>
+            <item>dive</item>
+            <item>diver</item>
+            <item>dock</item>
+            <item>dockage</item>
+            <item>dogshore</item>
+            <item>dolphin</item>
+            <item>dolphin striker</item>
+            <item>double a cape (1)</item>
+            <item>double a cape (2)</item>
+            <item>double a cape (3)</item>
+            <item>double a cape (4)</item>
+            <item>on the double</item>
+            <item>double bottom</item>
+            <item>doubling</item>
+            <item>dove-tail</item>
+            <item>dowel</item>
+            <item>down by the head</item>
+            <item>downhaul (1)</item>
+            <item>down by the stern</item>
+            <item>downhaul (2)</item>
+            <item>downhaul (misc.)</item>
+            <item>downstream</item>
+            <item>downwind</item>
+            <item>draft</item>
+            <item>draft-mark</item>
+            <item>drag</item>
+            <item>to drag anchor</item>
+            <item>dragoman</item>
+            <item>(of sails) draw</item>
+            <item>(of water) draw</item>
+            <item>draw-knife</item>
+            <item>dredge</item>
+            <item>drift</item>
+            <item>drill</item>
+            <item>drill (1)</item>
+            <item>drill (2)</item>
+            <item>drill (3)</item>
+            <item>drill (4)</item>
+            <item>drill (5)</item>
+            <item>drill (6)</item>
+            <item>drill (7)</item>
+            <item>drill (8)</item>
+            <item>drill (9)</item>
+            <item>drom-</item>
+            <item>dromon</item>
+            <item>(of sail) drop (n.)</item>
+            <item>drown; be shipwrecked</item>
+            <item>dub</item>
+            <item>(port) dues</item>
+            <item>dues</item>
+            <item>dunnage</item>
+
+            <item>earing</item>
+            <item>earnest money (1)</item>
+            <item>earnest money (2)</item>
+            <item>east (1)</item>
+            <item>east (2)</item>
+            <item>east (3)</item>
+            <item>easterner</item>
+            <item>ebb</item>
+            <item>embargo</item>
+            <item>embark (1)</item>
+            <item>embark (2)</item>
+            <item>embay</item>
+            <item>english in dma [list]</item>
+            <item>english in greek (ahh)</item>
+            <item>eng. in portuguese</item>
+            <item>engulf</item>
+            <item>ensign</item>
+            <item>entrance &amp; run</item>
+            <item>escora</item>
+            <item>esparto grass</item>
+            <item>esparto grass (1)</item>
+            <item>esparto (1)</item>
+            <item>esparto grass (2)</item>
+            <item>esparto grass (3)</item>
+            <item>estuary</item>
+            <item>etesian wind</item>
+            <item>exchange</item>
+            <item>eye (splice)</item>
+            <item>eye (-bolt) (1)</item>
+            <item>eyebolt (2)</item>
+            <item>eyelet</item>
+
+            <item>factory (agency)</item>
+            <item>fake, coil</item>
+            <item>fake</item>
+            <item>fall (of tackle)</item>
+            <item>fall off</item>
+            <item>false-, jury</item>
+            <item>fashion piece</item>
+            <item>fasten</item>
+            <item>fasten together</item>
+            <item>fastening</item>
+            <item>fathom</item>
+            <item>felucca</item>
+            <item>fender</item>
+            <item>ferry (1)</item>
+            <item>ferry (2)</item>
+            <item>ferry</item>
+            <item>fetch way</item>
+            <item>fiber</item>
+            <item>(mast) fid (1)</item>
+            <item>(mast) fid (2)</item>
+            <item>(mast) fid-hole</item>
+            <item>(splicing-) fid</item>
+            <item>fid, toggle</item>
+            <item>file</item>
+            <item>fill</item>
+            <item>filling</item>
+            <item>fire-ship</item>
+            <item>(mast) fish (1)</item>
+            <item>(mast) fish (2)</item>
+            <item>(mast) fish</item>
+            <item>to fish</item>
+            <item>to fish (anchor)</item>
+            <item>fish-block</item>
+            <item>fish-boom</item>
+            <item>(of anchor) 1. fish-hook</item>
+            <item>fish-pendant</item>
+            <item>(of anchor) fish-tackle</item>
+            <item>fish-tackle pendant</item>
+            <item>fisherman</item>
+            <item>2. fish-hook</item>
+            <item>fish-pond, -tank (1)</item>
+            <item>fish-pond (1)</item>
+            <item>fish-pond (2)</item>
+            <item>fish-sauce</item>
+            <item>fit out (1)</item>
+            <item>fit out (2)</item>
+            <item>fit out (3)</item>
+            <item>fit out (4)</item>
+            <item>fit out (misc.)</item>
+            <item>fix</item>
+            <item>flag (1)</item>
+            <item>flag (2)</item>
+            <item>flag (3)</item>
+            <item>flag-ship</item>
+            <item>(of sails) flap</item>
+            <item>(sea-bottom) flats</item>
+            <item>flats</item>
+            <item>flat(ten) in</item>
+            <item>flax</item>
+            <item>fleet (1)</item>
+            <item>fleet (2)</item>
+            <item>fleet (3)</item>
+            <item>fleet (4)</item>
+            <item>fleet (misc.)</item>
+            <item>fleet (a tackle)</item>
+            <item>flemish (down)</item>
+            <item>float</item>
+            <item>float (n.)</item>
+            <item>flood(tide)</item>
+            <item>floor</item>
+            <item>floorboard</item>
+            <item>floor-head</item>
+            <item>floor-timber (1)</item>
+            <item>floor (1)</item>
+            <item>floor-timber (2)</item>
+            <item>(forc) (rising) floor-timber (3)</item>
+            <item>(rising) floor-timber (3)</item>
+            <item>half-floor timber</item>
+            <item>florin</item>
+            <item>flotilla </item>
+            <item>flute (ship)</item>
+            <item>fog</item>
+            <item>(synopsis) fondaco</item>
+            <item>fondaco</item>
+            <item>(meas) foot</item>
+            <item>foot (of sail)</item>
+            <item>(of yard) footrope (1)</item>
+            <item>(of yard) footrope (2)</item>
+            <item>(bolt-rope) foot-rope (3)</item>
+            <item>(clear) fora</item>
+            <item>(outside) fora</item>
+            <item>(out with!) fora</item>
+            <item>force</item>
+            <item>ford</item>
+            <item>fore and aft</item>
+            <item>fore-and-aft sail</item>
+            <item>fore-and-after</item>
+            <item>forecastle</item>
+            <item>(ramb-) forecastle</item>
+            <item>monkey-forecastle (1)</item>
+            <item>monkey-forecastle (2)</item>
+            <item>forefoot</item>
+            <item>forelock</item>
+            <item>foreman</item>
+            <item>forepeak</item>
+            <item>foresail; foremast (1)</item>
+            <item>foresail (1)</item>
+            <item>foresail (2)</item>
+            <item>(misc.) foresail</item>
+            <item>forestay</item>
+            <item>form</item>
+            <item>forward!</item>
+            <item>fother</item>
+            <item>(of anchor) foul</item>
+            <item>(of bottom) foul</item>
+            <item>(of rope) foul</item>
+            <item>fox</item>
+            <item>frame</item>
+            <item>frame (1)</item>
+            <item>frame (2)</item>
+            <item>(quadern) frame (3)</item>
+            <item>(curv) frame</item>
+            <item>cant-frame</item>
+            <item>filling-frame</item>
+            <item>half-frame</item>
+            <item>loof-frame</item>
+            <item>“master”-frame</item>
+            <item>(also main-frame) midship-frame</item>
+            <item>midship-frame</item>
+            <item>square-frame</item>
+            <item>(broken down) in frame</item>
+            <item>(skeleton) framework</item>
+            <item>frank, western european</item>
+            <item>frank</item>
+            <item>frap</item>
+            <item>frap (1)</item>
+            <item>frap (a ship)</item>
+            <item>fraxinetum</item>
+            <item>(pump bilge) to free</item>
+            <item>freeboard</item>
+            <item>free overside</item>
+            <item>free port</item>
+            <item>freight (charge)</item>
+            <item>freight</item>
+            <item>fresh (of wind)</item>
+            <item>(hawse) freshen</item>
+            <item>frigate</item>
+            <item>(sails) full</item>
+            <item>full and by</item>
+            <item>funnel</item>
+            <item>fur, fother</item>
+            <item>furl</item>
+            <item>furl (1)</item>
+            <item>furl (2)</item>
+            <item>furling gear</item>
+            <item>furring</item>
+            <item>fusta</item>
+            <item>fustian</item>
+            <item>(frame) futtock (1)</item>
+            <item>futtock (2)</item>
+            <item>futtock (3)</item>
+            <item>futtock (4)</item>
+            <item>futtock (5)</item>
+            <item>futtock (6)</item>
+            <item>futtock (7)</item>
+            <item>(asta) futtock</item>
+            <item>(frame) futtock</item>
+            <item>futtock</item>
+            <item>first futtock</item>
+            <item>second futtock</item>
+            <item>futtock shrouds</item>
+            <item>futtock-staff</item>
+
+            <item>gaff (1)</item>
+            <item>gaff (2)</item>
+            <item>gaff (3)</item>
+            <item>gaff (hook)</item>
+            <item>gaff-jaw</item>
+            <item>galleass</item>
+            <item>galiot</item>
+            <item>galleon</item>
+            <item>stern gallery (1)</item>
+            <item>stern gallery (2)</item>
+            <item>stern gallery (3)</item>
+            <item>stern gallery (4)</item>
+            <item>1. galley (1)</item>
+            <item>1. galley (2)</item>
+            <item>1. (flagship) galley (3)</item>
+            <item>(bastard) 1. galley (4)</item>
+            <item>(capitana) 1. galley (5)</item>
+            <item>galley construction</item>
+            <item>galley crew</item>
+            <item>2. galley (kitchen) (1)</item>
+            <item>2. galley (2)</item>
+            <item>2. galley (kitchen) (2)</item>
+            <item>2. galley (kitchen) (3)</item>
+            <item>(naut.) galoch</item>
+            <item>(etym.) galoch</item>
+            <item>gamba</item>
+            <item>gammoning (1)</item>
+            <item>gammoning (2)</item>
+            <item>gangam</item>
+            <item>(fore-&amp;-aft) gangway</item>
+            <item>(corredor) gangway</item>
+            <item>gangway (2)</item>
+            <item>(plank) gangway</item>
+            <item>gangway (side opening)</item>
+            <item>garboard</item>
+            <item>garwian</item>
+            <item>sail gasket (et al.) (1)</item>
+            <item>sail gasket (2)</item>
+            <item>(reefing) gasket</item>
+            <item>gasket</item>
+            <item>gassa</item>
+            <item>gate</item>
+            <item>gear</item>
+            <item>ghurab</item>
+            <item>girtline</item>
+            <item>giz</item>
+            <item>goa</item>
+            <item>gondola</item>
+            <item>good</item>
+            <item>good &amp; sufficient</item>
+            <item>gordin</item>
+            <item>grain (2) </item>
+            <item>grain (3)</item>
+            <item>grain (4)</item>
+            <item>cross-grained</item>
+            <item>granary (1)</item>
+            <item>granary (2)</item>
+            <item>grappling iron</item>
+            <item>grating</item>
+            <item>grave</item>
+            <item>gravel (1) </item>
+            <item>gravel (2)</item>
+            <item>gravel (3)</item>
+            <item>gravel (4)</item>
+            <item>gravel (5) (6)</item>
+            <item>gravel (7)</item>
+            <item>graving piece</item>
+            <item>grease</item>
+            <item>grip</item>
+            <item>griparion</item>
+            <item>(boat-) 1. gripe</item>
+            <item>2. grope</item>
+            <item>griping</item>
+            <item>grommet</item>
+            <item>ground-tackle</item>
+            <item>(of ropes) grow</item>
+            <item>g\uarda-</item>
+            <item>guardamano</item>
+            <item>guardian</item>
+            <item>guards (of the north star)</item>
+            <item>gudgeon</item>
+            <item>guess-rope</item>
+            <item>guilds</item>
+            <item>gulf</item>
+            <item>gull</item>
+            <item>gunpowder</item>
+            <item>gunwale</item>
+            <item>(orl) gunwale</item>
+            <item>gust (1)</item>
+            <item>gust (2)</item>
+            <item>gust (3)</item>
+            <item>gust (4)</item>
+            <item>gust (5)</item>
+            <item>gust</item>
+            <item>guy (1)</item>
+            <item>guy (2)</item>
+            <item>guy (3)</item>
+
+            <item>to hail</item>
+            <item>half-</item>
+            <item>halyard</item>
+            <item>halyard (1)</item>
+            <item>halyard (2)</item>
+            <item>halyard (3)</item>
+            <item>halyard (4)</item>
+            <item>halyard (5)</item>
+            <item>halyard (6)</item>
+            <item>halyard (7)</item>
+            <item>(lateen) halyard (8)</item>
+            <item>(iss-) halyard (9)</item>
+            <item>halyard (10)</item>
+            <item>(flag) halyard</item>
+            <item>gaff-sail halyard</item>
+            <item>halyard tackles</item>
+            <item>hambroline</item>
+            <item>hammer (1a)</item>
+            <item>hammer (1b)</item>
+            <item>hammer (2)</item>
+            <item>hammer (3)</item>
+            <item>hammer (4)</item>
+            <item>hammer (5)(6)</item>
+            <item>hammer</item>
+            <item>hammock</item>
+            <item>hand over hand</item>
+            <item>handle, handspike, lever</item>
+            <item>handle (v.)</item>
+            <item>handsomely</item>
+            <item>handspike</item>
+            <item>handy</item>
+            <item>harbor master</item>
+            <item>hard a lee!</item>
+            <item>hard a weather!</item>
+            <item>hard over!</item>
+            <item>hat</item>
+            <item>hatch(-cover)</item>
+            <item>hatch-cover</item>
+            <item>hatchet</item>
+            <item>hatchway (1)</item>
+            <item>hatchway (2)</item>
+            <item>hatchway</item>
+            <item>haul</item>
+            <item>haul (1)</item>
+            <item>haul (2)</item>
+            <item>haul (3)</item>
+            <item>haul (4)</item>
+            <item>haul forward</item>
+            <item>haul in</item>
+            <item>(sheethome) haul taut (1)</item>
+            <item>haul taut (1)</item>
+            <item>haul taut (2)</item>
+            <item>haul (the wind)</item>
+            <item>haul taut (3)</item>
+            <item>hawse-bolster</item>
+            <item>hawse-hole</item>
+            <item>hawse-piece</item>
+            <item>hawse-pipe</item>
+            <item>hawser, cable (1)</item>
+            <item>hawser (1)</item>
+            <item>hawser (2)</item>
+            <item>hawser (3)</item>
+            <item>hawser (4)</item>
+            <item>hawser (5)</item>
+            <item>hawser (6)</item>
+            <item>hawser (7)</item>
+            <item>hawser (8)</item>
+            <item>hawser (9)</item>
+            <item>hawser (10)</item>
+            <item>(καλωσ) hawser (11)</item>
+            <item>hawser</item>
+            <item>white hawser</item>
+            <item>hawser-laid rope</item>
+            <item>head</item>
+            <item>head(-ing)</item>
+            <item>(of sail) head</item>
+            <item>head for</item>
+            <item>head-land</item>
+            <item>head-rail</item>
+            <item>(of sail) head-rope</item>
+            <item>head-sail</item>
+            <item>head-timber</item>
+            <item>head-wind</item>
+            <item>(of rope) heart</item>
+            <item>heave (1)</item>
+            <item>heave</item>
+            <item>heave to et al.</item>
+            <item>heave to (1)</item>
+            <item>heave to (2)</item>
+            <item>heave to (3)</item>
+            <item>heave to (4)</item>
+            <item>heave to (5)</item>
+            <item>(misc.) heave to</item>
+            <item>heaving line</item>
+            <item>heel (of mast)</item>
+            <item>to heel</item>
+            <item>helm, tiller</item>
+            <item>helm down</item>
+            <item>helm-port</item>
+            <item>port the helm!</item>
+            <item>helm up</item>
+            <item>helm’s-man</item>
+            <item>helmsman</item>
+            <item>hemina</item>
+            <item>hemp</item>
+            <item>herring</item>
+            <item>high seas</item>
+            <item>high-water</item>
+            <item>hitch</item>
+            <item>blackwall hitch</item>
+            <item>clove-hitch</item>
+            <item>(half-)hitch</item>
+            <item>half-hitch</item>
+            <item>timber-hitch</item>
+            <item>hog</item>
+            <item>hoist (1)</item>
+            <item>hoist (2)</item>
+            <item>hoist (3)</item>
+            <item>hoist (4)</item>
+            <item>hoist (5)</item>
+            <item>(of sail) hoist (n.)</item>
+            <item>(anchor-)hold</item>
+            <item>hold (1)</item>
+            <item>hold (2)</item>
+            <item>hold (3)</item>
+            <item>lower hold</item>
+            <item>to hold fast</item>
+            <item>hold water</item>
+            <item>(pertus-) hole</item>
+            <item>hook</item>
+            <item>boat-hook</item>
+            <item>to hook</item>
+            <item>horse-transport (1)</item>
+            <item>horse-transport (2)</item>
+            <item>horse-transport (misc.)</item>
+            <item>(pump) hose</item>
+            <item>hounds</item>
+            <item>hour-glass (1)</item>
+            <item>hour-glass (2)</item>
+            <item>hour-glass</item>
+            <item>house (v.)</item>
+            <item>houseline</item>
+            <item>hug</item>
+            <item>hulk</item>
+            <item>hull</item>
+
+            <item>inch</item>
+            <item>insurance</item>
+            <item>interpreter</item>
+            <item>invoice</item>
+            <item>isba</item>
+            <item>island</item>
+
+            <item>jack</item>
+            <item>(a rope) to jam</item>
+            <item>jar (1)</item>
+            <item>jar</item>
+            <item>(cadus) jar</item>
+            <item>(dolium) jar</item>
+            <item>(olla) jar</item>
+            <item>jeer</item>
+            <item>jerk</item>
+            <item>jettison</item>
+            <item>jetty</item>
+            <item>jib</item>
+            <item>flying jib</item>
+            <item>standing jib</item>
+            <item>inner jib</item>
+            <item>middle jib</item>
+            <item>outer jib</item>
+            <item>jibe</item>
+            <item>jigger (1)</item>
+            <item>jigger (2)</item>
+            <item>(tackle) jigger</item>
+            <item>jŏcus</item>
+            <item>joiner</item>
+            <item>joint</item>
+            <item>joint (2)</item>
+            <item>(joinery) joint (n.)</item>
+            <item>(joinery) joint (v.)</item>
+            <item>junk</item>
+            <item>jury</item>
+
         </list>
+    </standOff>
+</TEI>
