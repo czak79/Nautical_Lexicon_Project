@@ -29,8 +29,6 @@
                     <orth>Anchors &amp; Mooring </orth>
                 </form>
                 <xr>(&amp; see Ropes)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>adrift, anchor, back-anchor, bower-anchor, best-bower anchor, small-bower
                         anchor, ebb anchor, flood anchor, grapnel anchor, kedge anchor, mooring
@@ -58,8 +56,6 @@
                 <form>
                     <orth>Belaying Devices</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>belay, belaying-pin, bitt, cross-bitt, to bitt, to bitt-pin, bitts,
                         bowline-bitts, cross-bitts, sheet-bitts, bollard, breastwork, chesstree,
@@ -72,11 +68,8 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Cargoes </orth>
+                    <orth>Cargoes (incl. stowage, containers)</orth>
                 </form>
-                <xr>(incl. stowage, containers)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>aburton, alum, alum, -ata, bale, barley, barrel, barrel-head,
                         barrel-stave, barrel-wood, basket, Brazil wood, broken down, bulk, bundle,
@@ -94,11 +87,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Commerce</orth>
+                    <orth>Commerce (incl. ship's business)</orth>
                 </form>
-                <xr>(incl. ship's business; &amp; see Cargoes, Measures)</xr>
-            </entry>
-            <entry>
+                <xr>(&amp; see Cargoes, Measures)</xr>
                 <form>
                     <orth>agio, angary, articles, ship’s articles, average, bank, barratry, barter,
                         bazaar, bezant, bill of health, bill of lading, bottomry, burden, caravan,
@@ -122,11 +113,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Cordage</orth>
+                    <orth>Cordage (incl. knots, splices)</orth>
                 </form>
-                <xr>(incl. knots, splices; &amp; see Ropes, Small Stuff)</xr>
-            </entry>
-            <entry>
+                <xr>(&amp; see Ropes, Small Stuff)</xr>
                 <form>
                     <orth>bowline, running-bowline, broom, Spanish broom, cable-laid, cat’s paw,
                         coil, cordage, esparto grass, eye-splice, fake, fiber, flax, flemish down,
@@ -145,8 +134,6 @@
                 <form>
                     <orth>Etymology</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>adjust, adjust, -amen, ankino, apostle, argosy, astella, -ata, -aticum,
                         barba, cant, cappuccio, contra, direct, drom, escora, English etymology,
@@ -167,8 +154,6 @@
                 <form>
                     <orth>Fasteners</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>bolt, to bolt, bolting, cotter, dowel, fastening, forelock, nail, nails,
                         peg, pin, treenail, washer</orth>
@@ -181,8 +166,6 @@
                 <form>
                     <orth>Fish &amp; Fishing</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>anchovy, cast, cod, cork, dolphin, to fish, fish-hook (2), fish-pond,
                         gangam, grip, herring, line, long line, mackerel, mesh, net, pair-trawler,
@@ -194,11 +177,8 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Galley Terminology</orth>
+                    <orth>Galley Terminology (incl. rowing)</orth>
                 </form>
-                <xr>(incl. rowing)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>admiral, against the wind, ahead!, alier, al-wazir, anchor, artimon, back
                         water, backwater turn, bagnio, beam, bench, bench-locker, biscuit,
@@ -224,8 +204,6 @@
                     <orth>Hull &amp; Deck Parts</orth>
                 </form>
                 <xr>(see also Belaying Devices)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>afterpeak, apostle, apron, astella, batten, beak-head, beam, deck beam,
                         hold beam, bench, bench-locker, bilge (1), bilge (2), turn of bilge,
@@ -263,11 +241,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Hydrography</orth>
+                    <orth>Hydrography (incl. sea conditions)</orth>
                 </form>
-                <xr>(incl. sea conditions; see also Topography)</xr>
-            </entry>
-            <entry>
+                <xr>(see also Topography)</xr>
                 <form>
                     <orth>arm, bank, bar, bay, bed, bottom, sea bottom, to break, breakers, canal,
                         channel, clean, coast, surgy coast, coral, cove, current, deep, ebb,
@@ -287,8 +263,6 @@
                     <orth>Maintenance</orth>
                 </form>
                 <xr>(see also Ship-building)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>boot-topping, bream, careen, careening-outrigger, careening-place,
                         careening-pontoon, careening-tackle, caulk, caulking-tools, cement, chinse,
@@ -302,10 +276,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Measures</orth>
+                    <orth>Measures &amp; Weights</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>arroba, artab, avoirdupois, bushel, cable-length, canna, carat,
                         crossbow-shot, cubit, fathom, food, goa, inch, league, liter, measures,
@@ -320,8 +293,6 @@
                 <form>
                     <orth>Miscellany</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>breakdown, chafe, chain, check, chest, sea chest, chock, clear, cleat,
                         complete, creak, to dip, downstream, drag, drown, English loanwords, fender,
@@ -341,8 +312,6 @@
                     <orth>Navigation &amp; Piloting</orth>
                 </form>
                 <xr>(see also Ship-handling)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>astrolabe, awake, awash, bearings, berth, safe-berth, binnacle, box (?),
                         buoy, chart, compass (1), compass (2), compass-needle, course, cross-staff,
@@ -358,11 +327,8 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>People</orth>
+                    <orth>People (incl. personal gear)</orth>
                 </form>
-                <xr>(incl. personal gear)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>admiral, agent, alier, al-wazir, bailo, barba, barbarian, boatman,
                         boatswain, boss, bow-man, boy, broker, brothel, cap, captain, carpenter,
@@ -385,10 +351,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Pidgin</orth>
+                    <orth>Pidgin Language</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and language term. -->
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>cider, fora, Frank, good, know, Lingua Franca, merchandise, roba, small,
                         take</orth>
@@ -401,8 +366,6 @@
                 <form>
                     <orth>Placenames</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>candia, Cos, Fraxinetum, Kaisareia, Lepanto, Mediterranean, Morea, Roma,
                         la Tana, Trebizond, Venice</orth>
@@ -415,8 +378,6 @@
                 <form>
                     <orth>Port Facilities</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>bed (?), berth, breakwater, bridge, catabolum, cove, crane, dock, dredge,
                         fondaco, gate, granary, Kaisareia, lazaret, light, loading place, magazine,
@@ -432,8 +393,6 @@
                     <orth>Position/Direction</orth>
                 </form>
                 <xr>(see also Wind)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>abaft, abeam, aboard, abreast, across, across from, aft, ahead, aloft,
                         along, alongside, amidships, astern, athwart, athwart-hawse, beam, before,
@@ -448,10 +407,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Provisions</orth>
+                    <orth>Food &amp; Provisions</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>beans, beverages, biscuit, bottle, brine, cider, coop, provisions, rice,
                         salthorse, stockfish, water, wood, firewood</orth>
@@ -462,11 +420,10 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Rigging</orth>
+                    <orth>Rigging Implements</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
                 <xr>(see also Shiphandling)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>amain, backstay, backstay-stool, becket, belay, boatswain’s chair,
                         bobstay, bowline, bowse, brace, brail up, bridle, bowline bridle, towing
@@ -498,10 +455,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Ropes</orth>
+                    <orth>Ropes &amp; Cables</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>barbet, bend, carrick-bend, sheet-bend, bight, breaking-point, cable,
                         cable-laid, cablet, cable-tier, hawser, white hawser, hawser-laid, painter,
@@ -515,10 +471,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Sails</orth>
+                    <orth>Sail Types</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>artemo, ave Maria, batten, bend, bolt-rope, bonnet, bunt, canvas, clew,
                         course, cringle, crossjack, drop, earing, eyelet, flap, foot, footrope (?),
@@ -542,8 +497,6 @@
                     <orth>Ship-building</orth>
                 </form>
                 <xr>(see also Fasteners, Hull &amp; Deck Parts, Maintenance)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>arsenal, astella, batten, molding batten, beam (?), bevel, blocks, stock
                         blocks, board, boards, breadth, extreme breadth, build, butt, buttock,
@@ -574,11 +527,9 @@
                     <orth>Ship-handling</orth>
                 </form>
                 <xr>(see also Belaying Devices, Navigation, Rigging, Winds)</xr>
-            </entry>
-            <entry>
                 <form>
-                    <orth>aback, adrift, come adrift, afloat, against the wind, aground, run
-                        around, ahull, alongsde, answer, apeak, approachable, arrive, atrip, avast,
+                    <orth>aback, adrift, come adrift, afloat, against the wind, aground, run around,
+                        ahull, alongsde, answer, apeak, approachable, arrive, atrip, avast,
                         aye-aye!, back and fill, back down, back water, backwater turn, bail,
                         ballast, to ballast, bare poles, under bare poles, to breach, beam-ends, on
                         her beam-ends, bear up, beat, becalm, before the wind, beneaped, bending,
@@ -614,8 +565,6 @@
                 <form>
                     <orth>Small Stuff</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>fox, hambroline, houseline, marl, marline, nettle, ratline-stuff,
                         round-line, sennit, small-stuff, stop, string, twin, sail twine</orth>
@@ -626,10 +575,9 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Spars</orth>
+                    <orth>Ships' Spars</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>boom, jib boom, boomkin, booms, bowsprit, bowsprit-bees, bowsprit-pillow,
                         cap, mast cap, careening-outrigger, cheeks, crossjack-yard, crosstree,
@@ -647,11 +595,10 @@
         <superEntry>
             <entry>
                 <form>
-                    <orth>Tackle</orth>
+                    <orth>Tackle Devices</orth>
+                    <!-- Edited title from the Hartley original for full distinction between header and term below. -->
                 </form>
                 <xr>(see also Anchoring)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>apparel, awning, belfry, bell, block, cheek-block, clump-block,
                         fiddle-block, gin-block, leading-block, snatch-block, block-becket,
@@ -675,8 +622,6 @@
                     <orth>Tools</orth>
                 </form>
                 <xr>(see also Maintenance, Ship-building)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>adze, awl, ax, barr, broom, brush, bucket, caulking-tools, chisel,
                         crowbar, draw-knife, drill, fid, splicing fid, file, funnel, gaff, hammer,
@@ -694,12 +639,10 @@
                     <orth>Topography</orth>
                 </form>
                 <xr>(see also Hydrography)</xr>
-            </entry>
-            <entry>
                 <form>
-                    <orth>beach, beaching-place, cape, coast, ford, headland, island,
-                        landing-place, mainland, point (1), river, road, rock, saltworks, shore,
-                        steep-shore, toward-shore, steep, terra firma, village</orth>
+                    <orth>beach, beaching-place, cape, coast, ford, headland, island, landing-place,
+                        mainland, point (1), river, road, rock, saltworks, shore, steep-shore,
+                        toward-shore, steep, terra firma, village</orth>
                 </form>
             </entry>
         </superEntry>
@@ -709,8 +652,6 @@
                 <form>
                     <orth>Vessel types</orth>
                 </form>
-            </entry>
-            <entry>
                 <form>
                     <orth>advice-boat, argosy, balam, ballast-lighter, barca canterii, barcaccia,
                         barca longa, barge, fishing-barge, bark, bertone, bilander, boat,
@@ -734,8 +675,6 @@
                     <orth>Wind &amp; Weather</orth>
                 </form>
                 <xr>(see also Position)</xr>
-            </entry>
-            <entry>
                 <form>
                     <orth>aback, to back, bad, before the wind, blow, bonanza, breeze, land-breeze,
                         sea-breeze, calm, cross-wind, down wind, etesian, fog, fresh, gust, haul
