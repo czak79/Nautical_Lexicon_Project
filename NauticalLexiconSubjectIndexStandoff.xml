@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-    
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 
@@ -21,7 +20,590 @@
         </fileDesc>
     </teiHeader>
 
-    <standOff>
+<!--Says that targetDatcat is not allowed as an attribute-->
+    <text>
+        <body>
+            <entry type="category">
+                <lbl xml:id="anchorsmooring">Anchors &amp; Mooring</lbl>
+                <xr targetDatcat="xyz">(&amp; see Ropes)</xr>
+                <entry type="member">
+                    <lbl targetDatcat="#term">adrift</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">back-anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">bower-anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">best-bower anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">small-bower anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">ebb anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">flood anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">grapnel anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">kedge anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">mooring anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">sheet anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">spare anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">stream anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor acockbill</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-arm</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-buoy</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-crown</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-crane</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-fluke</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-ring</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-shank</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-shoe</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchor-stock</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchorage</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">anchorage tax</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">athwart-hawse</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">awash</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">back</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">bend/anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">break out</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">buoy</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">buoy-rope</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cable-tier</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-bar</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-barrel</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-drumhead</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-pawl</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-saucer</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-spindle</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">capstan-whelp</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">carry out</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cat</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cat-back</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cat-block</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cat-fall</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cathead,</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cathead-stopper</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cathead cat-hook</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cathead-tackle</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">clinch</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">davit</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">dolphin,</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">drag anchor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to fish</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to fish-block</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to fish-boom</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">fish-hook (1)</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">fish-hook-pendant</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">fish-hook-tackle</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">float</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">foul</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">freshen hawse</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">ground-tackle</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">grow</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">heave</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">hold</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">messenger</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">moor</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">moorings</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">mooring-post</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">mooring-post-swivel</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">nipper</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">puddening</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">range</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">rats</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">road</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">run out</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">scope</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">shank-painter</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">shot</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">cable-shot</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to slip</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">spring-line</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">stopper</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to stopper,</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">to swing</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">turn</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">turn in the hawse</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">underrun</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">up and down</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">walk back</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">warp (1)</lbl>
+                </entry>
+                <entry type="member">
+                    <lbl targetDatcat="#term">weigh</lbl>
+                </entry>
+            </entry>
+
+               <entry type="category">
+                   <lbl xml:id="belayingdevices">Belaying Devices</lbl>
+                   <entry type="member"><lbl targetDatcat="term">belay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">belaying-pin</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bitt</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cross-bitt</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to bitt</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to bitt-pin</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bitts</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bowline-bitts</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cross-bitts</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">sheet-bitts</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bollard</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">breastwork</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">chesstree</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cleat</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fasten</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">haul taut</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">kevel</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">knight</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">knighthead</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">norman</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">rack</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">pin-rack</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">range</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tako</lbl></entry>
+               </entry>
+
+                   <entry type="category">
+                       <lbl xml:id="cargoes">Cargoes (incl. stowage, containers)</lbl>
+                       <entry type="member"><lbl targetDatcat="term">aburton</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">alum</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">-ata</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bale</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barley</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barrel</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barrel-head</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barrel-stave</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barrel-wood</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">basket</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">Brazil wood</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">broken down</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bulk</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bundle</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bushel</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bushel</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cant-</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cargo</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">case</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cask</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">chock</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">complete</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cotton</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">crane</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">discharge</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">dunnage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">embark</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fish-sauce</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">frame</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">in-frame</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fustian</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">grain</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">jar</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">last</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">lift</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">light</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">lighter</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">load</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to load</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">loading place</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">log-book</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">malmsey</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">massicot</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">mastic</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">millet</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">overload</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">package</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">passenger</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">pepper</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">pilgrim</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">purple</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">rice</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">rummage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">sable fur</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">sack</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">scarce</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">separation</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">shift</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">shifting-boards</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">shovelling</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">silk</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">slave</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">spice</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">stow</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">stowage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">stowaway</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">sugar</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tarragon</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tier</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">trim</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">ullage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">unloading</lbl></entry>
+                       <entry type="member"><lbl targetDatcat="term">wheat</lbl></entry>
+                   </entry>
+
+
+                       <entry type="category">
+                           <lbl xml:id="commerce">Commerce (incl. ship's business)</lbl>
+                           <xr targetDatcat="xyz">(&amp; see Cargoes, Measures)</xr>
+                           <entry type="member"><lbl targetDatcat="term">agio</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">angary</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">articles</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">ship’s articles</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">average</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bank</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barratry</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">barter</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bazaar</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bezant</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bill of health</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bill of lading</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">bottomry</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">burden</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">caravan</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cataplus</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">charter</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">charter-party</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">coin</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">commenda</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">commerce</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">contraband</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">contract</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">convoy</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">costs</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">counter (1)</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">crew-list</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">customs</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">deadfreight</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">deadweight</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">demurrage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">denarius</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">dispatch</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">dockage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">dues</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">earnest money</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">embargo</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">exchange</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">factory</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fix</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">florin</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fondaco</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">free overside</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">free port</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">freight</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">good and sufficient</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">insurance</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">invoice</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">jettison</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">keel duty</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">lay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">days</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">lodge</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">lumpsum</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">magazine</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">manifest</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">maravedi</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">mark</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">market</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">matapan</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">maximum</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">minimum</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">merchandise</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">money</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">moorage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">package</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">passage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">passport</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">pilotage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">place</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">portage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">post (2)</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">pratique</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">primage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">prize</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">protest</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">quarantine</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">raid</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">risk</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">rob</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">roll</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">safe and sound</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">salvage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">scale</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">share</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">solidus</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">staple</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">stay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">sterling</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">storehouse</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tare</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tariff</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">toll</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tonnage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tax</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">trade</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">traffic</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tramp</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tranship</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">transit</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">truck</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">voyage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">weigh</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">weighing</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">wharfage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to winter</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">zero</lbl></entry>
+                       </entry>
+
+            <entry type="category">
+                <lbl xml:id="cordage">Cordage (incl. knots, splices)</lbl>
+                <xr targetDatcat="xyz">(&amp; see Ropes, Small Stuff)</xr>
+                <entry type="member"><lbl targetDatcat="term">bowline</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">running-bowline</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">broom</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">Spanish broom</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cable-laid</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cat’s paw</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">coil</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">cordage</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">esparto grass</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">eye-splice</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fake</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">fiber</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">flax</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">flemish down</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">hawser-laid</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">heart</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">hemp</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">hitch</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">blackwall-hitch</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">clove-hitch</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">half-hitch</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">timber-hitch</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">junk</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">kink</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">knot (1)</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">running knot</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">lay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">left-handed lay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">plain lay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">right-handed lay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">water lay</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">marry</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">mouse</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to part</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">pointing</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">ropewalk</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">running know</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">sheepshank</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">size</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">rope size</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">skein</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">spart</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">spin</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">splice</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">strand</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tail</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tar</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to tar</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tarred</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">tie</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">turn</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">untarred</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">untie</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">wall-knot</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">to whip</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">yarn</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">rope yarn</lbl></entry>
+<entry type="member"><lbl targetDatcat="term">spun yarn</lbl></entry>
+           </entry>
+            
+            </entry>
+        </body>
+    </text>
+
+    <!--Orignal attempt is below-->
+
+   <!--   <standOff>
 
         <superEntry>
             <entry>
@@ -50,7 +632,7 @@
                 </form>
             </entry>
         </superEntry>
-
+    
         <superEntry>
             <entry>
                 <form>
@@ -64,7 +646,7 @@
                 </form>
             </entry>
         </superEntry>
-
+    
         <superEntry>
             <entry>
                 <form>
@@ -109,7 +691,6 @@
             </entry>
         </superEntry>
 
-
         <superEntry>
             <entry>
                 <form>
@@ -128,7 +709,8 @@
                 </form>
             </entry>
         </superEntry>
-
+-->
+    
         <superEntry>
             <entry>
                 <form>
