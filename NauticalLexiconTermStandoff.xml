@@ -23,21 +23,21 @@
 
     <standOff>
         <list>
-            <item xml:id="ABC">a hull</item>
-            <item>aback (1)</item>
-            <item>aback (2)</item>
-            <item>(take) aback</item>
-            <item>abaft</item>
-            <item>abeam</item>
-            <item>aboard</item>
-            <item>abreast</item>
-            <item>aburton</item>
-            <item>(stowage) aburton</item>
-            <item>across</item>
-            <item>across from</item>
-            <item>adjust</item>
-            <item>admiral (1)</item>
-            <item>admiral (2)</item>
+            <item xml:id="ahu01">a hull</item>
+            <item xml:id="aba11">aback (1)</item>
+            <item xml:id="aba21">aback (2)</item>
+            <item xml:id="abata01">(take) aback</item>
+            <item xml:id="aba02">abaft</item>
+            <item xml:id="abe01">abeam</item>
+            <item xml:id="abo01">aboard</item>
+            <item xml:id="abr01">abreast</item>
+            <item xml:id="abu01">aburton</item>
+            <item xml:id="abust02">(stowage) aburton</item>
+            <item xml:id="acr01">across</item>
+            <item xml:id="acr02">across from</item>
+            <item xml:id="adj01">adjust</item>
+            <item xml:id="adm11">admiral (1)</item>
+            <item xml:id="adm21">admiral (2)</item>
             <item>adrift</item>
             <item>come adrift (from anchor)</item>
             <item>advice-boat</item>
@@ -257,15 +257,15 @@
             <item>bay (misc.)</item>
             <item>bazaar</item>
             <item>beach (1)</item>
-            <item>beach (2)</item>
+            <item xml:id="bea201">beach (2)</item>
             <item>beach (3)</item>
             <item>to beach</item>
             <item>beach(-ing)(place)</item>
             <item>beak(-head)</item>
             <item>beam</item>
-            <item> 1. beam (1)</item>
-            <item>1. beam (2)</item>
-            <item>1. beam (3)</item>
+            <item xml:id="bea1101">1. beam (1)</item>
+            <item xml:id="bea1201">1. beam (2)</item>
+            <item xml:id="bea1301">1. beam (3)</item>
             <item>1. deck-beam (5)</item>
             <item>1. beam (6)</item>
             <item>(transtrum) 1. beam (6)</item>
