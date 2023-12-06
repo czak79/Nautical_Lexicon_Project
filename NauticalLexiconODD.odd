@@ -912,15 +912,15 @@
         </classSpec>
 
 
-        <elementSpec ident="orth" module="dictionaries" mode="change">
-          <constraintSpec ident="xmlID-on-orth" scheme="schematron">
+        <elementSpec ident="item" module="dictionaries" mode="change">
+          <constraintSpec ident="xmlID-on-item" scheme="schematron">
             <constraint>
-              <sch:rule context="tei:orth/@ref">
-                <sch:let name="standoff" value=""/>
-                <sch:let name="" value="$standoff//tei:orth/@xml:id"/>
-                <sch:let name="orthRef" value="for $i in $orth return concat('#', $i)"/>
+              <sch:rule context="tei:item/@ref">
+                <sch:let name="standoff" value="https://raw.githubusercontent.com/czak79/Nautical_Lexicon_Project/main/NauticalLexiconTermStandoff.xml"/>
+                <sch:let name="item" value="$standoff//tei:item/@xml:id"/>
+                <sch:let name="itemRef" value="for $i in $item return concat('#', $i)"/>
                 <sch:let name="error" value="."/>
-                <sch:assert test=". = $orthRef" role="warning">
+                <sch:assert test=". = $itemRef" role="warning">
                   <sch:value-of select="$error"/> is not currently in use. </sch:assert>
               </sch:rule>
             </constraint>
@@ -942,8 +942,8 @@
           <constraintSpec ident="ref-on-bibl" scheme="schematron">
             <constraint>
               <sch:rule context="tei:bibl/@ref">
-                <sch:let name="standoff" value=""/>
-                <sch:let name="" value="$standoff//tei:bibl/@xml:id"/>
+                <sch:let name="standoff" value="https://raw.githubusercontent.com/czak79/Nautical_Lexicon_Project/main/NauticalLexiconBiblStandoff.xml"/>
+                <sch:let name="bibl" value="$standoff//tei:bibl/@xml:id"/>
                 <sch:let name="biblRef" value="for $i in $bibl return concat('#', $i)"/>
                 <sch:let name="error" value="."/>
                 <sch:assert test=". = $biblRef" role="warning">
