@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+<TEI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.tei-c.org/ns/1.0 NauticalLexiconODD.html"
+  xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+  xmlns:svg="http://www.w3.org/2000/svg" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+  xmlns:math="http://www.w3.org/1998/Math/MathML">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -12,8 +14,8 @@
         <p>Publication Information - multilingual glossary of nautical terms</p>
       </publicationStmt>
       <sourceDesc>
-        <p>This project is based on 3x5 index cards of glossary information and notes which
-          have been transcribed</p>
+        <p>This project is based on 3x5 index cards of glossary information and notes which have
+          been transcribed</p>
       </sourceDesc>
     </fileDesc>
   </teiHeader>
@@ -25,8 +27,10 @@
         <moduleRef key="tei"/>
         <moduleRef key="textstructure" except="div1 div2 div3 div4 div5 div6 div7"/>
         <moduleRef key="namesdates"/>
-        <moduleRef key="dictionaries" include="superEntry entry re sense figure standOff bibl orth note ref def xr etym form usg anchor"/>
+        <moduleRef key="dictionaries"
+          include="superEntry entry re sense figure standOff bibl orth note ref def xr etym form usg anchor"/>
 
+        <!--  
         <classSpec type="atts" ident="att.canonical" module="tei" mode="change">
           <attList>
             <attDef ident="ref" mode="change">
@@ -46,7 +50,7 @@
               </constraintSpec>
             </attDef>
           </attList>
-        </classSpec>
+        </classSpec> -->
 
         <classSpec ident="att.global" type="atts" mode="change">
           <attList>
@@ -772,11 +776,8 @@
                 </valItem>
                 <valItem ident="ar">
                   <gloss>Arabic</gloss>
-                  <desc>Appears as "Arab" and "Ar" on Hartley's notecards</desc>
-                </valItem>
-                <valItem ident="msAr">
-                  <gloss>Modern Standard Arabic</gloss>
-                  <desc>Appears as "MS Arab" on Hartley's notecards</desc>
+                  <desc>Appears as "Arab" and "Ar" and "MS Arab" and "Modern Standard Arabic" on
+                    Hartley's notecards</desc>
                 </valItem>
                 <valItem ident="tunAr">
                   <gloss>Tunisian Arabic</gloss>
@@ -916,13 +917,11 @@
             <constraint>
               <sch:rule context="tei:orth/@ref">
                 <sch:let name="standoff" value=""/>
-                <sch:let name=""
-                  value="$standoff//tei:orth/@xml:id"/>
-                <sch:let name="orthRef" value="for $i in $orth return concat('#', $i)"></sch:let>
-                <sch:let name="error" value ="."/>
+                <sch:let name="" value="$standoff//tei:orth/@xml:id"/>
+                <sch:let name="orthRef" value="for $i in $orth return concat('#', $i)"/>
+                <sch:let name="error" value="."/>
                 <sch:assert test=". = $orthRef" role="warning">
-                  <sch:value-of select="$error"/> is not currently in use.
-                </sch:assert>        
+                  <sch:value-of select="$error"/> is not currently in use. </sch:assert>
               </sch:rule>
             </constraint>
           </constraintSpec>
@@ -930,10 +929,11 @@
             <attDef ident="xml:lang" mode="change" usage="req"/>
           </attList>
           <exemplum>
-            <eg></eg>
+            <eg/>
           </exemplum>
           <remarks>
-            <p>In this example, each term is associated with a reference ID associated only with that term. These values are listed in the standoff markup.</p>
+            <p>In this example, each term is associated with a reference ID associated only with
+              that term. These values are listed in the standoff markup.</p>
           </remarks>
         </elementSpec>
 

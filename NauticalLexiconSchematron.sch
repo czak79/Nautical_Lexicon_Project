@@ -4,6 +4,14 @@
     <sch:ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     
 <sch:pattern>
+    
+    <sch:rule context="*">
+        <sch:let name="id" value="@xml:id"/>
+        <sch:report test="preceding-sibling::element()[@xml:id = $id]">
+            This @xml:id is already in use.
+        </sch:report>
+    </sch:rule>
+    
     <sch:rule context="tei:list//tei:item/@ref">
         <sch:let name="termstandoff" value="doc('https://raw.githubusercontent.com/czak79/Nautical_Lexicon_Project/main/NauticalLexiconTermStandoff.xml')"/>
         <sch:let name="termIDs"
