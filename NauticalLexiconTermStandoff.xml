@@ -26,13 +26,13 @@
             <item xml:id="a_hull">a hull</item>
             <item xml:id="aback1">aback (1)</item>
             <item xml:id="aback2">aback (2)</item>
-            <item>(take) aback</item>
+            <item xml:id="takeaback">(take) aback</item>
             <item xml:id="abaft">abaft</item>
             <item xml:id="abeam">abeam</item>
             <item xml:id="aboard">aboard</item>
             <item xml:id="abreast">abreast</item>
             <item xml:id="aburton">aburton</item>
-            <item>(stowage) aburton</item>
+            <item xml:id="stowageaburton">(stowage) aburton</item>
             <item xml:id="across">across</item>
             <item xml:id="acrossfrom">across from</item>
             <item xml:id="adjust">adjust</item>
@@ -54,7 +54,7 @@
             <item xml:id="runaground1">run aground (1)</item>
             <item xml:id="runaground2">run aground (2)</item>
             <item xml:id="ahead">ahead</item>
-            <item xml:id="ahead!">ahead!</item>
+            <item xml:id="ahead_">ahead!</item>
             <item xml:id="ahull">ahull</item>
             <item xml:id="alee">alee</item>
             <item xml:id="alier">alier</item>
@@ -69,7 +69,7 @@
             <item xml:id="alum">alum</item>
             <item xml:id="al">al-wazir</item>
             <item xml:id="amain">amain</item>
-            <item>-amen</item>
+            <item xml:id="amenitem">-amen</item>
             <item xml:id="amidships">amidships</item>
             <item xml:id="anchor">anchor</item>
             <item xml:id="anchor1">anchor (1)</item>
@@ -81,8 +81,8 @@
             <item xml:id="small">small-bower anchor</item>
             <item xml:id="ebb">ebb anchor</item>
             <item xml:id="flood">flood-anchor</item>
-            <item>(grapnel) anchor</item>
-            <item>(kedge) anchor</item>
+            <item xml:id="grapnelanchor">(grapnel) anchor</item>
+            <item xml:id="kedgeanchor">(kedge) anchor</item>
             <item xml:id="mooring">mooring-anchor</item>
             <item xml:id="sheet">sheet anchor</item>
             <item xml:id="spare">spare anchor</item>
@@ -107,15 +107,15 @@
             <item xml:id="toanchormisc">to anchor (misc.)</item>
             <item xml:id="anchorage1">anchorage (1)</item>
             <item xml:id="anchorage2">anchorage (2)</item>
-            <item>(misc.) anchorage (3)</item>
-            <item>(jal) anchorage (4)</item>
-            <item>(jal) anchorage (5)</item>
+            <item xml:id="miscanchorage">(misc.) anchorage (3)</item>
+            <item xml:id="jalanchorage4">(jal) anchorage (4)</item>
+            <item xml:id="jalanchorage5">(jal) anchorage (5)</item>
             <item xml:id="anchorage6">anchorage (6)</item>
             <item xml:id="anchorage7">anchorage (7)</item>
             <item xml:id="anchorage8">anchorage (8)</item>
             <item xml:id="anchorage9">anchorage (9)</item>
             <item xml:id="anchorage">anchorage</item>
-            <item>(tax) anchorage</item>
+            <item xml:id="taxanchorage">(tax) anchorage</item>
             <item xml:id="anchovy1">anchovy (1)</item>
             <item xml:id="andhovy2">andhovy (2)</item>
             <item xml:id="anchovy">anchovy</item>
@@ -133,13 +133,13 @@
             <item xml:id="arrive1">arrive (1)</item>
             <item xml:id="arrive2">arrive (2)</item>
             <item xml:id="arroba">arroba</item>
-            <item>(arab) arsenal</item>
-            <item>(ital.) arsenal</item>
-            <item>(gk) arsenal</item>
-            <item>(misc.) arsenal</item>
-            <item>(span.) arsenal</item>
-            <item>(cat.) arsenal</item>
-            <item>(fr.) arsenal</item>
+            <item xml:id="arabarsenal">(arab) arsenal</item>
+            <item xml:id="italarsenal">(ital.) arsenal</item>
+            <item xml:id="gkarsenal">(gk) arsenal</item>
+            <item xml:id="miscarsenal">(misc.) arsenal</item>
+            <item xml:id="spanarsenal">(span.) arsenal</item>
+            <item xml:id="catarsenal">(cat.) arsenal</item>
+            <item xml:id="frarsenal">(fr.) arsenal</item>
             <item xml:id="artab">artab</item>
             <item xml:id="ship">ship’s articles</item>
             <item xml:id="artimon">artimon</item>
@@ -147,11 +147,11 @@
             <item xml:id="astern">astern</item>
             <item xml:id="astern1">astern (1)</item>
             <item xml:id="astrolabe">astrolabe</item>
-            <item>-ata</item>
+            <item xml:id="ataitem">-ata</item>
             <item xml:id="athwart">athwart</item>
             <item xml:id="athwarthawse">athwart-hawse</item>
-            <item>-aticum</item>
-            <item>(sail) atrip</item>
+            <item xml:id="aticumitem">-aticum</item>
+            <item xml:id="sailatrip">(sail) atrip</item>
             <item xml:id="avast1">avast! (1)</item>
             <item xml:id="avast2">avast! (2)</item>
             <item xml:id="avemaria">ave maria</item>
@@ -168,312 +168,312 @@
             <item xml:id="ax2">ax (2)</item>
             <item xml:id="ax3">ax (3)</item>
             <item xml:id="ax4">ax (4)</item>
-            <item>(broad) ax</item>
+            <item xml:id="broadax">(broad) ax</item>
             <item xml:id="aye">aye, aye!</item>
 
             <item xml:id="to">to back (an anchor)</item>
-            <item>(wind) to back </item>
-            <item xml:id="back">back and fill</item>
-            <item xml:id="to">to back down</item>
-            <item xml:id="back">back-stay</item>
-            <item xml:id="backstay">backstay (1)</item>
-            <item xml:id="backstay">backstay (2)</item>
-            <item xml:id="backstay">backstay (3)</item>
-            <item xml:id="backstay">backstay (4)</item>
+            <item xml:id="windto">(wind) to back </item>
+            <item xml:id="backfill">back and fill</item>
+            <item xml:id="tobackdown">to back down</item>
+            <item xml:id="backstay">back-stay</item>
+            <item xml:id="backstay1">backstay (1)</item>
+            <item xml:id="backstay2">backstay (2)</item>
+            <item xml:id="backstay3">backstay (3)</item>
+            <item xml:id="backstay4">backstay (4)</item>
             <item xml:id="preventer">preventer-backstay</item>
-            <item xml:id="backstay">backstay stool</item>
-            <item xml:id="back">back water</item>
-            <item xml:id="back">back-water</item>
-            <item xml:id="back">back water-turn</item>
-            <item xml:id="back">back-water turn</item>
-            <item>(of weather) bad</item>
+            <item xml:id="backstaystool">backstay stool</item>
+            <item xml:id="backwater">back water</item>
+            <item xml:id="back_water">back-water</item>
+            <item xml:id="backwater_turn">back water-turn</item>
+            <item xml:id="back_waterturn">back-water turn</item>
+            <item xml:id="ofweatherbad">(of weather) bad</item>
             <item xml:id="bagnio">bagnio</item>
             <item xml:id="bail">bail</item>
             <item xml:id="bailo">bailo</item>
             <item xml:id="balam">balam</item>
             <item xml:id="bale">bale</item>
-            <item xml:id="ballast">ballast (1)</item>
-            <item xml:id="ballast">ballast (2)</item>
-            <item xml:id="ballast">ballast (3)</item>
-            <item xml:id="to">to ballast</item>
+            <item xml:id="ballast1">ballast (1)</item>
+            <item xml:id="ballast2">ballast (2)</item>
+            <item xml:id="ballast3">ballast (3)</item>
+            <item xml:id="toballast">to ballast</item>
             <item xml:id="ballast">ballast</item>
-            <item xml:id="ballast">ballast-lighter</item>
+            <item xml:id="ballastlighter">ballast-lighter</item>
             <item xml:id="bank">bank</item>
-            <item>(sand)bank</item>
-            <item xml:id="bank">bank (finan.)</item>
-            <item>(sand) bar (1)</item>
+            <item xml:id="sandbank">(sand)bank</item>
+            <item xml:id="bank_finan">bank (finan.)</item>
+            <item xml:id="sandbar1">(sand) bar (1)</item>
             <item xml:id="bar">bar (1)</item>
-            <item>(sand) bar (2)</item>
-            <item>(sand) bar (3)</item>
+            <item xml:id="sandbar2">(sand) bar (2)</item>
+            <item xml:id="sandbar3">(sand) bar (3)</item>
             <item xml:id="barba">barba</item>
             <item xml:id="barbarian">barbarian</item>
             <item xml:id="barbet">barbet</item>
             <item xml:id="barca">barca canterii</item>
             <item xml:id="barcaccia">barcaccia</item>
-            <item xml:id="barca">barca longa</item>
-            <item xml:id="barge">barge (1)</item>
-            <item xml:id="barge">barge (2)</item>
+            <item xml:id="barcalonga">barca longa</item>
+            <item xml:id="barge1">barge (1)</item>
+            <item xml:id="barge2">barge (2)</item>
             <item xml:id="fishing">fishing barge</item>
             <item xml:id="bark">bark</item>
             <item xml:id="barley">barley</item>
             <item xml:id="baron">baron</item>
             <item xml:id="barratry">barratry</item>
             <item xml:id="barrel">barrel</item>
-            <item xml:id="barrel">barrel (1)</item>
-            <item xml:id="barrel">barrel (2)</item>
-            <item xml:id="barrel">barrel (3)</item>
-            <item xml:id="barrel">barrel (4)</item>
-            <item xml:id="barrel">barrel (5)</item>
-            <item xml:id="barrel">barrel (6)</item>
-            <item xml:id="barrel">barrel (7)</item>
-            <item xml:id="barrel">barrel (8)</item>
-            <item xml:id="barrel">barrel (9)</item>
-            <item xml:id="barrel">barrel (10)</item>
-            <item xml:id="barrel">barrel (11)</item>
+            <item xml:id="barrel1">barrel (1)</item>
+            <item xml:id="barrel2">barrel (2)</item>
+            <item xml:id="barrel3">barrel (3)</item>
+            <item xml:id="barrel4">barrel (4)</item>
+            <item xml:id="barrel5">barrel (5)</item>
+            <item xml:id="barrel6">barrel (6)</item>
+            <item xml:id="barrel7">barrel (7)</item>
+            <item xml:id="barrel8">barrel (8)</item>
+            <item xml:id="barrel9">barrel (9)</item>
+            <item xml:id="barrel10">barrel (10)</item>
+            <item xml:id="barrel11">barrel (11)</item>
             <item xml:id="barrels">barrels (collect.)</item>
-            <item xml:id="barrel">barrel-head</item>
-            <item xml:id="barrel">barrel-stave</item>
-            <item xml:id="barrel">barrel-wood</item>
+            <item xml:id="barrelhead">barrel-head</item>
+            <item xml:id="barrelstave">barrel-stave</item>
+            <item xml:id="barrelwood">barrel-wood</item>
             <item xml:id="barter">barter</item>
             <item xml:id="basket">basket (1)</item>
-            <item>(sport) basket (2)</item>
-            <item>(canist) basket (3)</item>
-            <item>(cist) basket (4)</item>
-            <item>(cofin) basket (5)</item>
-            <item>(cof) basket 6</item>
-            <item>(carg) basket (8)</item>
-            <item>(banast) basket (9)</item>
-            <item xml:id="basket">basket (10)</item>
-            <item xml:id="basket">basket (misc.)</item>
+            <item xml:id="sportbasket">(sport) basket (2)</item>
+            <item xml:id="canistbasket">(canist) basket (3)</item>
+            <item xml:id="cistbasket">(cist) basket (4)</item>
+            <item xml:id="cofinbasket">(cofin) basket (5)</item>
+            <item xml:id="cofbasket">(cof) basket 6</item>
+            <item xml:id="cargbasket">(carg) basket (8)</item>
+            <item xml:id="banastbasket">(banast) basket (9)</item>
+            <item xml:id="basket10">basket (10)</item>
+            <item xml:id="basketmisc">basket (misc.)</item>
             <item xml:id="batten">batten</item>
-            <item>(molding) batten</item>
-            <item xml:id="bay">bay (1)</item>
-            <item xml:id="bay">bay, cove (2)</item>
-            <item xml:id="bay">bay (2)</item>
-            <item xml:id="bay">bay (3)</item>
-            <item xml:id="bay">bay (small) (4)</item>
-            <item xml:id="bay">bay (5)</item>
-            <item xml:id="bay">bay (miscell.)</item>
-            <item xml:id="bay">bay (misc.)</item>
+            <item xml:id="moldingbatten">(molding) batten</item>
+            <item xml:id="bay1">bay (1)</item>
+            <item xml:id="bay_cove2">bay, cove (2)</item>
+            <item xml:id="bay2">bay (2)</item>
+            <item xml:id="bay3">bay (3)</item>
+            <item xml:id="bay4">bay (small) (4)</item>
+            <item xml:id="bay5">bay (5)</item>
+            <item xml:id="baymiscell">bay (miscell.)</item>
+            <item xml:id="baymisc">bay (misc.)</item>
             <item xml:id="bazaar">bazaar</item>
-            <item xml:id="beach">beach (1)</item>
-            <item xml:id="bea201">beach (2)</item>
-            <item xml:id="beach">beach (3)</item>
-            <item xml:id="to">to beach</item>
+            <item xml:id="beach1">beach (1)</item>
+            <item xml:id="beach2">beach (2)</item>
+            <item xml:id="beach3">beach (3)</item>
+            <item xml:id="tobeach">to beach</item>
             <item xml:id="beach">beach(-ing)(place)</item>
             <item xml:id="beak">beak(-head)</item>
             <item xml:id="beam">beam</item>
             <item xml:id="bea1101">1. beam (1)</item>
             <item xml:id="bea1201">1. beam (2)</item>
             <item xml:id="bea1301">1. beam (3)</item>
-            <item xml:id="1">1. deck-beam (5)</item>
-            <item xml:id="1">1. beam (6)</item>
-            <item>(transtrum) 1. beam (6)</item>
-            <item xml:id="1">1. beam (8)</item>
-            <item xml:id="1">1. beam (9)</item>
-            <item xml:id="1">1. (midship) beam (10)</item>
-            <item xml:id="1">1. beam (11)</item>
-            <item xml:id="1">1. beam (12)</item>
-            <item xml:id="1">1. beam (13)</item>
-            <item xml:id="1">1. beam (14)</item>
-            <item xml:id="1">1. half-beam</item>
-            <item xml:id="1">1. hold-beam</item>
-            <item>(breadth) 2. beam</item>
-            <item>(direction) 3. beam</item>
-            <item xml:id="on">on her beam-ends</item>
+            <item xml:id="deckbeam5">1. deck-beam (5)</item>
+            <item xml:id="beam6">1. beam (6)</item>
+            <item xml:id="transtrum">(transtrum) 1. beam (6)</item>
+            <item xml:id="beam8">1. beam (8)</item>
+            <item xml:id="beam9">1. beam (9)</item>
+            <item xml:id="midshipbeam">1. (midship) beam (10)</item>
+            <item xml:id="beam11">1. beam (11)</item>
+            <item xml:id="beam12">1. beam (12)</item>
+            <item xml:id="beam13">1. beam (13)</item>
+            <item xml:id="beam14">1. beam (14)</item>
+            <item xml:id="halfbeam">1. half-beam</item>
+            <item xml:id="holdbeam">1. hold-beam</item>
+            <item xml:id="breadth2">(breadth) 2. beam</item>
+            <item xml:id="direction3">(direction) 3. beam</item>
+            <item xml:id="on_her_beamends">on her beam-ends</item>
             <item xml:id="beams">beams</item>
             <item xml:id="bearing">bearing</item>
-            <item xml:id="bear">bear up (1)</item>
-            <item xml:id="bear">bear up (2)</item>
-            <item>(mol-) bear up (3)</item>
-            <item xml:id="bear">bear up (misc.)</item>
+            <item xml:id="bear1">bear up (1)</item>
+            <item xml:id="bear2">bear up (2)</item>
+            <item xml:id="molbear">(mol-) bear up (3)</item>
+            <item xml:id="bearup">bear up (misc.)</item>
             <item xml:id="beat">beat</item>
             <item xml:id="becalm">becalm</item>
             <item xml:id="becket">becket</item>
             <item xml:id="bed">bed (of ship)</item>
             <item xml:id="before">before</item>
-            <item>(sail) before the wind</item>
-            <item xml:id="before">before the wind</item>
+            <item xml:id="sailbefore">(sail) before the wind</item>
+            <item xml:id="beforewind">before the wind</item>
             <item xml:id="belay">belay</item>
-            <item xml:id="belaying">belaying devices [list]</item>
-            <item xml:id="belaying">belaying pin</item>
+            <item xml:id="belayingdevices">belaying devices [list]</item>
+            <item xml:id="belayingpin">belaying pin</item>
             <item xml:id="belfry">belfry</item>
             <item xml:id="bell">bell</item>
-            <item>(galley) bench</item>
-            <item>(galley) bench (1)</item>
+            <item xml:id="galleybench">(galley) bench</item>
+            <item xml:id="galleybench1">(galley) bench (1)</item>
             <item xml:id="bench">bench-locker</item>
-            <item xml:id="bend">bend (rope)</item>
-            <item xml:id="bend">bend (a rope)</item>
-            <item xml:id="anchor">anchor-bend</item>
-            <item xml:id="bend">bend (sail)</item>
-            <item xml:id="carrick">carrick-bend</item>
-            <item xml:id="sheet">sheet-bend</item>
+            <item xml:id="bendrope">bend (rope)</item>
+            <item xml:id="bendarope">bend (a rope)</item>
+            <item xml:id="anchorbend">anchor-bend</item>
+            <item xml:id="bendsail">bend (sail)</item>
+            <item xml:id="carrickbend">carrick-bend</item>
+            <item xml:id="sheetbend">sheet-bend</item>
             <item xml:id="bending">bending</item>
             <item xml:id="beneaped">beneaped</item>
             <item xml:id="berth">berth</item>
-            <item>(safe/wide) berth</item>
+            <item xml:id="safewide">(safe/wide) berth</item>
             <item xml:id="bertone">bertone</item>
             <item xml:id="bevel">bevel</item>
             <item xml:id="beverages">beverages</item>
             <item xml:id="bezant">bezant</item>
-            <item>(in line) bight</item>
+            <item xml:id="inline">(in line) bight</item>
             <item xml:id="bilander">bilander</item>
-            <item xml:id="1">1. bilge (1)</item>
-            <item xml:id="1">1. bilge (2)</item>
-            <item xml:id="2">2. bilge (1)</item>
-            <item xml:id="2">2. bilge (2)</item>
-            <item xml:id="2">2. bilge (3)</item>
-            <item xml:id="turn">turn of bilge</item>
+            <item xml:id="bilge1_1">1. bilge (1)</item>
+            <item xml:id="bilge1_2">1. bilge (2)</item>
+            <item xml:id="bilge2_1">2. bilge (1)</item>
+            <item xml:id="bilge2_2">2. bilge (2)</item>
+            <item xml:id="bilge2_3">2. bilge (3)</item>
+            <item xml:id="turnofbilge">turn of bilge</item>
             <item xml:id="bilingualism">bilingualism</item>
-            <item xml:id="bill">bill of health</item>
-            <item xml:id="bill">bill of lading</item>
+            <item xml:id="bill_health">bill of health</item>
+            <item xml:id="bill_lading">bill of lading</item>
             <item xml:id="binnacle">binnacle</item>
-            <item xml:id="biscuit">biscuit (1)</item>
-            <item xml:id="biscuit">biscuit (2)</item>
-            <item xml:id="biscuit">biscuit (crumbled) (3)</item>
-            <item xml:id="biscuit">biscuit (3)</item>
-            <item xml:id="biscuit">biscuit (4)</item>
-            <item xml:id="biscuit">biscuit (5)</item>
-            <item xml:id="bitt">bitt(s) (1)</item>
-            <item xml:id="bitt">bitt (1)</item>
-            <item xml:id="bitt">bitt (2)</item>
-            <item xml:id="to">to bitt</item>
-            <item xml:id="bitt">bitt pin</item>
+            <item xml:id="biscuit1">biscuit (1)</item>
+            <item xml:id="biscuit2">biscuit (2)</item>
+            <item xml:id="biscuitcrumbled">biscuit (crumbled) (3)</item>
+            <item xml:id="biscuit3">biscuit (3)</item>
+            <item xml:id="biscuit4">biscuit (4)</item>
+            <item xml:id="biscuit5">biscuit (5)</item>
+            <item xml:id="bitts1">bitt(s) (1)</item>
+            <item xml:id="bitt1">bitt (1)</item>
+            <item xml:id="bitt2">bitt (2)</item>
+            <item xml:id="tobitt">to bitt</item>
+            <item xml:id="bittpin">bitt pin</item>
             <item xml:id="bitts">bitts</item>
             <item xml:id="bowline">bowline/brace bitts</item>
-            <item xml:id="cross">cross-bitt</item>
-            <item xml:id="small">small/sheet bitts</item>
+            <item xml:id="crossbitt">cross-bitt</item>
+            <item xml:id="smallbitts">small/sheet bitts</item>
             <item xml:id="block">block</item>
-            <item>(massapre) block</item>
-            <item>(moton) block</item>
-            <item>(makara) block</item>
-            <item>(bozzel) block</item>
-            <item>(taglia) block</item>
-            <item>(pulley) block</item>
-            <item>(cheek) block</item>
+            <item xml:id="massapreblock">(massapre) block</item>
+            <item xml:id="motonblock">(moton) block</item>
+            <item xml:id="makarablock">(makara) block</item>
+            <item xml:id="bozzelblock">(bozzel) block</item>
+            <item xml:id="tagliablock">(taglia) block</item>
+            <item xml:id="pulleyblock">(pulley) block</item>
+            <item xml:id="cheekblock">(cheek) block</item>
             <item xml:id="clump">clump-block</item>
             <item xml:id="fiddle">fiddle-block</item>
             <item xml:id="gin">gin-block</item>
             <item xml:id="leading">leading block</item>
             <item xml:id="sister">sister-block</item>
-            <item xml:id="snatch">snatch-block</item>
-            <item xml:id="snatch">snatch block</item>
-            <item>(collective) blocks</item>
-            <item xml:id="block">block-becket</item>
-            <item xml:id="block">block-breech</item>
-            <item xml:id="block">block-bushing</item>
-            <item>(tampan) block-bushing</item>
-            <item xml:id="block">block-cheek</item>
-            <item xml:id="block">block-maker</item>
-            <item xml:id="block">block-pin (1)</item>
-            <item xml:id="block">block-pin</item>
-            <item xml:id="block">block sheave-hole</item>
-            <item xml:id="block">block-shell</item>
-            <item xml:id="block">block-score</item>
-            <item xml:id="block">block-strap</item>
-            <item xml:id="block">block-swallows</item>
+            <item xml:id="snatchblock">snatch-block</item>
+            <item xml:id="snatch_block">snatch block</item>
+            <item xml:id="collectiveblocks">(collective) blocks</item>
+            <item xml:id="blockbecket">block-becket</item>
+            <item xml:id="blockbreech">block-breech</item>
+            <item xml:id="blockbushing">block-bushing</item>
+            <item xml:id="tampanblock">(tampan) block-bushing</item>
+            <item xml:id="blockcheek">block-cheek</item>
+            <item xml:id="blockmaker">block-maker</item>
+            <item xml:id="blockpin1">block-pin (1)</item>
+            <item xml:id="blockpin">block-pin</item>
+            <item xml:id="blocksheave">block sheave-hole</item>
+            <item xml:id="blockshell">block-shell</item>
+            <item xml:id="blockscore">block-score</item>
+            <item xml:id="blockstrap">block-strap</item>
+            <item xml:id="blockswallows">block-swallows</item>
             <item xml:id="blocks">blocks</item>
             <item xml:id="stock">stock-blocks</item>
             <item xml:id="blow">blow</item>
-            <item xml:id="board">board (1)</item>
-            <item xml:id="board">board (2)</item>
+            <item xml:id="board1">board (1)</item>
+            <item xml:id="board2">board (2)</item>
             <item xml:id="boards">boards</item>
-            <item xml:id="board">board (an enemy) (1)</item>
-            <item xml:id="board">board (an enemy) (2)</item>
-            <item xml:id="board">board (an enemy) (3)</item>
-            <item xml:id="boat">boat (1)</item>
-            <item xml:id="boat">boat (2)</item>
-            <item xml:id="boat">boat (3)</item>
-            <item xml:id="boat">boat (4)</item>
+            <item xml:id="boardanemeny1">board (an enemy) (1)</item>
+            <item xml:id="boardanemeny2">board (an enemy) (2)</item>
+            <item xml:id="boardanemeny3">board (an enemy) (3)</item>
+            <item xml:id="boat1">boat (1)</item>
+            <item xml:id="boat2">boat (2)</item>
+            <item xml:id="boat3">boat (3)</item>
+            <item xml:id="boat4">boat (4)</item>
             <item xml:id="boatman">boatman</item>
-            <item xml:id="boatswain">boatswain (1)</item>
-            <item xml:id="boatswain">boatswain (2)</item>
-            <item xml:id="boatswain">boatswain (3)</item>
-            <item xml:id="boatswain">boatswain (4)</item>
+            <item xml:id="boatswain1">boatswain (1)</item>
+            <item xml:id="boatswain2">boatswain (2)</item>
+            <item xml:id="boatswain3">boatswain (3)</item>
+            <item xml:id="boatswain4">boatswain (4)</item>
             <item xml:id="boatswain">boatswain</item>
-            <item xml:id="boatswain">boatswain’s chair</item>
-            <item xml:id="boatswain">boatswain’s locker</item>
-            <item xml:id="boatswain">boatswain’s pipe</item>
+            <item xml:id="boatswainchair">boatswain’s chair</item>
+            <item xml:id="boatswainlocker">boatswain’s locker</item>
+            <item xml:id="boatswainpipe">boatswain’s pipe</item>
             <item xml:id="bobstay">bobstay</item>
             <item xml:id="bollard">bollard</item>
-            <item xml:id="bollard">bollard (1)</item>
-            <item xml:id="bollard">bollard (2)</item>
-            <item xml:id="bollard">bollard (3)</item>
-            <item xml:id="bolt">bolt (1)</item>
-            <item xml:id="bolt">bolt (2)</item>
-            <item xml:id="bolt">bolt (misc.)</item>
-            <item xml:id="to">to bolt</item>
+            <item xml:id="bollard1">bollard (1)</item>
+            <item xml:id="bollard2">bollard (2)</item>
+            <item xml:id="bollard3">bollard (3)</item>
+            <item xml:id="bolt1">bolt (1)</item>
+            <item xml:id="bolt2">bolt (2)</item>
+            <item xml:id="boltmisc">bolt (misc.)</item>
+            <item xml:id="tobolt">to bolt</item>
             <item xml:id="bolting">bolting</item>
             <item xml:id="bolt">bolt-rope</item>
             <item xml:id="bonanza">bonanza</item>
             <item xml:id="bonnet">bonnet</item>
-            <item xml:id="boom">boom (1)</item>
-            <item xml:id="boom">boom (2)</item>
-            <item xml:id="boom">boom, et al. (3)</item>
-            <item xml:id="boom">boom (3)</item>
-            <item xml:id="boom">boom (4)</item>
+            <item xml:id="boom1">boom (1)</item>
+            <item xml:id="boom2">boom (2)</item>
+            <item xml:id="boometal3">boom, et al. (3)</item>
+            <item xml:id="boom3">boom (3)</item>
+            <item xml:id="boom4">boom (4)</item>
             <item xml:id="boom">boom</item>
-            <item xml:id="jib">jib-boom</item>
-            <item xml:id="boom">boom/riding</item>
+            <item xml:id="jibboom">jib-boom</item>
+            <item xml:id="boomriding">boom/riding</item>
             <item xml:id="booms">booms</item>
             <item xml:id="boomkin">boomkin</item>
             <item xml:id="boot">boot-topping</item>
             <item xml:id="boss">boss</item>
             <item xml:id="botar">botar</item>
-            <item xml:id="bottle">bottle (1)</item>
-            <item xml:id="bottle">bottle (2)</item>
-            <item>(sea-)bottom</item>
-            <item>(carena) (ship’s) bottom</item>
-            <item>(fund-) (ship’s) bottom</item>
-            <item>(plan-) (ship) bottom</item>
+            <item xml:id="bottle1">bottle (1)</item>
+            <item xml:id="bottle2">bottle (2)</item>
+            <item xml:id="seabottom">(sea-)bottom</item>
+            <item xml:id="carenaship">(carena) (ship’s) bottom</item>
+            <item xml:id="fundship">(fund-) (ship’s) bottom</item>
+            <item xml:id="planship">(plan-) (ship) bottom</item>
             <item xml:id="flat">flat of bottom</item>
             <item xml:id="bottomry">bottomry</item>
-            <item xml:id="bow">bow assembly</item>
-            <item xml:id="bow">bow/head assembly</item>
+            <item xml:id="bowassembly">bow assembly</item>
+            <item xml:id="bowheadassembly">bow/head assembly</item>
             <item xml:id="bow">bow</item>
-            <item xml:id="bow">bow(s)</item>
-            <item xml:id="on">on the bow</item>
-            <item xml:id="bowline">bowline (line)</item>
+            <item xml:id="bows">bow(s)</item>
+            <item xml:id="onthebow">on the bow</item>
+            <item xml:id="bowline_line">bowline (line)</item>
             <item xml:id="bowline">bowline</item>
-            <item xml:id="bowline">bowline knot; boatswain’s chair</item>
-            <item xml:id="bowline">bowline knot</item>
-            <item xml:id="bowline">bowline (knot)</item>
+            <item xml:id="bowlineknotchair">bowline knot; boatswain’s chair</item>
+            <item xml:id="bowlineknot">bowline knot</item>
+            <item xml:id="bowline_knot">bowline (knot)</item>
             <item xml:id="bowman">bowman</item>
             <item xml:id="bowse">bowse</item>
             <item xml:id="bowsprit">bowsprit</item>
-            <item xml:id="bowsprit">bowsprit (1)</item>
-            <item xml:id="bowsprit">bowsprit (2)</item>
-            <item xml:id="bowsprit">bowsprit bees</item>
-            <item xml:id="bowsprit">bowsprit pillow</item>
-            <item xml:id="box">box (the compass)</item>
-            <item xml:id="box">box-haul</item>
+            <item xml:id="bowsprit1">bowsprit (1)</item>
+            <item xml:id="bowsprit2">bowsprit (2)</item>
+            <item xml:id="bowspritbees">bowsprit bees</item>
+            <item xml:id="bowspritpillows">bowsprit pillow</item>
+            <item xml:id="box_compass">box (the compass)</item>
+            <item xml:id="boxhaul">box-haul</item>
             <item xml:id="boxing">boxing off</item>
-            <item xml:id="boy">boy (1)</item>
-            <item xml:id="boy">boy (2)</item>
-            <item xml:id="boy">boy (3)</item>
-            <item xml:id="boy">boy (4)</item>
-            <item xml:id="boy">boy (5)</item>
-            <item xml:id="brace">brace (1)</item>
-            <item xml:id="brace">brace (2)</item>
-            <item>(preventer) brace</item>
-            <item xml:id="to">to brace</item>
-            <item xml:id="hair">hair-bracket</item>
-            <item xml:id="brail">brail (1)</item>
-            <item xml:id="brail">brail (2)</item>
-            <item xml:id="brail">brail (3)</item>
-            <item xml:id="brail">brail (4)</item>
+            <item xml:id="boy1">boy (1)</item>
+            <item xml:id="boy2">boy (2)</item>
+            <item xml:id="boy3">boy (3)</item>
+            <item xml:id="boy4">boy (4)</item>
+            <item xml:id="boy5">boy (5)</item>
+            <item xml:id="brace1">brace (1)</item>
+            <item xml:id="brace2">brace (2)</item>
+            <item xml:id="preventerbrace">(preventer) brace</item>
+            <item xml:id="tobrace">to brace</item>
+            <item xml:id="hairbracket">hair-bracket</item>
+            <item xml:id="brail1">brail (1)</item>
+            <item xml:id="brail2">brail (2)</item>
+            <item xml:id="brail3">brail (3)</item>
+            <item xml:id="brail4">brail (4)</item>
             <item xml:id="brail">brail</item>
-            <item xml:id="brail">brail up</item>
-            <item xml:id="brail">brail up (1)</item>
-            <item xml:id="brazil">brazil wood</item>
-            <item xml:id="extreme">extreme breadth</item>
+            <item xml:id="brailup">brail up</item>
+            <item xml:id="brailup1">brail up (1)</item>
+            <item xml:id="brazilwood">brazil wood</item>
+            <item xml:id="extremebreadth">extreme breadth</item>
             <item xml:id="break">break</item>
-            <item xml:id="deck">deck-break</item>
+            <item xml:id="deckbreak">deck-break</item>
             <item xml:id="breakdown">breakdown</item>
             <item xml:id="breakers">breakers</item>
             <item xml:id="breaking">breaking point</item>
-            <item xml:id="break">break out (anchor)</item>
-            <item xml:id="break">break-water</item>
+            <item xml:id="breakoutanchor">break out (anchor)</item>
+            <item xml:id="breakwater">break-water</item>
             <item xml:id="bream">bream</item>
             <item xml:id="breast">breast-hook</item>
             <item xml:id="breastwork">breastwork</item>
@@ -482,7 +482,7 @@
             <item xml:id="sea">sea breeze</item>
             <item xml:id="draw">draw-bridge</item>
             <item xml:id="bridle">bridle</item>
-            <item xml:id="bowline">bowline-bridle</item>
+            <item xml:id="bowlinebridle">bowline-bridle</item>
             <item xml:id="towing">towing bridle; sling</item>
             <item xml:id="brigantine">brigantine</item>
             <item xml:id="brine">brine</item>
@@ -492,281 +492,280 @@
             <item xml:id="broom">broom</item>
             <item xml:id="spanish">spanish broom</item>
             <item xml:id="brothel">brothel</item>
-            <item xml:id="brush">brush (1)</item>
-            <item xml:id="brush">brush (2)</item>
-            <item xml:id="bucket">bucket (1)</item>
-            <item xml:id="bucket">bucket (2)</item>
-            <item xml:id="bucket">bucket (3)</item>
-            <item xml:id="bucket">bucket (4)</item>
-            <item xml:id="bucket">bucket (5)</item>
-            <item xml:id="bucket">bucket (6)</item>
-            <item xml:id="bucket">bucket (misc.)</item>
+            <item xml:id="brush1">brush (1)</item>
+            <item xml:id="brush2">brush (2)</item>
+            <item xml:id="bucket1">bucket (1)</item>
+            <item xml:id="bucket2">bucket (2)</item>
+            <item xml:id="bucket3">bucket (3)</item>
+            <item xml:id="bucket4">bucket (4)</item>
+            <item xml:id="bucket5">bucket (5)</item>
+            <item xml:id="bucket6">bucket (6)</item>
+            <item xml:id="bucketmisc">bucket (misc.)</item>
             <item xml:id="build">build</item>
             <item xml:id="bulk">bulk</item>
             <item xml:id="bulkhead">bulkhead</item>
-            <item xml:id="break">break-/front-bulkhead</item>
-            <item>(deck-light) bull’s eye</item>
+            <item xml:id="breakfrontbulkhead">break-/front-bulkhead</item>
+            <item xml:id="decklight">(deck-light) bull’s eye</item>
             <item xml:id="bulwark">bulwark</item>
             <item xml:id="main">main-bulwark</item>
             <item xml:id="topgallant">topgallant bulwark</item>
-            <item xml:id="topgallant">topgallant bulwark (1)</item>
-            <item xml:id="bundle">bundle, bale (1)</item>
-            <item xml:id="bundle">bundle (1)</item>
-            <item xml:id="bundle">bundle (2)</item>
-            <item xml:id="bundle">bundle (3)</item>
-            <item xml:id="bundle">bundle (4)</item>
+            <item xml:id="topgallant1">topgallant bulwark (1)</item>
+            <item xml:id="bundlebale">bundle, bale (1)</item>
+            <item xml:id="bundle1">bundle (1)</item>
+            <item xml:id="bundle2">bundle (2)</item>
+            <item xml:id="bundle3">bundle (3)</item>
+            <item xml:id="bundle4">bundle (4)</item>
             <item xml:id="bunt">bunt</item>
-            <item xml:id="buntline">buntline (1)</item>
-            <item xml:id="buntline">buntline (2)</item>
-            <item xml:id="buntline">buntline (3)</item>
-            <item xml:id="buoy">buoy (1)</item>
-            <item xml:id="buoy">buoy (2)</item>
-            <item xml:id="buoy">buoy (3)</item>
-            <item xml:id="buoy">buoy (4)</item>
-            <item xml:id="buoy">buoy (5)</item>
-            <item xml:id="buoy">buoy (6)</item>
-            <item xml:id="buoy">buoy (7)</item>
-            <item>(trip-line) buoy-rope</item>
-            <item xml:id="buoy">buoy-rope</item>
-            <item xml:id="buoy">buoy-rope (3)</item>
-            <item>(deadweight) burden)</item>
+            <item xml:id="buntline1">buntline (1)</item>
+            <item xml:id="buntline2">buntline (2)</item>
+            <item xml:id="buntline3">buntline (3)</item>
+            <item xml:id="buoy1">buoy (1)</item>
+            <item xml:id="buoy2">buoy (2)</item>
+            <item xml:id="buoy3">buoy (3)</item>
+            <item xml:id="buoy4">buoy (4)</item>
+            <item xml:id="buoy5">buoy (5)</item>
+            <item xml:id="buoy6">buoy (6)</item>
+            <item xml:id="buoy7">buoy (7)</item>
+            <item xml:id="triplinebuoy">(trip-line) buoy-rope</item>
+            <item xml:id="buoyrope">buoy-rope</item>
+            <item xml:id="buoyrope3">buoy-rope (3)</item>
+            <item xml:id="deadweightburden">(deadweight) burden</item>
             <item xml:id="burden">burden</item>
             <item xml:id="burro">burro</item>
             <item xml:id="bushel">bushel</item>
             <item xml:id="buss">buss</item>
-            <item>(jal) buss</item>
-            <item>(burc-) buss</item>
+            <item xml:id="jalbuss">(jal) buss</item>
+            <item xml:id="burcbuss">(burc-) buss</item>
             <item xml:id="butt">butt</item>
             <item xml:id="buttock">buttock</item>
 
             <item xml:id="cabin">cabin</item>
             <item xml:id="cable">cable</item>
-            <item xml:id="cable">cable (1)</item>
-            <item xml:id="cable">cable (2)</item>
-            <item xml:id="cable">cable (3)</item>
-            <item xml:id="cable">cable-laid rope</item>
-            <item xml:id="cable">cable-length</item>
+            <item xml:id="cable1">cable (1)</item>
+            <item xml:id="cable2">cable (2)</item>
+            <item xml:id="cable3">cable (3)</item>
+            <item xml:id="cablelaid">cable-laid rope</item>
+            <item xml:id="cablelength">cable-length</item>
             <item xml:id="cablet">cablet</item>
-            <item xml:id="cable">cable-tier</item>
+            <item xml:id="cabletier">cable-tier</item>
             <item xml:id="cacafuego">cacafuego</item>
-            <item xml:id="ca">caïque</item>
-            <item xml:id="calm">calm (1)</item>
-            <item xml:id="calm">calm (2)</item>
-            <item xml:id="calm">calm (3)</item>
+            <item xml:id="caique">caïque</item>
+            <item xml:id="calm1">calm (1)</item>
+            <item xml:id="calm2">calm (2)</item>
+            <item xml:id="calm3">calm (3)</item>
             <item xml:id="camber">camber</item>
             <item xml:id="canal">canal; channel (inclc. radio channel)</item>
             <item xml:id="candalette">candalette</item>
             <item xml:id="candia">candia</item>
             <item xml:id="canna">canna</item>
-            <item xml:id="cant">cant-</item>
+            <item xml:id="cant_">cant-</item>
             <item xml:id="cant">cant</item>
             <item xml:id="canvas">canvas</item>
-            <item xml:id="cap">cap (of a mast)</item>
-            <item>(sailor’s) cap</item>
-            <item xml:id="cape">cape</item>
+            <item xml:id="capmast">cap (of a mast)</item>
+            <item xml:id="sailorscap">(sailor’s) cap</item>
             <item xml:id="cape">cape</item>
             <item xml:id="cappuccio">cappuccio</item>
-            <item xml:id="capsize">capsize (1)</item>
-            <item xml:id="capsize">capsize (2)</item>
+            <item xml:id="capsize1">capsize (1)</item>
+            <item xml:id="capsize2">capsize (2)</item>
             <item xml:id="capsize">capsize</item>
-            <item xml:id="capstan">capstan (1)</item>
-            <item xml:id="capstan">capstan (2)</item>
-            <item xml:id="capstan">capstan (3)</item>
-            <item xml:id="capstan">capstan (4)</item>
+            <item xml:id="capstan1">capstan (1)</item>
+            <item xml:id="capstan2">capstan (2)</item>
+            <item xml:id="capstan3">capstan (3)</item>
+            <item xml:id="capstan4">capstan (4)</item>
             <item xml:id="capstan">capstan</item>
-            <item xml:id="capstan">capstan bar</item>
-            <item xml:id="capstan">capstan-bar</item>
-            <item xml:id="capstan">capstan barrel</item>
-            <item xml:id="capstan">capstan-barrel</item>
-            <item xml:id="capstan">capstan drumhead</item>
-            <item xml:id="capstan">capstan pawl</item>
-            <item>(bearing) capstan-saucer</item>
-            <item xml:id="capstan">capstan spindle</item>
-            <item xml:id="capstan">capstan-whelp</item>
-            <item xml:id="captain">captain (1)</item>
-            <item xml:id="captain">captain (2)</item>
-            <item xml:id="captain">captain (3)</item>
-            <item xml:id="captain">captain (4)</item>
+            <item xml:id="capstanbar">capstan bar</item>
+            <item xml:id="capstan_bar">capstan-bar</item>
+            <item xml:id="capstanbarrel">capstan barrel</item>
+            <item xml:id="capstan_barrel">capstan-barrel</item>
+            <item xml:id="capstandrumhead">capstan drumhead</item>
+            <item xml:id="capstanpawl">capstan pawl</item>
+            <item xml:id="bearingcapstan">(bearing) capstan-saucer</item>
+            <item xml:id="capstanspindle">capstan spindle</item>
+            <item xml:id="capstanwhelp">capstan-whelp</item>
+            <item xml:id="captain1">captain (1)</item>
+            <item xml:id="captain2">captain (2)</item>
+            <item xml:id="captain3">captain (3)</item>
+            <item xml:id="captain4">captain (4)</item>
             <item xml:id="caramousal">caramousal</item>
             <item xml:id="carat">carat</item>
             <item xml:id="caravan">caravan</item>
             <item xml:id="caravel">caravel</item>
             <item xml:id="careen">careen</item>
-            <item xml:id="careen">careen (1)</item>
-            <item xml:id="careen">careen (2)</item>
-            <item xml:id="careen">careen (3)</item>
+            <item xml:id="careen1">careen (1)</item>
+            <item xml:id="careen2">careen (2)</item>
+            <item xml:id="careen3">careen (3)</item>
             <item xml:id="careened">careened</item>
             <item xml:id="careening">careening outrigger</item>
-            <item xml:id="careening">careening place</item>
-            <item xml:id="careening">careening pontoon</item>
-            <item xml:id="careening">careening tackle</item>
+            <item xml:id="careeningplace">careening place</item>
+            <item xml:id="careeningpontoon">careening pontoon</item>
+            <item xml:id="careeningtackle">careening tackle</item>
             <item xml:id="cargo">cargo</item>
             <item xml:id="carling">carling</item>
-            <item xml:id="carling">carling (1)</item>
-            <item>(ship’s) carpenter (1)</item>
-            <item>(ship’s) carpenter (2)</item>
-            <item>(ship’s) carpenter (3)</item>
+            <item xml:id="carling1">carling (1)</item>
+            <item xml:id="carpenter1">(ship’s) carpenter (1)</item>
+            <item xml:id="carpenter2">(ship’s) carpenter (2)</item>
+            <item xml:id="carpenter3">(ship’s) carpenter (3)</item>
             <item xml:id="carrack">carrack</item>
             <item xml:id="carry">carry out (an anchor)</item>
             <item xml:id="carvel">carvel work</item>
             <item xml:id="case">case</item>
             <item xml:id="cask">cask</item>
-            <item xml:id="cast">cast (of net)</item>
+            <item xml:id="castofnet">cast (of net)</item>
             <item xml:id="cast">cast</item>
-            <item>(a ship) cast</item>
-            <item xml:id="cast">cast off</item>
-            <item xml:id="castle">castle (1)</item>
-            <item xml:id="castle">castle (2)</item>
-            <item>(ship) cat</item>
-            <item xml:id="to">to cat (anchor)</item>
-            <item xml:id="cat">cat-back</item>
-            <item xml:id="cat">cat-block</item>
-            <item xml:id="cat">cat-fall</item>
-            <item xml:id="cat">cat-harpings</item>
+            <item xml:id="aship">(a ship) cast</item>
+            <item xml:id="castoff">cast off</item>
+            <item xml:id="castle1">castle (1)</item>
+            <item xml:id="castle2">castle (2)</item>
+            <item xml:id="shipcat">(ship) cat</item>
+            <item xml:id="tocat">to cat (anchor)</item>
+            <item xml:id="catback">cat-back</item>
+            <item xml:id="catblock">cat-block</item>
+            <item xml:id="catfall">cat-fall</item>
+            <item xml:id="catharpings">cat-harpings</item>
             <item xml:id="cathead">cathead</item>
-            <item xml:id="cathead">cathead knee</item>
-            <item xml:id="cathead">cathead stopper</item>
-            <item xml:id="cat">cat-hole</item>
-            <item xml:id="cat">cat-hook</item>
-            <item xml:id="cat">cat-tackle</item>
-            <item xml:id="cat">cat’s paw</item>
-            <item xml:id="caulk">caulk (1)</item>
-            <item xml:id="caulk">caulk (2)</item>
-            <item xml:id="caulk">caulk (3)</item>
-            <item xml:id="caulk">caulk (4)</item>
-            <item xml:id="caulk">caulk (5)</item>
+            <item xml:id="catheadknee">cathead knee</item>
+            <item xml:id="catheadstopper">cathead stopper</item>
+            <item xml:id="cathole">cat-hole</item>
+            <item xml:id="cathook">cat-hook</item>
+            <item xml:id="cattackle">cat-tackle</item>
+            <item xml:id="catpaw">cat’s paw</item>
+            <item xml:id="caulk1">caulk (1)</item>
+            <item xml:id="caulk2">caulk (2)</item>
+            <item xml:id="caulk3">caulk (3)</item>
+            <item xml:id="caulk4">caulk (4)</item>
+            <item xml:id="caulk5">caulk (5)</item>
             <item xml:id="caulker">caulker</item>
-            <item xml:id="caulking">caulking [list]</item>
+            <item xml:id="caulking_">caulking [list]</item>
             <item xml:id="caulking">caulking</item>
-            <item xml:id="caulking">caulking tools</item>
-            <item>(irons) caulking tools</item>
-            <item>(padela) (irons) caulking tools</item>
-            <item>(making iron) caulking tools</item>
-            <item>(ravehook) caulking tools</item>
-            <item>(mallet) caulking tools</item>
-            <item>(drift)(set) caulking tools</item>
-            <item>(nail-set) caulking tools</item>
-            <item>(nail-puller) caulking tools</item>
-            <item>(seat) caulking tools</item>
-            <item>(wedge) caulking tools</item>
+            <item xml:id="caulkingtools">caulking tools</item>
+            <item xml:id="ironscaulking">(irons) caulking tools</item>
+            <item xml:id="padelairons">(padela) (irons) caulking tools</item>
+            <item xml:id="makingiron">(making iron) caulking tools</item>
+            <item xml:id="ravehookcaulking">(ravehook) caulking tools</item>
+            <item xml:id="malletcaulking">(mallet) caulking tools</item>
+            <item xml:id="driftset">(drift)(set) caulking tools</item>
+            <item xml:id="nailset">(nail-set) caulking tools</item>
+            <item xml:id="nailpuller">(nail-puller) caulking tools</item>
+            <item xml:id="seatcaulking">(seat) caulking tools</item>
+            <item xml:id="wedgecaulking">(wedge) caulking tools</item>
             <item xml:id="caup">caupŭlus (boat)</item>
-            <item xml:id="ceiling">ceiling (1)</item>
-            <item xml:id="ceiling">ceiling (2) </item>
+            <item xml:id="ceiling1">ceiling (1)</item>
+            <item xml:id="ceiling2">ceiling (2) </item>
             <item xml:id="floor">floor ceiling</item>
-            <item xml:id="cement">cement (1)</item>
-            <item xml:id="cement">cement (2)</item>
-            <item xml:id="cement">cement (3)</item>
+            <item xml:id="cement1">cement (1)</item>
+            <item xml:id="cement2">cement (2)</item>
+            <item xml:id="cement3">cement (3)</item>
             <item xml:id="centina">centina</item>
             <item xml:id="chafe">chafe</item>
             <item xml:id="chain">chain</item>
             <item xml:id="heel">heel chain of jib-boom (2)</item>
-            <item>(of shrouds) chain</item>
-            <item xml:id="chain">chain plate</item>
-            <item xml:id="galley">galley chains (1)</item>
-            <item xml:id="galley">galley chains (2)</item>
-            <item xml:id="galley">galley chains</item>
+            <item xml:id="ofshrouds">(of shrouds) chain</item>
+            <item xml:id="chainplate">chain plate</item>
+            <item xml:id="galleychains1">galley chains (1)</item>
+            <item xml:id="galleychains2">galley chains (2)</item>
+            <item xml:id="galleychains">galley chains</item>
             <item xml:id="chainwale">chainwale</item>
-            <item xml:id="chainwale">chainwale (1)</item>
+            <item xml:id="chainwale1">chainwale (1)</item>
             <item xml:id="chalk">chalk</item>
             <item xml:id="chamfer">chamfer</item>
-            <item xml:id="change">change (1)</item>
-            <item xml:id="change">change (2)</item>
+            <item xml:id="change1">change (1)</item>
+            <item xml:id="change2">change (2)</item>
             <item xml:id="channel">channel</item>
             <item xml:id="chapel">chapel</item>
             <item xml:id="chart">chart</item>
             <item xml:id="chartering">chartering</item>
             <item xml:id="charter">charter</item>
-            <item xml:id="charter">charter(ing)</item>
-            <item xml:id="charter">charter party</item>
+            <item xml:id="charter_ing">charter(ing)</item>
+            <item xml:id="charterparty">charter party</item>
             <item xml:id="check">check</item>
-            <item>(of mast) cheeks (1)</item>
-            <item>(of mast) cheeks</item>
+            <item xml:id="ofmastcheeks1">(of mast) cheeks (1)</item>
+            <item xml:id="ofmastcheeks">(of mast) cheeks</item>
             <item xml:id="chelandion">chelandion</item>
             <item xml:id="chess">chess-tree</item>
-            <item xml:id="sea">sea-chest (1)</item>
-            <item xml:id="sea">sea-chest (2)</item>
+            <item xml:id="seachest1">sea-chest (1)</item>
+            <item xml:id="seachest2">sea-chest (2)</item>
             <item xml:id="chine">chine</item>
             <item xml:id="chinse">chinse</item>
             <item xml:id="chisel">chisel</item>
             <item xml:id="hollow">hollow-chisel</item>
-            <item>(boat) chock</item>
-            <item xml:id="butt">butt-chock</item>
-            <item>(boat) chock</item>
-            <item>(filling) chock</item>
-            <item>(wedge) chock</item>
+            <item xml:id="boatchock">(boat) chock</item>
+            <item xml:id="buttchock">butt-chock</item>
+            <item xml:id="boat_chock">(boat) chock</item>
+            <item xml:id="fillingchock">(filling) chock</item>
+            <item xml:id="wedgechock">(wedge) chock</item>
             <item xml:id="chock">chock-a-block</item>
             <item xml:id="cider">cider</item>
             <item xml:id="cinque">cinque giorni</item>
             <item xml:id="clamp">clamp</item>
-            <item>(of bottom) clean</item>
+            <item xml:id="ofbottom">(of bottom) clean</item>
             <item xml:id="clear">clear</item>
-            <item>(of ropes, tackles) clear</item>
-            <item>(all) clear</item>
-            <item xml:id="clear">clear for action</item>
+            <item xml:id="ofropes">(of ropes, tackles) clear</item>
+            <item xml:id="allclear">(all) clear</item>
+            <item xml:id="clearforaction">clear for action</item>
             <item xml:id="cleat">cleat</item>
-            <item xml:id="cleat">cleat (1)</item>
-            <item xml:id="cleat">cleat (2)</item>
+            <item xml:id="cleat1">cleat (1)</item>
+            <item xml:id="cleat2">cleat (2)</item>
             <item xml:id="clew">clew</item>
-            <item xml:id="clew">clew down haul</item>
-            <item xml:id="to">to clew</item>
-            <item xml:id="clew">clew-line/-garnet</item>
-            <item xml:id="clew">clew-line</item>
+            <item xml:id="clewdownhaul">clew down haul</item>
+            <item xml:id="toclew">to clew</item>
+            <item xml:id="clewgarnet">clew-line/-garnet</item>
+            <item xml:id="clewline">clew-line</item>
             <item xml:id="clinch">clinch</item>
-            <item xml:id="to">to clinch (a nail)</item>
+            <item xml:id="toclinch">to clinch (a nail)</item>
             <item xml:id="clinker">clinker(-built)</item>
-            <item xml:id="clinker">clinker-built</item>
-            <item xml:id="cloak">cloak (1)</item>
-            <item xml:id="cloak">cloak (2)</item>
-            <item xml:id="cloak">cloak (3)</item>
-            <item xml:id="cloak">cloak (4)</item>
-            <item xml:id="cloak">cloak (5)</item>
+            <item xml:id="clinkerbuilt">clinker-built</item>
+            <item xml:id="cloak1">cloak (1)</item>
+            <item xml:id="cloak2">cloak (2)</item>
+            <item xml:id="cloak3">cloak (3)</item>
+            <item xml:id="cloak4">cloak (4)</item>
+            <item xml:id="cloak5">cloak (5)</item>
             <item xml:id="close">close</item>
-            <item xml:id="close">close-hauled</item>
-            <item>(bolina) sail close-hauled</item>
+            <item xml:id="closehauled">close-hauled</item>
+            <item xml:id="bolinasail">(bolina) sail close-hauled</item>
             <item xml:id="clothing">clothing</item>
             <item xml:id="coak">coak</item>
             <item xml:id="coaming">coaming</item>
-            <item xml:id="coast">coast (1)</item>
-            <item xml:id="coast">coast (2)</item>
-            <item xml:id="coast">coast (3)</item>
-            <item xml:id="coast">coast (4)</item>
-            <item xml:id="surgy">surgy coast</item>
-            <item xml:id="to">to coast</item>
-            <item xml:id="coast">coast guard</item>
+            <item xml:id="coast1">coast (1)</item>
+            <item xml:id="coast2">coast (2)</item>
+            <item xml:id="coast3">coast (3)</item>
+            <item xml:id="coast4">coast (4)</item>
+            <item xml:id="surgycoast">surgy coast</item>
+            <item xml:id="tocoast">to coast</item>
+            <item xml:id="coastguard">coast guard</item>
             <item xml:id="coasting">coasting</item>
-            <item xml:id="great">great-coat</item>
-            <item>(sailor’s) coat</item>
+            <item xml:id="greatcoat">great-coat</item>
+            <item xml:id="sailorscoat">(sailor’s) coat</item>
             <item xml:id="mast">mast-coat</item>
             <item xml:id="cod">cod</item>
             <item xml:id="cog">cog</item>
-            <item>(rope) coil</item>
-            <item xml:id="to">to coil</item>
+            <item xml:id="ropecoil">(rope) coil</item>
+            <item xml:id="tocoil">to coil</item>
             <item xml:id="coin">coin</item>
-            <item>(of stay) collar</item>
+            <item xml:id="ofstaycollar">(of stay) collar</item>
             <item xml:id="collo">collo</item>
             <item xml:id="comito">comito</item>
-            <item>(sotto) comito</item>
+            <item xml:id="sottocomito">(sotto) comito</item>
             <item xml:id="command">command</item>
             <item xml:id="commenda">commenda</item>
-            <item xml:id="commerce">commerce (1)</item>
-            <item xml:id="commerce">commerce (2)</item>
+            <item xml:id="commerce1">commerce (1)</item>
+            <item xml:id="commerce2">commerce (2)</item>
             <item xml:id="companion">companion</item>
             <item xml:id="compass">compass (1)</item>
-            <item xml:id="1">1. compass (1)</item>
-            <item xml:id="1">1. compass (2)</item>
-            <item xml:id="1">1. compass (3)</item>
-            <item xml:id="2">2. compasses, calipers</item>
-            <item xml:id="compass">compass needle</item>
-            <item xml:id="compass">compass needle, lodestone</item>
+            <item xml:id="compass1_1">1. compass (1)</item>
+            <item xml:id="compass1_2">1. compass (2)</item>
+            <item xml:id="compass1_3">1. compass (3)</item>
+            <item xml:id="compass2_1">2. compasses, calipers</item>
+            <item xml:id="compassneedle">compass needle</item>
+            <item xml:id="compasslodestone">compass needle, lodestone</item>
             <item xml:id="complete">complete (1)(2)</item>
             <item xml:id="condura">condura</item>
-            <item xml:id="consul">consul(-ate)</item>
+            <item xml:id="consulate">consul(-ate)</item>
             <item xml:id="consul">consul</item>
             <item xml:id="contra">contra-</item>
             <item xml:id="contraband">contraband</item>
             <item xml:id="contract">contract</item>
-            <item xml:id="convoy">convoy (1)</item>
-            <item xml:id="convoy">convoy (2)</item>
+            <item xml:id="convoy1">convoy (1)</item>
+            <item xml:id="convoy2">convoy (2)</item>
             <item xml:id="convoy">convoy</item>
             <item xml:id="cook">cook (n.)</item>
             <item xml:id="chicken">chicken-coop</item>
@@ -780,54 +779,53 @@
             <item xml:id="cot">cot</item>
             <item xml:id="cotter">cotter</item>
             <item xml:id="cotton">cotton</item>
-            <item xml:id="cotton">cotton (1)</item>
-            <item xml:id="cotton">cotton (2)</item>
+            <item xml:id="cotton1">cotton (1)</item>
+            <item xml:id="cotton2">cotton (2)</item>
             <item xml:id="counselor">counselor</item>
-            <item xml:id="1">1. counter</item>
-            <item>(stern) 2. counter</item>
-            <item xml:id="counter">counter-timber</item>
-            <item xml:id="course">course (1)</item>
-            <item xml:id="course">course (2)</item>
-            <item xml:id="course">course (3)</item>
-            <item xml:id="course">course (4)</item>
-            <item xml:id="course">course (sail)</item>
-            <item xml:id="cove">cove (1)</item>
+            <item xml:id="counter">1. counter</item>
+            <item xml:id="sterncounter">(stern) 2. counter</item>
+            <item xml:id="countertimber">counter-timber</item>
+            <item xml:id="course1">course (1)</item>
+            <item xml:id="course2">course (2)</item>
+            <item xml:id="course3">course (3)</item>
+            <item xml:id="course4">course (4)</item>
+            <item xml:id="coursesail">course (sail)</item>
+            <item xml:id="cove1">cove (1)</item>
             <item xml:id="cove">cove</item>
             <item xml:id="coxswain">coxswain</item>
-            <item>(building) cradle</item>
+            <item xml:id="buildingcradle">(building) cradle</item>
             <item xml:id="crane">crane</item>
             <item xml:id="crank">crank</item>
             <item xml:id="creak">creak</item>
             <item xml:id="crew">crew</item>
-            <item>(galley) crew</item>
-            <item>(roman) mixed crews</item>
-            <item>(med.) mixed crews</item>
-            <item>(ren.) mixed crews</item>
-            <item xml:id="crew">crew-list</item>
+            <item xml:id="galleycrew">(galley) crew</item>
+            <item xml:id="romanmixed">(roman) mixed crews</item>
+            <item xml:id="medmixed">(med.) mixed crews</item>
+            <item xml:id="renmixed">(ren.) mixed crews</item>
+            <item xml:id="crewlist">crew-list</item>
             <item xml:id="cringle">cringle</item>
-            <item xml:id="to">to cross</item>
+            <item xml:id="tocross">to cross</item>
             <item xml:id="crossbow">crossbow shot</item>
             <item xml:id="crossjack">crossjack yard</item>
-            <item xml:id="crossjack">crossjack yard (1)</item>
-            <item xml:id="cross">cross-log</item>
-            <item xml:id="cross">cross-piece</item>
-            <item xml:id="cross">cross-plank</item>
-            <item xml:id="cross">cross-staff</item>
-            <item xml:id="cross">cross-tree (1)</item>
-            <item xml:id="crosstree">crosstree (2)</item>
-            <item xml:id="cross">cross-wind</item>
+            <item xml:id="crossjack1">crossjack yard (1)</item>
+            <item xml:id="crosslog">cross-log</item>
+            <item xml:id="crosspiece">cross-piece</item>
+            <item xml:id="crossplank">cross-plank</item>
+            <item xml:id="crossstaff">cross-staff</item>
+            <item xml:id="crosstree1">cross-tree (1)</item>
+            <item xml:id="crosstree2">crosstree (2)</item>
+            <item xml:id="crosswind">cross-wind</item>
             <item xml:id="crotch">crotch</item>
             <item xml:id="crow">crow-bar</item>
-            <item xml:id="crowd">crowd sail</item>
-            <item xml:id="crow">crow’s foot; span</item>
-            <item xml:id="crow">crow’s foot</item>
+            <item xml:id="crowdsail">crowd sail</item>
+            <item xml:id="crowspan">crow’s foot; span</item>
+            <item xml:id="crowfoot">crow’s foot</item>
             <item xml:id="cruise">cruise</item>
-            <item xml:id="crutch">crutch</item>
             <item xml:id="crutch">crutch</item>
             <item xml:id="cubit">cubit</item>
             <item xml:id="cuddy">cuddy</item>
-            <item xml:id="current">current (1)</item>
-            <item xml:id="current">current (2)</item>
+            <item xml:id="current1">current (1)</item>
+            <item xml:id="current2">current (2)</item>
             <item xml:id="customs">customs</item>
             <item xml:id="cut">cut down</item>
             <item xml:id="cutter">cutter</item>
@@ -835,42 +833,42 @@
             <item xml:id="cutwater">cutwater</item>
 
             <item xml:id="davit">davit</item>
-            <item xml:id="deadeye">deadeye (1)</item>
-            <item xml:id="deadeye">deadeye (misc.)</item>
+            <item xml:id="deadeye1">deadeye (1)</item>
+            <item xml:id="deadeyemisc">deadeye (misc.)</item>
             <item xml:id="deadeye">deadeye</item>
-            <item>(heart) deadeye</item>
-            <item xml:id="dead">dead-freight</item>
-            <item xml:id="dead">dead reckoning</item>
+            <item xml:id="heartdeadeye">(heart) deadeye</item>
+            <item xml:id="deadfreight">dead-freight</item>
+            <item xml:id="deadreckoning">dead reckoning</item>
             <item xml:id="deadweight">deadweight</item>
             <item xml:id="deadwood">deadwood</item>
-            <item xml:id="to">to deballast</item>
-            <item>(ballator) deck</item>
-            <item>(coperta) deck</item>
-            <item>(pont) deck</item>
-            <item>(til) deck</item>
-            <item>(told-) deck</item>
+            <item xml:id="todeballast">to deballast</item>
+            <item xml:id="ballatordeck">(ballator) deck</item>
+            <item xml:id="copertadeck">(coperta) deck</item>
+            <item xml:id="pontdeck">(pont) deck</item>
+            <item xml:id="tildeck">(til) deck</item>
+            <item xml:id="tolddeck">(told-) deck</item>
             <item xml:id="deck">deck</item>
-            <item>(tween)deck</item>
-            <item>(corridor) (tween)deck (1)</item>
-            <item xml:id="deck">deck (misc.)</item>
-            <item xml:id="half">half-deck</item>
-            <item xml:id="orlop">orlop deck</item>
-            <item xml:id="poop">poop-deck</item>
-            <item xml:id="quarter">quarter-deck</item>
-            <item xml:id="deck">deck-house</item>
+            <item xml:id="tweendeck">(tween)deck</item>
+            <item xml:id="corridortween">(corridor) (tween)deck (1)</item>
+            <item xml:id="deckmisc">deck (misc.)</item>
+            <item xml:id="halfdeck">half-deck</item>
+            <item xml:id="orlopdeck">orlop deck</item>
+            <item xml:id="poopdeck">poop-deck</item>
+            <item xml:id="quarterdeck">quarter-deck</item>
+            <item xml:id="deckhouse">deck-house</item>
             <item xml:id="deep">deep</item>
-            <item xml:id="demurrage">demurrage (1)</item>
-            <item xml:id="demurrage">demurrage (2)</item>
+            <item xml:id="demurrage1">demurrage (1)</item>
+            <item xml:id="demurrage2">demurrage (2)</item>
             <item xml:id="denarius">denarius</item>
             <item xml:id="depart">depart(ure)</item>
             <item xml:id="departure">departure</item>
-            <item>(on the point of) departure</item>
+            <item xml:id="onthedeparture">(on the point of) departure</item>
             <item xml:id="depth">depth (of hold)</item>
-            <item xml:id="depth">depth of hold</item>
+            <item xml:id="depthofhold">depth of hold</item>
             <item xml:id="derrick">derrick</item>
             <item xml:id="dip">dip</item>
-            <item>(a flag) to dip</item>
-            <item xml:id="dipping">dipping-line</item>
+            <item xml:id="aflagtodip">(a flag) to dip</item>
+            <item xml:id="dippingline">dipping-line</item>
             <item xml:id="direct">direct</item>
             <item xml:id="discharge">discharge (1)</item>
             <item xml:id="disorient">disorient</item>
@@ -882,82 +880,82 @@
             <item xml:id="dockage">dockage</item>
             <item xml:id="dogshore">dogshore</item>
             <item xml:id="dolphin">dolphin</item>
-            <item xml:id="dolphin">dolphin striker</item>
-            <item xml:id="double">double a cape (1)</item>
-            <item xml:id="double">double a cape (2)</item>
-            <item xml:id="double">double a cape (3)</item>
-            <item xml:id="double">double a cape (4)</item>
-            <item xml:id="on">on the double</item>
-            <item xml:id="double">double bottom</item>
+            <item xml:id="dolphinstriker">dolphin striker</item>
+            <item xml:id="double1">double a cape (1)</item>
+            <item xml:id="double2">double a cape (2)</item>
+            <item xml:id="double3">double a cape (3)</item>
+            <item xml:id="double4">double a cape (4)</item>
+            <item xml:id="onthedouble">on the double</item>
+            <item xml:id="doublebottom">double bottom</item>
             <item xml:id="doubling">doubling</item>
-            <item xml:id="dove">dove-tail</item>
+            <item xml:id="dovetail">dove-tail</item>
             <item xml:id="dowel">dowel</item>
             <item xml:id="down">down by the head</item>
-            <item xml:id="downhaul">downhaul (1)</item>
-            <item xml:id="down">down by the stern</item>
-            <item xml:id="downhaul">downhaul (2)</item>
-            <item xml:id="downhaul">downhaul (misc.)</item>
+            <item xml:id="downhaul1">downhaul (1)</item>
+            <item xml:id="downstern">down by the stern</item>
+            <item xml:id="downhaul2">downhaul (2)</item>
+            <item xml:id="downhaulmisc">downhaul (misc.)</item>
             <item xml:id="downstream">downstream</item>
             <item xml:id="downwind">downwind</item>
             <item xml:id="draft">draft</item>
-            <item xml:id="draft">draft-mark</item>
+            <item xml:id="draftmark">draft-mark</item>
             <item xml:id="drag">drag</item>
-            <item xml:id="to">to drag anchor</item>
+            <item xml:id="todraganchor">to drag anchor</item>
             <item xml:id="dragoman">dragoman</item>
-            <item>(of sails) draw</item>
-            <item>(of water) draw</item>
-            <item xml:id="draw">draw-knife</item>
+            <item xml:id="ofsailsdraw">(of sails) draw</item>
+            <item xml:id="ofwaterdraw">(of water) draw</item>
+            <item xml:id="drawknife">draw-knife</item>
             <item xml:id="dredge">dredge</item>
             <item xml:id="drift">drift</item>
             <item xml:id="drill">drill</item>
-            <item xml:id="drill">drill (1)</item>
-            <item xml:id="drill">drill (2)</item>
-            <item xml:id="drill">drill (3)</item>
-            <item xml:id="drill">drill (4)</item>
-            <item xml:id="drill">drill (5)</item>
-            <item xml:id="drill">drill (6)</item>
-            <item xml:id="drill">drill (7)</item>
-            <item xml:id="drill">drill (8)</item>
-            <item xml:id="drill">drill (9)</item>
+            <item xml:id="drill1">drill (1)</item>
+            <item xml:id="drill2">drill (2)</item>
+            <item xml:id="drill3">drill (3)</item>
+            <item xml:id="drill4">drill (4)</item>
+            <item xml:id="drill5">drill (5)</item>
+            <item xml:id="drill6">drill (6)</item>
+            <item xml:id="drill7">drill (7)</item>
+            <item xml:id="drill8">drill (8)</item>
+            <item xml:id="drill9">drill (9)</item>
             <item xml:id="drom">drom-</item>
             <item xml:id="dromon">dromon</item>
-            <item>(of sail) drop (n.)</item>
+            <item xml:id="ofsaildrop">(of sail) drop (n.)</item>
             <item xml:id="drown">drown; be shipwrecked</item>
             <item xml:id="dub">dub</item>
-            <item>(port) dues</item>
+            <item xml:id="portdues">(port) dues</item>
             <item xml:id="dues">dues</item>
             <item xml:id="dunnage">dunnage</item>
 
             <item xml:id="earing">earing</item>
-            <item xml:id="earnest">earnest money (1)</item>
-            <item xml:id="earnest">earnest money (2)</item>
-            <item xml:id="east">east (1)</item>
-            <item xml:id="east">east (2)</item>
-            <item xml:id="east">east (3)</item>
+            <item xml:id="earnest1">earnest money (1)</item>
+            <item xml:id="earnest2">earnest money (2)</item>
+            <item xml:id="east1">east (1)</item>
+            <item xml:id="east2">east (2)</item>
+            <item xml:id="east3">east (3)</item>
             <item xml:id="easterner">easterner</item>
             <item xml:id="ebb">ebb</item>
             <item xml:id="embargo">embargo</item>
-            <item xml:id="embark">embark (1)</item>
-            <item xml:id="embark">embark (2)</item>
+            <item xml:id="embark1">embark (1)</item>
+            <item xml:id="embark2">embark (2)</item>
             <item xml:id="embay">embay</item>
             <item xml:id="english">english in dma [list]</item>
-            <item xml:id="english">english in greek (ahh)</item>
+            <item xml:id="englishgreek">english in greek (ahh)</item>
             <item xml:id="eng">eng. in portuguese</item>
             <item xml:id="engulf">engulf</item>
             <item xml:id="ensign">ensign</item>
             <item xml:id="entrance">entrance &amp; run</item>
             <item xml:id="escora">escora</item>
-            <item xml:id="esparto">esparto grass</item>
-            <item xml:id="esparto">esparto grass (1)</item>
-            <item xml:id="esparto">esparto (1)</item>
-            <item xml:id="esparto">esparto grass (2)</item>
-            <item xml:id="esparto">esparto grass (3)</item>
+            <item xml:id="espartograss">esparto grass</item>
+            <item xml:id="espartograss1">esparto grass (1)</item>
+            <item xml:id="esparto1">esparto (1)</item>
+            <item xml:id="espartograss2">esparto grass (2)</item>
+            <item xml:id="espartograss3">esparto grass (3)</item>
             <item xml:id="estuary">estuary</item>
             <item xml:id="etesian">etesian wind</item>
             <item xml:id="exchange">exchange</item>
             <item xml:id="eye">eye (splice)</item>
-            <item xml:id="eye">eye (-bolt) (1)</item>
-            <item xml:id="eyebolt">eyebolt (2)</item>
+            <item xml:id="eyebolt1">eye (-bolt) (1)</item>
+            <item xml:id="eyebolt2">eyebolt (2)</item>
             <item xml:id="eyelet">eyelet</item>
 
             <item xml:id="factory">factory (agency)</item>
@@ -978,25 +976,25 @@
             <item xml:id="ferry">ferry</item>
             <item xml:id="fetch">fetch way</item>
             <item xml:id="fiber">fiber</item>
-            <item>(mast) fid (1)</item>
-            <item>(mast) fid (2)</item>
-            <item>(mast) fid-hole</item>
-            <item>(splicing-) fid</item>
+            <item xml:id="mastfid">(mast) fid (1)</item>
+            <item xml:id="mastfid">(mast) fid (2)</item>
+            <item xml:id="mastfid">(mast) fid-hole</item>
+            <item xml:id="splicingfid">(splicing-) fid</item>
             <item xml:id="fid">fid, toggle</item>
             <item xml:id="file">file</item>
             <item xml:id="fill">fill</item>
             <item xml:id="filling">filling</item>
             <item xml:id="fire">fire-ship</item>
-            <item>(mast) fish (1)</item>
-            <item>(mast) fish (2)</item>
-            <item>(mast) fish</item>
+            <item xml:id="mastfish">(mast) fish (1)</item>
+            <item xml:id="mastfish">(mast) fish (2)</item>
+            <item xml:id="mastfish">(mast) fish</item>
             <item xml:id="to">to fish</item>
             <item xml:id="to">to fish (anchor)</item>
             <item xml:id="fish">fish-block</item>
             <item xml:id="fish">fish-boom</item>
-            <item>(of anchor) 1. fish-hook</item>
+            <item xml:id="ofanchor">(of anchor) 1. fish-hook</item>
             <item xml:id="fish">fish-pendant</item>
-            <item>(of anchor) fish-tackle</item>
+            <item xml:id="ofanchor">(of anchor) fish-tackle</item>
             <item xml:id="fish">fish-tackle pendant</item>
             <item xml:id="fisherman">fisherman</item>
             <item xml:id="2">2. fish-hook</item>
@@ -1014,8 +1012,8 @@
             <item xml:id="flag">flag (2)</item>
             <item xml:id="flag">flag (3)</item>
             <item xml:id="flag">flag-ship</item>
-            <item>(of sails) flap</item>
-            <item>(sea-bottom) flats</item>
+            <item xml:id="ofsails">(of sails) flap</item>
+            <item xml:id="seabottom">(sea-bottom) flats</item>
             <item xml:id="flats">flats</item>
             <item xml:id="flat">flat(ten) in</item>
             <item xml:id="flax">flax</item>
@@ -1035,30 +1033,30 @@
             <item xml:id="floor">floor-timber (1)</item>
             <item xml:id="floor">floor (1)</item>
             <item xml:id="floor">floor-timber (2)</item>
-            <item>(forc) (rising) floor-timber (3)</item>
-            <item>(rising) floor-timber (3)</item>
+            <item xml:id="forcrising">(forc) (rising) floor-timber (3)</item>
+            <item xml:id="risingfloor">(rising) floor-timber (3)</item>
             <item xml:id="half">half-floor timber</item>
             <item xml:id="florin">florin</item>
             <item xml:id="flotilla">flotilla </item>
             <item xml:id="flute">flute (ship)</item>
             <item xml:id="fog">fog</item>
-            <item>(synopsis) fondaco</item>
+            <item xml:id="synopsisfondaco">(synopsis) fondaco</item>
             <item xml:id="fondaco">fondaco</item>
-            <item>(meas) foot</item>
+            <item xml:id="measfoot">(meas) foot</item>
             <item xml:id="foot">foot (of sail)</item>
-            <item>(of yard) footrope (1)</item>
-            <item>(of yard) footrope (2)</item>
-            <item>(bolt-rope) foot-rope (3)</item>
-            <item>(clear) fora</item>
-            <item>(outside) fora</item>
-            <item>(out with!) fora</item>
+            <item xml:id="ofyard">(of yard) footrope (1)</item>
+            <item xml:id="ofyard">(of yard) footrope (2)</item>
+            <item xml:id="boltrope">(bolt-rope) foot-rope (3)</item>
+            <item xml:id="clearfora">(clear) fora</item>
+            <item xml:id="outsidefora">(outside) fora</item>
+            <item xml:id="outwith">(out with!) fora</item>
             <item xml:id="force">force</item>
             <item xml:id="ford">ford</item>
             <item xml:id="fore">fore and aft</item>
             <item xml:id="fore">fore-and-aft sail</item>
             <item xml:id="fore">fore-and-after</item>
             <item xml:id="forecastle">forecastle</item>
-            <item>(ramb-) forecastle</item>
+            <item xml:id="rambforecastle">(ramb-) forecastle</item>
             <item xml:id="monkey">monkey-forecastle (1)</item>
             <item xml:id="monkey">monkey-forecastle (2)</item>
             <item xml:id="forefoot">forefoot</item>
@@ -1068,46 +1066,46 @@
             <item xml:id="foresail">foresail; foremast (1)</item>
             <item xml:id="foresail">foresail (1)</item>
             <item xml:id="foresail">foresail (2)</item>
-            <item>(misc.) foresail</item>
+            <item xml:id="miscforesail">(misc.) foresail</item>
             <item xml:id="forestay">forestay</item>
             <item xml:id="form">form</item>
             <item xml:id="forward">forward!</item>
             <item xml:id="fother">fother</item>
-            <item>(of anchor) foul</item>
-            <item>(of bottom) foul</item>
-            <item>(of rope) foul</item>
+            <item xml:id="ofanchor">(of anchor) foul</item>
+            <item xml:id="ofbottom">(of bottom) foul</item>
+            <item xml:id="ofrope">(of rope) foul</item>
             <item xml:id="fox">fox</item>
             <item xml:id="frame">frame</item>
             <item xml:id="frame">frame (1)</item>
             <item xml:id="frame">frame (2)</item>
-            <item>(quadern) frame (3)</item>
-            <item>(curv) frame</item>
+            <item xml:id="quadernframe">(quadern) frame (3)</item>
+            <item xml:id="curvframe">(curv) frame</item>
             <item xml:id="cant">cant-frame</item>
             <item xml:id="filling">filling-frame</item>
             <item xml:id="half">half-frame</item>
             <item xml:id="loof">loof-frame</item>
-            <item>“master”-frame</item>
-            <item>(also main-frame) midship-frame</item>
+            <item xml:id="masterframe">“master”-frame</item>
+            <item xml:id="alsomain">(also main-frame) midship-frame</item>
             <item xml:id="midship">midship-frame</item>
             <item xml:id="square">square-frame</item>
-            <item>(broken down) in frame</item>
-            <item>(skeleton) framework</item>
+            <item xml:id="brokendown">(broken down) in frame</item>
+            <item xml:id="skeletonframework">(skeleton) framework</item>
             <item xml:id="frank">frank, western european</item>
             <item xml:id="frank">frank</item>
             <item xml:id="frap">frap</item>
             <item xml:id="frap">frap (1)</item>
             <item xml:id="frap">frap (a ship)</item>
             <item xml:id="fraxinetum">fraxinetum</item>
-            <item>(pump bilge) to free</item>
+            <item xml:id="pumpbilge">(pump bilge) to free</item>
             <item xml:id="freeboard">freeboard</item>
             <item xml:id="free">free overside</item>
             <item xml:id="free">free port</item>
             <item xml:id="freight">freight (charge)</item>
             <item xml:id="freight">freight</item>
             <item xml:id="fresh">fresh (of wind)</item>
-            <item>(hawse) freshen</item>
+            <item xml:id="hawsefreshen">(hawse) freshen</item>
             <item xml:id="frigate">frigate</item>
-            <item>(sails) full</item>
+            <item xml:id="sailsfull">(sails) full</item>
             <item xml:id="full">full and by</item>
             <item xml:id="funnel">funnel</item>
             <item xml:id="fur">fur, fother</item>
@@ -1118,15 +1116,15 @@
             <item xml:id="furring">furring</item>
             <item xml:id="fusta">fusta</item>
             <item xml:id="fustian">fustian</item>
-            <item>(frame) futtock (1)</item>
+            <item xml:id="framefuttock">(frame) futtock (1)</item>
             <item xml:id="futtock">futtock (2)</item>
             <item xml:id="futtock">futtock (3)</item>
             <item xml:id="futtock">futtock (4)</item>
             <item xml:id="futtock">futtock (5)</item>
             <item xml:id="futtock">futtock (6)</item>
             <item xml:id="futtock">futtock (7)</item>
-            <item>(asta) futtock</item>
-            <item>(frame) futtock</item>
+            <item xml:id="astafuttock">(asta) futtock</item>
+            <item xml:id="framefuttock">(frame) futtock</item>
             <item xml:id="futtock">futtock</item>
             <item xml:id="first">first futtock</item>
             <item xml:id="second">second futtock</item>
@@ -1148,30 +1146,30 @@
             <item xml:id="1">1. galley (1)</item>
             <item xml:id="1">1. galley (2)</item>
             <item xml:id="1">1. (flagship) galley (3)</item>
-            <item>(bastard) 1. galley (4)</item>
-            <item>(capitana) 1. galley (5)</item>
+            <item xml:id="bastard1">(bastard) 1. galley (4)</item>
+            <item xml:id="capitana1">(capitana) 1. galley (5)</item>
             <item xml:id="galley">galley construction</item>
             <item xml:id="galley">galley crew</item>
             <item xml:id="2">2. galley (kitchen) (1)</item>
             <item xml:id="2">2. galley (2)</item>
             <item xml:id="2">2. galley (kitchen) (2)</item>
             <item xml:id="2">2. galley (kitchen) (3)</item>
-            <item>(naut.) galoch</item>
-            <item>(etym.) galoch</item>
+            <item xml:id="nautgaloch">(naut.) galoch</item>
+            <item xml:id="etymgaloch">(etym.) galoch</item>
             <item xml:id="gamba">gamba</item>
             <item xml:id="gammoning">gammoning (1)</item>
             <item xml:id="gammoning">gammoning (2)</item>
             <item xml:id="gangam">gangam</item>
-            <item>(fore-&amp;-aft) gangway</item>
-            <item>(corredor) gangway</item>
+            <item xml:id="foreamp">(fore-&amp;-aft) gangway</item>
+            <item xml:id="corredorgangway">(corredor) gangway</item>
             <item xml:id="gangway">gangway (2)</item>
-            <item>(plank) gangway</item>
+            <item xml:id="plankgangway">(plank) gangway</item>
             <item xml:id="gangway">gangway (side opening)</item>
             <item xml:id="garboard">garboard</item>
             <item xml:id="garwian">garwian</item>
             <item xml:id="sail">sail gasket (et al.) (1)</item>
             <item xml:id="sail">sail gasket (2)</item>
-            <item>(reefing) gasket</item>
+            <item xml:id="reefinggasket">(reefing) gasket</item>
             <item xml:id="gasket">gasket</item>
             <item xml:id="gassa">gassa</item>
             <item xml:id="gate">gate</item>
@@ -1203,12 +1201,12 @@
             <item xml:id="grease">grease</item>
             <item xml:id="grip">grip</item>
             <item xml:id="griparion">griparion</item>
-            <item>(boat-) 1. gripe</item>
+            <item xml:id="boat1">(boat-) 1. gripe</item>
             <item xml:id="2">2. grope</item>
             <item xml:id="griping">griping</item>
             <item xml:id="grommet">grommet</item>
             <item xml:id="ground">ground-tackle</item>
-            <item>(of ropes) grow</item>
+            <item xml:id="ofropes">(of ropes) grow</item>
             <item xml:id="g">g\uarda-</item>
             <item xml:id="guardamano">guardamano</item>
             <item xml:id="guardian">guardian</item>
@@ -1220,7 +1218,7 @@
             <item xml:id="gull">gull</item>
             <item xml:id="gunpowder">gunpowder</item>
             <item xml:id="gunwale">gunwale</item>
-            <item>(orl) gunwale</item>
+            <item xml:id="orlgunwale">(orl) gunwale</item>
             <item xml:id="gust">gust (1)</item>
             <item xml:id="gust">gust (2)</item>
             <item xml:id="gust">gust (3)</item>
@@ -1241,10 +1239,10 @@
             <item xml:id="halyard">halyard (5)</item>
             <item xml:id="halyard">halyard (6)</item>
             <item xml:id="halyard">halyard (7)</item>
-            <item>(lateen) halyard (8)</item>
-            <item>(iss-) halyard (9)</item>
+            <item xml:id="lateenhalyard">(lateen) halyard (8)</item>
+            <item xml:id="isshalyard">(iss-) halyard (9)</item>
             <item xml:id="halyard">halyard (10)</item>
-            <item>(flag) halyard</item>
+            <item xml:id="flaghalyard">(flag) halyard</item>
             <item xml:id="gaff">gaff-sail halyard</item>
             <item xml:id="halyard">halyard tackles</item>
             <item xml:id="hambroline">hambroline</item>
@@ -1280,7 +1278,7 @@
             <item xml:id="haul">haul (4)</item>
             <item xml:id="haul">haul forward</item>
             <item xml:id="haul">haul in</item>
-            <item>(sheethome) haul taut (1)</item>
+            <item xml:id="sheethomehaul">(sheethome) haul taut (1)</item>
             <item xml:id="haul">haul taut (1)</item>
             <item xml:id="haul">haul taut (2)</item>
             <item xml:id="haul">haul (the wind)</item>
@@ -1300,21 +1298,21 @@
             <item xml:id="hawser">hawser (8)</item>
             <item xml:id="hawser">hawser (9)</item>
             <item xml:id="hawser">hawser (10)</item>
-            <item>(καλωσ) hawser (11)</item>
+            <item xml:id="hawser11">(καλωσ) hawser (11)</item>
             <item xml:id="hawser">hawser</item>
             <item xml:id="white">white hawser</item>
             <item xml:id="hawser">hawser-laid rope</item>
             <item xml:id="head">head</item>
             <item xml:id="head">head(-ing)</item>
-            <item>(of sail) head</item>
+            <item xml:id="ofsail">(of sail) head</item>
             <item xml:id="head">head for</item>
             <item xml:id="head">head-land</item>
             <item xml:id="head">head-rail</item>
-            <item>(of sail) head-rope</item>
+            <item xml:id="ofsail">(of sail) head-rope</item>
             <item xml:id="head">head-sail</item>
             <item xml:id="head">head-timber</item>
             <item xml:id="head">head-wind</item>
-            <item>(of rope) heart</item>
+            <item xml:id="ofrope">(of rope) heart</item>
             <item xml:id="heave">heave (1)</item>
             <item xml:id="heave">heave</item>
             <item xml:id="heave">heave to et al.</item>
@@ -1323,7 +1321,7 @@
             <item xml:id="heave">heave to (3)</item>
             <item xml:id="heave">heave to (4)</item>
             <item xml:id="heave">heave to (5)</item>
-            <item>(misc.) heave to</item>
+            <item xml:id="mischeave">(misc.) heave to</item>
             <item xml:id="heaving">heaving line</item>
             <item xml:id="heel">heel (of mast)</item>
             <item xml:id="to">to heel</item>
@@ -1342,7 +1340,7 @@
             <item xml:id="hitch">hitch</item>
             <item xml:id="blackwall">blackwall hitch</item>
             <item xml:id="clove">clove-hitch</item>
-            <item>(half-)hitch</item>
+            <item xml:id="halfhitch">(half-)hitch</item>
             <item xml:id="half">half-hitch</item>
             <item xml:id="timber">timber-hitch</item>
             <item xml:id="hog">hog</item>
@@ -1351,22 +1349,22 @@
             <item xml:id="hoist">hoist (3)</item>
             <item xml:id="hoist">hoist (4)</item>
             <item xml:id="hoist">hoist (5)</item>
-            <item>(of sail) hoist (n.)</item>
-            <item>(anchor-)hold</item>
+            <item xml:id="ofsail">(of sail) hoist (n.)</item>
+            <item xml:id="anchorhold">(anchor-)hold</item>
             <item xml:id="hold">hold (1)</item>
             <item xml:id="hold">hold (2)</item>
             <item xml:id="hold">hold (3)</item>
             <item xml:id="lower">lower hold</item>
             <item xml:id="to">to hold fast</item>
             <item xml:id="hold">hold water</item>
-            <item>(pertus-) hole</item>
+            <item xml:id="pertushole">(pertus-) hole</item>
             <item xml:id="hook">hook</item>
             <item xml:id="boat">boat-hook</item>
             <item xml:id="to">to hook</item>
             <item xml:id="horse">horse-transport (1)</item>
             <item xml:id="horse">horse-transport (2)</item>
             <item xml:id="horse">horse-transport (misc.)</item>
-            <item>(pump) hose</item>
+            <item xml:id="pumphose">(pump) hose</item>
             <item xml:id="hounds">hounds</item>
             <item xml:id="hour">hour-glass (1)</item>
             <item xml:id="hour">hour-glass (2)</item>
@@ -1385,12 +1383,12 @@
             <item xml:id="island">island</item>
 
             <item xml:id="jack">jack</item>
-            <item>(a rope) to jam</item>
+            <item xml:id="arope">(a rope) to jam</item>
             <item xml:id="jar">jar (1)</item>
             <item xml:id="jar">jar</item>
-            <item>(cadus) jar</item>
-            <item>(dolium) jar</item>
-            <item>(olla) jar</item>
+            <item xml:id="cadusjar">(cadus) jar</item>
+            <item xml:id="doliumjar">(dolium) jar</item>
+            <item xml:id="ollajar">(olla) jar</item>
             <item xml:id="jeer">jeer</item>
             <item xml:id="jerk">jerk</item>
             <item xml:id="jettison">jettison</item>
@@ -1404,13 +1402,13 @@
             <item xml:id="jibe">jibe</item>
             <item xml:id="jigger">jigger (1)</item>
             <item xml:id="jigger">jigger (2)</item>
-            <item>(tackle) jigger</item>
+            <item xml:id="tacklejigger">(tackle) jigger</item>
             <item xml:id="j">jŏcus</item>
             <item xml:id="joiner">joiner</item>
             <item xml:id="joint">joint</item>
             <item xml:id="joint">joint (2)</item>
-            <item>(joinery) joint (n.)</item>
-            <item>(joinery) joint (v.)</item>
+            <item xml:id="joineryjoint">(joinery) joint (n.)</item>
+            <item xml:id="joineryjoint">(joinery) joint (v.)</item>
             <item xml:id="junk">junk</item>
             <item xml:id="jury">jury</item>
 
@@ -1420,10 +1418,10 @@
             <item xml:id="karamusal">karamusal</item>
             <item xml:id="keckling">keckling</item>
             <item xml:id="keel">keel assembly</item>
-            <item>(carina) keel (1)</item>
-            <item>(kjölr) keel (2)</item>
-            <item>(colomba) keel (3)</item>
-            <item>(prim) keel (4)</item>
+            <item xml:id="carinakeel">(carina) keel (1)</item>
+            <item xml:id="kjlr">(kjölr) keel (2)</item>
+            <item xml:id="colombakeel">(colomba) keel (3)</item>
+            <item xml:id="primkeel">(prim) keel (4)</item>
             <item xml:id="keel">keel</item>
             <item xml:id="false">false keel, shoe</item>
             <item xml:id="keel">keel duty</item>
@@ -1455,7 +1453,7 @@
             <item xml:id="knot">knot</item>
             <item xml:id="1">1. knot (1)</item>
             <item xml:id="1">1. knot (2)</item>
-            <item>(square) reef-knot</item>
+            <item xml:id="squarereef">(square) reef-knot</item>
             <item xml:id="2">2. knot</item>
             <item xml:id="running">running knot</item>
             <item xml:id="know">know</item>
@@ -1478,10 +1476,10 @@
             <item xml:id="lanyard">lanyard (2)</item>
             <item xml:id="lanyard">lanyard (3)</item>
             <item xml:id="large">large (wind)</item>
-            <item>(free) (sail) large</item>
-            <item>(sail) large</item>
-            <item>(osta) (sail) large</item>
-            <item>(lask) (sail) large</item>
+            <item xml:id="freesail">(free) (sail) large</item>
+            <item xml:id="saillarge">(sail) large</item>
+            <item xml:id="ostasail">(osta) (sail) large</item>
+            <item xml:id="lasksail">(lask) (sail) large</item>
             <item xml:id="lascar">lascar</item>
             <item xml:id="lashing">lashing (1)</item>
             <item xml:id="lash">lash(ing) (2)</item>
@@ -1493,30 +1491,30 @@
             <item xml:id="last">last (load)</item>
             <item xml:id="lateen">lateen</item>
             <item xml:id="lateen">lateen rigging</item>
-            <item>(vessel) laud</item>
+            <item xml:id="vessellaud">(vessel) laud</item>
             <item xml:id="launch">launch (v.)</item>
             <item xml:id="launch">launch (n.)</item>
             <item xml:id="launching">launching</item>
-            <item>(rusca) launching</item>
+            <item xml:id="ruscalaunching">(rusca) launching</item>
             <item xml:id="launching">launching tackle</item>
             <item xml:id="launching">launching wedge</item>
             <item xml:id="lay">lay (of rope)</item>
-            <item>(rope) lay</item>
-            <item>(of rope) lay</item>
+            <item xml:id="ropelay">(rope) lay</item>
+            <item xml:id="ofrope">(of rope) lay</item>
             <item xml:id="lay">lay (rope)</item>
-            <item>(left-handed) lay</item>
-            <item>(plain-laid) lay</item>
-            <item>(right-handed) lay</item>
-            <item>(shroud-laid) lay</item>
-            <item>(water-laid) lay</item>
+            <item xml:id="lefthanded">(left-handed) lay</item>
+            <item xml:id="plainlaid">(plain-laid) lay</item>
+            <item xml:id="righthanded">(right-handed) lay</item>
+            <item xml:id="shroudlaid">(shroud-laid) lay</item>
+            <item xml:id="waterlaid">(water-laid) lay</item>
             <item xml:id="lay">lay days</item>
             <item xml:id="to">to lay up</item>
             <item xml:id="lazaret">lazaret, quarantine establishment</item>
             <item xml:id="lazaret">lazaret</item>
-            <item>(plumb) lead</item>
-            <item>(sond-) lead</item>
-            <item>(scand-) lead</item>
-            <item>(katapeirates) lead</item>
+            <item xml:id="plumblead">(plumb) lead</item>
+            <item xml:id="sondlead">(sond-) lead</item>
+            <item xml:id="scandlead">(scand-) lead</item>
+            <item xml:id="katapeirateslead">(katapeirates) lead</item>
             <item xml:id="to">to lead (a rope)</item>
             <item xml:id="leading">leading (wind)</item>
             <item xml:id="league">league</item>
@@ -1550,9 +1548,9 @@
             <item xml:id="lid">lid</item>
             <item xml:id="lie">lie to</item>
             <item xml:id="lift">lift (cargo)</item>
-            <item>(of yard) lift (1)</item>
+            <item xml:id="ofyard">(of yard) lift (1)</item>
             <item xml:id="lift">lift</item>
-            <item>(of yard) lift (2)</item>
+            <item xml:id="ofyard">(of yard) lift (2)</item>
             <item xml:id="boom">boom-lift</item>
             <item xml:id="light">light, beacon (1, 2)</item>
             <item xml:id="light">light, beacon (1)</item>
@@ -1560,7 +1558,7 @@
             <item xml:id="light">light, beacon (2)</item>
             <item xml:id="light">light (2)</item>
             <item xml:id="light">light, beacon (3)</item>
-            <item>(not loaded) light</item>
+            <item xml:id="notloaded">(not loaded) light</item>
             <item xml:id="light">light (wind)</item>
             <item xml:id="lighter">lighter; unloading (1)</item>
             <item xml:id="lighter">lighter (1)</item>
@@ -1577,7 +1575,7 @@
             <item xml:id="long">long-line</item>
             <item xml:id="long">long-line (2)</item>
             <item xml:id="lingua">lingua franca</item>
-            <item>(of sail) lining</item>
+            <item xml:id="ofsail">(of sail) lining</item>
             <item xml:id="link">link</item>
             <item xml:id="list">list</item>
             <item xml:id="liter">liter</item>
@@ -1587,7 +1585,7 @@
             <item xml:id="loading">loading place</item>
             <item xml:id="lock">lock</item>
             <item xml:id="lodge">lodge</item>
-            <item>(germ.) lofo</item>
+            <item xml:id="germlofo">(germ.) lofo</item>
             <item xml:id="log">log</item>
             <item xml:id="log">log-book</item>
             <item xml:id="log">log-line</item>
@@ -1595,7 +1593,7 @@
             <item xml:id="longitudinal">longitudinal</item>
             <item xml:id="longshoreman">longshoreman</item>
             <item xml:id="look">look out</item>
-            <item>(hull members) loosen</item>
+            <item xml:id="hullmembers">(hull members) loosen</item>
             <item xml:id="log">log-side(d)</item>
             <item xml:id="lower">lower (sail), slacken (1)</item>
             <item xml:id="lower">lower (1)</item>
@@ -1610,10 +1608,10 @@
             <item xml:id="lubber">lubber-hole</item>
             <item xml:id="luff">luff</item>
             <item xml:id="loof">loof (of bows)</item>
-            <item>(of sail) luff (n.)</item>
-            <item>(maneuver) luff</item>
+            <item xml:id="ofsail">(of sail) luff (n.)</item>
+            <item xml:id="maneuverluff">(maneuver) luff</item>
             <item xml:id="to">to luff</item>
-            <item>(spar) luff</item>
+            <item xml:id="sparluff">(spar) luff</item>
             <item xml:id="lugger">lugger</item>
             <item xml:id="lugsail">lugsail</item>
             <item xml:id="lumpsum">lumpsum charter</item>
@@ -1638,7 +1636,7 @@
             <item xml:id="maravedi">maravedi</item>
             <item xml:id="mariuolo">mariuolo</item>
             <item xml:id="mark">mark</item>
-            <item>(land) mark</item>
+            <item xml:id="landmark">(land) mark</item>
             <item xml:id="mark">mark (coin)</item>
             <item xml:id="market">market</item>
             <item xml:id="marl">marl; marling hitch</item>
@@ -1653,7 +1651,7 @@
             <item xml:id="mast">mast (1)</item>
             <item xml:id="mast">mast (2)</item>
             <item xml:id="mast">mast (3)</item>
-            <item>(pal) mast (4)</item>
+            <item xml:id="palmast">(pal) mast (4)</item>
             <item xml:id="mast">mast</item>
             <item xml:id="mast">mast (misc.)</item>
             <item xml:id="lower">lower mast</item>
@@ -1673,7 +1671,7 @@
             <item xml:id="masthead">masthead</item>
             <item xml:id="masthead">masthead (misc.)</item>
             <item xml:id="masthead">masthead rigging</item>
-            <item>(rig the) masthead</item>
+            <item xml:id="rigthe">(rig the) masthead</item>
             <item xml:id="mast">mast-hole</item>
             <item xml:id="mast">mast-rope</item>
             <item xml:id="mast">mast-rope (1)</item>
@@ -1685,18 +1683,18 @@
             <item xml:id="matafion">matafion</item>
             <item xml:id="matapan">matapan</item>
             <item xml:id="mate">mate</item>
-            <item>(sailor’s) mattress</item>
+            <item xml:id="sailors">(sailor’s) mattress</item>
             <item xml:id="mattress">mattress</item>
             <item xml:id="maximum">maximum/minimum</item>
             <item xml:id="measure">measure (a ship)</item>
             <item xml:id="measures">measures - spice</item>
             <item xml:id="mediterranean">mediterranean</item>
             <item xml:id="meet">meet her!</item>
-            <item>(structural) member (1)</item>
-            <item>(structural) member (2)</item>
+            <item xml:id="structuralmember">(structural) member (1)</item>
+            <item xml:id="structuralmember">(structural) member (2)</item>
             <item xml:id="men">men-</item>
-            <item>-men</item>
-            <item>-ment</item>
+            <item xml:id="menitem">-men</item>
+            <item xml:id="mentitem">-ment</item>
             <item xml:id="merchandise">merchandise (1)</item>
             <item xml:id="merchandise">merchandise (2)</item>
             <item xml:id="merchandise">merchandise (3)</item>
@@ -1714,7 +1712,7 @@
             <item xml:id="mistico">mistico</item>
             <item xml:id="mizzen">mizzen</item>
             <item xml:id="mizzen">mizzen-bowline</item>
-            <item>(of wind) moderate</item>
+            <item xml:id="ofwind">(of wind) moderate</item>
             <item xml:id="modius">modius</item>
             <item xml:id="mold">mold</item>
             <item xml:id="to">to mold</item>
@@ -1725,10 +1723,10 @@
             <item xml:id="monsoon">monsoon</item>
             <item xml:id="moor">moor (1)</item>
             <item xml:id="moor">moor (2)</item>
-            <item>(to 2 anchors) moor (3)</item>
+            <item xml:id="to2">(to 2 anchors) moor (3)</item>
             <item xml:id="moor">moor (4)</item>
             <item xml:id="moor">moor</item>
-            <item>(tax) moorage</item>
+            <item xml:id="taxmoorage">(tax) moorage</item>
             <item xml:id="moorings">moorings</item>
             <item xml:id="mooring">mooring-post</item>
             <item xml:id="mooring">mooring swivel</item>
@@ -1737,7 +1735,7 @@
             <item xml:id="morganal">morganal</item>
             <item xml:id="mortise">mortise</item>
             <item xml:id="mouse">mouse</item>
-            <item>(of hook) mousing</item>
+            <item xml:id="ofhook">(of hook) mousing</item>
             <item xml:id="mouth">mouth (of river)</item>
             <item xml:id="mouth">mouth (1)</item>
             <item xml:id="mouth">mouth (2)</item>
@@ -1751,29 +1749,29 @@
             <item xml:id="nail">nail, peg</item>
             <item xml:id="nail">nail</item>
             <item xml:id="clout">clout-nail</item>
-            <item>(supply of) nails</item>
+            <item xml:id="supplyof">(supply of) nails</item>
             <item xml:id="nails">nails</item>
             <item xml:id="nauclerus">nauclerus</item>
             <item xml:id="naval">naval stores</item>
-            <item>(water used in) naval stores</item>
+            <item xml:id="waterused">(water used in) naval stores</item>
             <item xml:id="navigate">navigate</item>
             <item xml:id="navigation">navigation</item>
             <item xml:id="net">net-needle</item>
             <item xml:id="sail">sail-needle</item>
-            <item>(ret-) net (1)</item>
-            <item>(tract-) net (2)</item>
-            <item>(kalym) net (3)</item>
+            <item xml:id="retnet">(ret-) net (1)</item>
+            <item xml:id="tractnet">(tract-) net (2)</item>
+            <item xml:id="kalymnet">(kalym) net (3)</item>
             <item xml:id="trammel">trammel-net (4)</item>
-            <item>(madrab) net (5)</item>
-            <item>(panagron) net (6)</item>
+            <item xml:id="madrabnet">(madrab) net (5)</item>
+            <item xml:id="panagronnet">(panagron) net (6)</item>
             <item xml:id="casting">casting-net (7)</item>
-            <item>(men) net (8)</item>
-            <item>(grip) drag-net (9a)</item>
-            <item>(train) drag-net (9b)</item>
+            <item xml:id="mennet">(men) net (8)</item>
+            <item xml:id="gripdrag">(grip) drag-net (9a)</item>
+            <item xml:id="traindrag">(train) drag-net (9b)</item>
             <item xml:id="seine">seine-net (10)</item>
-            <item>(bol) net (11)</item>
-            <item>(tuna) net (12)</item>
-            <item>(fil) net (13)</item>
+            <item xml:id="bolnet">(bol) net (11)</item>
+            <item xml:id="tunanet">(tuna) net (12)</item>
+            <item xml:id="filnet">(fil) net (13)</item>
             <item xml:id="net">net (misc.)</item>
             <item xml:id="boarding">boarding-net</item>
             <item xml:id="cargo">cargo-net</item>
@@ -1807,7 +1805,7 @@
             <item xml:id="off">off</item>
             <item xml:id="off">off and on</item>
             <item xml:id="officers">officers</item>
-            <item>(offward, offshore) (in the) offing (1)</item>
+            <item xml:id="offwardoffshore">(offward, offshore) (in the) offing (1)</item>
             <item xml:id="offing">offing</item>
             <item xml:id="oka">oka</item>
             <item xml:id="opa">opa!</item>
@@ -1815,27 +1813,27 @@
             <item xml:id="order">order</item>
             <item xml:id="orza">orza</item>
             <item xml:id="orza">orza (tackle) (rope)</item>
-            <item>(tackle) orza</item>
-            <item>(close hauled) orza</item>
-            <item>(close hauled/ weather-side) orza</item>
-            <item>(weather-side) orza</item>
-            <item>(luffalee) orza</item>
-            <item>(port-side) orza</item>
+            <item xml:id="tackleorza">(tackle) orza</item>
+            <item xml:id="closehauled">(close hauled) orza</item>
+            <item xml:id="closehauled">(close hauled/ weather-side) orza</item>
+            <item xml:id="weatherside">(weather-side) orza</item>
+            <item xml:id="luffaleeorza">(luffalee) orza</item>
+            <item xml:id="portside">(port-side) orza</item>
             <item xml:id="orza">orza d’avanti</item>
             <item xml:id="orza">orza di poppa</item>
             <item xml:id="orza">orza poggia</item>
             <item xml:id="orza">orza popa</item>
-            <item>(etymol.) orza</item>
-            <item>-otto</item>
+            <item xml:id="etymolorza">(etymol.) orza</item>
+            <item xml:id="ottoitem">-otto</item>
             <item xml:id="ounce">ounce</item>
             <item xml:id="outrigger">outrigger</item>
             <item xml:id="outrigger">outrigger (for oars)</item>
-            <item>(for oars) outrigger frame</item>
+            <item xml:id="foroars">(for oars) outrigger frame</item>
             <item xml:id="overboard">overboard</item>
-            <item>(go over) 1. overhaul</item>
-            <item>(of 2 ships) 2. overhaul</item>
-            <item>(tackle) 3. overhaul</item>
-            <item>(masts/rigging) 4. overhaul</item>
+            <item xml:id="goover">(go over) 1. overhaul</item>
+            <item xml:id="of2">(of 2 ships) 2. overhaul</item>
+            <item xml:id="tackle3">(tackle) 3. overhaul</item>
+            <item xml:id="mastsrigging">(masts/rigging) 4. overhaul</item>
             <item xml:id="overload">overload</item>
             <item xml:id="overseas">overseas</item>
             <item xml:id="overturn">overturn, capsize, shift</item>
@@ -1846,15 +1844,15 @@
             <item xml:id="package">package</item>
             <item xml:id="packer">packer</item>
             <item xml:id="packet">packet boat</item>
-            <item>(cradle-) packing</item>
+            <item xml:id="cradlepacking">(cradle-) packing</item>
             <item xml:id="packing">packing</item>
             <item xml:id="painter">painter</item>
             <item xml:id="pair">pair-trawl(-er) (1)</item>
             <item xml:id="pair">pair-trawler (2)</item>
             <item xml:id="palandra">palandra</item>
             <item xml:id="palaver">palaver</item>
-            <item>(meas.) palm</item>
-            <item>(sailmaker’s) palm</item>
+            <item xml:id="measpalm">(meas.) palm</item>
+            <item xml:id="sailmakers">(sailmaker’s) palm</item>
             <item xml:id="paloma">paloma</item>
             <item xml:id="panfil">panfil</item>
             <item xml:id="panzonus">panzonus</item>
@@ -1880,8 +1878,8 @@
             <item xml:id="parrel">parrel truck</item>
             <item xml:id="parrel">parrel-truck</item>
             <item xml:id="parrot">parrot/parakeet</item>
-            <item>(of a tackle) part</item>
-            <item>(rope) to part</item>
+            <item xml:id="ofa">(of a tackle) part</item>
+            <item xml:id="ropeto">(rope) to part</item>
             <item xml:id="parting">parting shot</item>
             <item xml:id="partners">partners</item>
             <item xml:id="pass">pass the word</item>
@@ -1911,7 +1909,7 @@
             <item xml:id="pendant">pendant (2)</item>
             <item xml:id="pendant">pendant (4)</item>
             <item xml:id="pendant">pendant</item>
-            <item>(brace) pendant</item>
+            <item xml:id="bracependant">(brace) pendant</item>
             <item xml:id="mast">mast-head pendant</item>
             <item xml:id="penese">penese</item>
             <item xml:id="pennant">pennant (1)</item>
@@ -1928,7 +1926,7 @@
             <item xml:id="pilot">pilot</item>
             <item xml:id="to">to pilot</item>
             <item xml:id="pilot">pilot (2)</item>
-            <item>(hobbling) pilot (3)</item>
+            <item xml:id="hobblingpilot">(hobbling) pilot (3)</item>
             <item xml:id="pilotage">pilotage</item>
             <item xml:id="pilot">pilot boat</item>
             <item xml:id="pilot">pilot-house</item>
@@ -1958,8 +1956,8 @@
             <item xml:id="naval">naval pitch (1)</item>
             <item xml:id="naval">naval pitch (2)</item>
             <item xml:id="pitch">pitch (misc.)</item>
-            <item>(grease in) pitch</item>
-            <item>(sulfur in) pitch</item>
+            <item xml:id="greasein">(grease in) pitch</item>
+            <item xml:id="sulfurin">(sulfur in) pitch</item>
             <item xml:id="pitch">pitch-kettle (1)</item>
             <item xml:id="pitch">pitch-kettle (2)</item>
             <item xml:id="pitch">pitch-kettle (3)</item>
@@ -1983,26 +1981,26 @@
             <item xml:id="ply">ply</item>
             <item xml:id="plyer">plyer</item>
             <item xml:id="poggia">poggia</item>
-            <item>(lee) poggia</item>
-            <item>(bear up) poggia</item>
-            <item>(tackle) poggia</item>
-            <item>(starboard) poggia</item>
-            <item>(etym.) poggia</item>
-            <item>(alee/bear up/fall off) poggia</item>
+            <item xml:id="leepoggia">(lee) poggia</item>
+            <item xml:id="bearup">(bear up) poggia</item>
+            <item xml:id="tacklepoggia">(tackle) poggia</item>
+            <item xml:id="starboardpoggia">(starboard) poggia</item>
+            <item xml:id="etympoggia">(etym.) poggia</item>
+            <item xml:id="aleebear">(alee/bear up/fall off) poggia</item>
             <item xml:id="poggial">poggial</item>
             <item xml:id="poggiastrello">poggiastrello</item>
             <item xml:id="to">to point</item>
             <item xml:id="1">1. point (peninsula)</item>
             <item xml:id="2">2. (compass) point (1)</item>
             <item xml:id="2">2. (compass) point (2)</item>
-            <item>(half) point (of compass)</item>
+            <item xml:id="halfpoint">(half) point (of compass)</item>
             <item xml:id="3">3. (navigational) point</item>
-            <item>(rope) pointing</item>
+            <item xml:id="ropepointing">(rope) pointing</item>
             <item xml:id="polacre">polacre</item>
             <item xml:id="pole">pole (1)</item>
             <item xml:id="pole">pole (2)</item>
             <item xml:id="pole">pole (3)</item>
-            <item>(of mast) pole (4)</item>
+            <item xml:id="ofmast">(of mast) pole (4)</item>
             <item xml:id="policy">policy</item>
             <item xml:id="pontoon">pontoon</item>
             <item xml:id="poop">poop (v.)</item>
@@ -2024,8 +2022,8 @@
             <item xml:id="2">2. post (mail)</item>
             <item xml:id="stem">stem-, stern-post</item>
             <item xml:id="inner">inner post</item>
-            <item>(money of account) pound</item>
-            <item>(weight) pound</item>
+            <item xml:id="moneyof">(money of account) pound</item>
+            <item xml:id="weightpound">(weight) pound</item>
             <item xml:id="pratique">pratique</item>
             <item xml:id="preventer">preventer</item>
             <item xml:id="primage">primage</item>
@@ -2063,9 +2061,9 @@
  
             <item xml:id="quadr">quadr-</item>
             <item xml:id="quarantine">quarantine</item>
-            <item>(wt. meas.) quarter</item>
+            <item xml:id="wtmeas">(wt. meas.) quarter</item>
             <item xml:id="quarter">quarter (1)</item>
-            <item>(after-) quarter</item>
+            <item xml:id="afterquarter">(after-) quarter</item>
             <item xml:id="quartermaster">quartermaster</item>
             <item xml:id="quarter">quarter wind</item>
             <item xml:id="quay">quay</item>
@@ -2085,7 +2083,7 @@
             <item xml:id="rancho">rancho</item>
             <item xml:id="range">range (of cable)</item>
             <item xml:id="range">range (of marks)</item>
-            <item>(cleat) range</item>
+            <item xml:id="cleatrange">(cleat) range</item>
             <item xml:id="rasp">rasp</item>
             <item xml:id="ration">ration</item>
             <item xml:id="ratline">ratline</item>
@@ -2128,7 +2126,7 @@
             <item xml:id="repair">repair (2)</item>
             <item xml:id="repair">repair (3)</item>
             <item xml:id="repair">repair (4)</item>
-            <item>(signal at sundown) retreat</item>
+            <item xml:id="signalat">(signal at sundown) retreat</item>
             <item xml:id="framing">framing ribband</item>
             <item xml:id="launching">launching-ribband</item>
             <item xml:id="rice">rice</item>
@@ -2153,10 +2151,10 @@
             <item xml:id="rising">rising wood</item>
             <item xml:id="risk">risk</item>
             <item xml:id="river">river</item>
-            <item>(of sail) roach</item>
+            <item xml:id="ofsail">(of sail) roach</item>
             <item xml:id="road">road</item>
             <item xml:id="roads">roads</item>
-            <item>(surf, wind) roar</item>
+            <item xml:id="surfwind">(surf, wind) roar</item>
             <item xml:id="rob">rob</item>
             <item xml:id="roband">roband</item>
             <item xml:id="rock">rock</item>
@@ -2176,13 +2174,13 @@
             <item xml:id="breast">breast rope</item>
             <item xml:id="hand">hand-rope</item>
             <item xml:id="head">head-rope of a net</item>
-            <item>(head-fast) rope</item>
-            <item>(shore-fast) rope</item>
-            <item>(stern-fast) rope</item>
+            <item xml:id="headfast">(head-fast) rope</item>
+            <item xml:id="shorefast">(shore-fast) rope</item>
+            <item xml:id="sternfast">(stern-fast) rope</item>
             <item xml:id="stern">stern-rope</item>
             <item xml:id="tow">tow-rope</item>
             <item xml:id="track">track-rope</item>
-            <item>(warp) rope</item>
+            <item xml:id="warprope">(warp) rope</item>
             <item xml:id="ropes">ropes</item>
             <item xml:id="ropemaker">ropemaker (1)</item>
             <item xml:id="ropemaker">ropemaker (2)</item>
@@ -2190,7 +2188,7 @@
             <item xml:id="rope">rope-walk</item>
             <item xml:id="compass">compass-rose</item>
             <item xml:id="rosin">rosin</item>
-            <item>(of spars) rough</item>
+            <item xml:id="ofspars">(of spars) rough</item>
             <item xml:id="to">to round in</item>
             <item xml:id="round">round in/up</item>
             <item xml:id="round">round line</item>
@@ -2199,21 +2197,21 @@
             <item xml:id="to">to row (2)</item>
             <item xml:id="to">to row</item>
             <item xml:id="rower">rower</item>
-            <item>(second) rower</item>
-            <item>(first) rower</item>
-            <item>(third) rower</item>
-            <item>(fourth, fifth) rower</item>
-            <item>(aft) rower</item>
+            <item xml:id="secondrower">(second) rower</item>
+            <item xml:id="firstrower">(first) rower</item>
+            <item xml:id="thirdrower">(third) rower</item>
+            <item xml:id="fourthfifth">(fourth, fifth) rower</item>
+            <item xml:id="aftrower">(aft) rower</item>
             <item xml:id="free">free rower</item>
-            <item>(forward) rower</item>
+            <item xml:id="forwardrower">(forward) rower</item>
             <item xml:id="paid">paid rower</item>
-            <item>(stroke) rower</item>
+            <item xml:id="strokerower">(stroke) rower</item>
             <item xml:id="rowing">rowing</item>
-            <item>(longstroke) rowing</item>
-            <item>(passa voga) rowing</item>
-            <item>(a scaloccio) rowing</item>
-            <item>(a terzaruolo) rowing</item>
-            <item>(a zenzile) rowing</item>
+            <item xml:id="longstrokerowing">(longstroke) rowing</item>
+            <item xml:id="passavoga">(passa voga) rowing</item>
+            <item xml:id="ascaloccio">(a scaloccio) rowing</item>
+            <item xml:id="aterzaruolo">(a terzaruolo) rowing</item>
+            <item xml:id="azenzile">(a zenzile) rowing</item>
             <item xml:id="rowlock">rowlock</item>
             <item xml:id="royal">royal</item>
             <item xml:id="rudder">rudder (1)</item>
@@ -2244,7 +2242,7 @@
             <item xml:id="sagitta">sagitta</item>
             <item xml:id="saic">saic</item>
             <item xml:id="sail">sail</item>
-            <item>(parts of) sail</item>
+            <item xml:id="partsof">(parts of) sail</item>
             <item xml:id="large">large sails</item>
             <item xml:id="lateen">lateen sail (parts)</item>
             <item xml:id="lateen">lateen sail</item>
@@ -2256,7 +2254,7 @@
             <item xml:id="sail">sail-maker</item>
             <item xml:id="to">to sail (1)</item>
             <item xml:id="to">to sail (2)</item>
-            <item>(depart) sail</item>
+            <item xml:id="departsail">(depart) sail</item>
             <item xml:id="salma">salma</item>
             <item xml:id="saltarella">saltarella</item>
             <item xml:id="salt">salt-horse</item>
@@ -2276,10 +2274,10 @@
             <item xml:id="scala">scala</item>
             <item xml:id="sc">scāla</item>
             <item xml:id="scales">scales</item>
-            <item>(balance-weight) scales</item>
-            <item>(statera steelyard) scale (1)</item>
+            <item xml:id="balanceweight">(balance-weight) scales</item>
+            <item xml:id="staterasteelyard">(statera steelyard) scale (1)</item>
             <item xml:id="scale">scale (2)</item>
-            <item>(roman steelyard) scale (3)</item>
+            <item xml:id="romansteelyard">(roman steelyard) scale (3)</item>
             <item xml:id="scale">scale (miscell.)</item>
             <item xml:id="scant">scant (wind)</item>
             <item xml:id="scantling">scantling</item>
@@ -2300,7 +2298,7 @@
             <item xml:id="scribe">scribe, clerk; mate</item>
             <item xml:id="scribe">scribe</item>
             <item xml:id="to">to scribe</item>
-            <item>(stern-) scull</item>
+            <item xml:id="sternscull">(stern-) scull</item>
             <item xml:id="scull">scull</item>
             <item xml:id="scupper">scupper</item>
             <item xml:id="scuttle">scuttle (1)</item>
@@ -2312,8 +2310,8 @@
             <item xml:id="sea">sea (2)</item>
             <item xml:id="sea">sea (3)</item>
             <item xml:id="sea">sea (misc.)</item>
-            <item>(condition) sea</item>
-            <item>(shipped aboard) sea</item>
+            <item xml:id="conditionsea">(condition) sea</item>
+            <item xml:id="shippedaboard">(shipped aboard) sea</item>
             <item xml:id="beam">beam-sea</item>
             <item xml:id="choppy">choppy sea</item>
             <item xml:id="confused">confused sea</item>
@@ -2323,7 +2321,7 @@
             <item xml:id="long">long sea</item>
             <item xml:id="rough">rough sea</item>
             <item xml:id="short">short sea</item>
-            <item>(planking) seam</item>
+            <item xml:id="plankingseam">(planking) seam</item>
             <item xml:id="seaman">seaman</item>
             <item xml:id="seaman">seaman (1)</item>
             <item xml:id="seaman">seaman (2)</item>
@@ -2335,22 +2333,22 @@
             <item xml:id="to">to secure</item>
             <item xml:id="seize">seize</item>
             <item xml:id="seizing">seizing</item>
-            <item>(racking) seizing</item>
-            <item>(round) seizing</item>
+            <item xml:id="rackingseizing">(racking) seizing</item>
+            <item xml:id="roundseizing">(round) seizing</item>
             <item xml:id="selvagee">selvagee strop</item>
             <item xml:id="sennit">sennit (1)</item>
             <item xml:id="sennit">sennit</item>
             <item xml:id="sennit">sennit; gasket (2)</item>
-            <item>(common) sennit (3)</item>
+            <item xml:id="commonsennit">(common) sennit (3)</item>
             <item xml:id="separation">separation</item>
             <item xml:id="serve">serve</item>
             <item xml:id="set">set sail</item>
-            <item>(of rigging) set up</item>
+            <item xml:id="ofrigging">(of rigging) set up</item>
             <item xml:id="sew">sew</item>
             <item xml:id="sextarius">sextarius</item>
             <item xml:id="shack">shack</item>
             <item xml:id="ankle">ankle-shackle</item>
-            <item>(rigging) shackle</item>
+            <item xml:id="riggingshackle">(rigging) shackle</item>
             <item xml:id="shad">shad</item>
             <item xml:id="shake">shake out (reef)</item>
             <item xml:id="shallows">shallows</item>
@@ -2385,10 +2383,10 @@
             <item xml:id="shelter">shelter (3)</item>
             <item xml:id="shelter">shelter (4)</item>
             <item xml:id="shift">shift boom/yard</item>
-            <item>(cargo) shift</item>
-            <item>(ship) shift</item>
-            <item>(wind) shift</item>
-            <item>(wind) shift (1)</item>
+            <item xml:id="cargoshift">(cargo) shift</item>
+            <item xml:id="shipshift">(ship) shift</item>
+            <item xml:id="windshift">(wind) shift</item>
+            <item xml:id="windshift">(wind) shift (1)</item>
             <item xml:id="shifting">shifting-boards</item>
             <item xml:id="shingle">shingle</item>
             <item xml:id="ship">ship (1)</item>
@@ -2418,20 +2416,20 @@
             <item xml:id="shore">shore (3)</item>
             <item xml:id="shore">shore (4)</item>
             <item xml:id="steep">steep shore</item>
-            <item>(steep) shore (1)</item>
-            <item>(steep) shore (2)</item>
+            <item xml:id="steepshore">(steep) shore (1)</item>
+            <item xml:id="steepshore">(steep) shore (2)</item>
             <item xml:id="toward">toward shore</item>
             <item xml:id="shore">shore, prop (1)</item>
             <item xml:id="shore">shore, prop (2)</item>
             <item xml:id="shore">shore, prop (3)</item>
             <item xml:id="shore">shore, prop (4)</item>
             <item xml:id="shore">shore, prop (5)</item>
-            <item>(prop) shore</item>
+            <item xml:id="propshore">(prop) shore</item>
             <item xml:id="skeg">skeg-shore</item>
             <item xml:id="spur">spur-shore</item>
             <item xml:id="shore">shore</item>
             <item xml:id="shore">shore up</item>
-            <item>(cable) shot</item>
+            <item xml:id="cableshot">(cable) shot</item>
             <item xml:id="shove">shove off! all clear!</item>
             <item xml:id="shovel">shovel</item>
             <item xml:id="shovelling">shovelling</item>
@@ -2439,19 +2437,19 @@
             <item xml:id="shroud">shroud (2)</item>
             <item xml:id="shroud">shroud (3)</item>
             <item xml:id="shroud">shroud</item>
-            <item>(after) shroud</item>
-            <item>(preventer) shroud</item>
+            <item xml:id="aftershroud">(after) shroud</item>
+            <item xml:id="preventershroud">(preventer) shroud</item>
             <item xml:id="shroud">shroud-tackles</item>
             <item xml:id="shroud">shroud-tackle</item>
             <item xml:id="shudder">shudder</item>
             <item xml:id="siccus">siccus</item>
-            <item>(ship’s) side (1)</item>
-            <item>(ship’s) side (2)</item>
-            <item>(ship’s) side (3)</item>
-            <item>(ship’s) side (4)</item>
-            <item>(ship’s) side (5)</item>
-            <item>(ship’s) side (6)</item>
-            <item>(ship’s) side (7)</item>
+            <item xml:id="ships">(ship’s) side (1)</item>
+            <item xml:id="ships">(ship’s) side (2)</item>
+            <item xml:id="ships">(ship’s) side (3)</item>
+            <item xml:id="ships">(ship’s) side (4)</item>
+            <item xml:id="ships">(ship’s) side (5)</item>
+            <item xml:id="ships">(ship’s) side (6)</item>
+            <item xml:id="ships">(ship’s) side (7)</item>
             <item xml:id="siding">siding</item>
             <item xml:id="sign">sign on</item>
             <item xml:id="signal">signal</item>
@@ -2462,7 +2460,7 @@
             <item xml:id="single">single</item>
             <item xml:id="sink">sink</item>
             <item xml:id="sirmark">sirmark</item>
-            <item>(of rope) size</item>
+            <item xml:id="ofrope">(of rope) size</item>
             <item xml:id="skaf">skaf</item>
             <item xml:id="skar">skar</item>
             <item xml:id="skeet">skeet</item>
@@ -2476,7 +2474,7 @@
             <item xml:id="skysail">skysail pole</item>
             <item xml:id="slab">slab-line</item>
             <item xml:id="slabre">slabre</item>
-            <item>(rope) slack</item>
+            <item xml:id="ropeslack">(rope) slack</item>
             <item xml:id="slack">slack (1)</item>
             <item xml:id="slack">slack (adj.)</item>
             <item xml:id="slacken">slacken (1)</item>
@@ -2498,8 +2496,8 @@
             <item xml:id="sling">sling</item>
             <item xml:id="sling">sling (of a yard)</item>
             <item xml:id="sling">sling (of a lower yard)</item>
-            <item>(anchor-cable, warp) to slip</item>
-            <item>(on bitts, cleat, drum) to slip</item>
+            <item xml:id="anchorcable">(anchor-cable, warp) to slip</item>
+            <item xml:id="onbitts">(on bitts, cleat, drum) to slip</item>
             <item xml:id="slip">slip-way</item>
             <item xml:id="sloop">sloop</item>
             <item xml:id="smack">smack</item>
@@ -2523,8 +2521,8 @@
             <item xml:id="southeast">southeast</item>
             <item xml:id="southwest">southwest</item>
             <item xml:id="span">span</item>
-            <item>(for(stay-) tackles) span</item>
-            <item>(meas.) span</item>
+            <item xml:id="forstay">(for(stay-) tackles) span</item>
+            <item xml:id="measspan">(meas.) span</item>
             <item xml:id="spanish">spanish windlass</item>
             <item xml:id="spanker">spanker</item>
             <item xml:id="spar">spar, yard</item>
@@ -2534,7 +2532,7 @@
             <item xml:id="to">to speak (a ship)</item>
             <item xml:id="spice">spice</item>
             <item xml:id="spile">spile</item>
-            <item>(wind) to spill</item>
+            <item xml:id="windto">(wind) to spill</item>
             <item xml:id="spilling">spilling line</item>
             <item xml:id="spin">spin</item>
             <item xml:id="spindle">spindle</item>
@@ -2548,7 +2546,7 @@
             <item xml:id="spreader">spreader</item>
             <item xml:id="1">1. spreader</item>
             <item xml:id="2">2. spreader</item>
-            <item>(a spar) to spring</item>
+            <item xml:id="aspar">(a spar) to spring</item>
             <item xml:id="spring">spring-line (1)</item>
             <item xml:id="spring">spring-line (2)</item>
             <item xml:id="spring">spring-line</item>
@@ -2559,19 +2557,19 @@
             <item xml:id="squall">squall (1)</item>
             <item xml:id="squall">squall (2)</item>
             <item xml:id="squall">squall</item>
-            <item>(tool) square</item>
+            <item xml:id="toolsquare">(tool) square</item>
             <item xml:id="square">square-rigged</item>
             <item xml:id="square">square the yards</item>
             <item xml:id="stability">stability</item>
-            <item>(half-)staff</item>
-            <item>(for work on hull) stage</item>
+            <item xml:id="halfstaff">(half-)staff</item>
+            <item xml:id="forwork">(for work on hull) stage</item>
             <item xml:id="stage">stage</item>
             <item xml:id="stanchion">stanchion (1)</item>
             <item xml:id="stanchion">stanchion (2)</item>
             <item xml:id="stanchion">stanchion (3)</item>
             <item xml:id="stanchion">stanchion (4)</item>
             <item xml:id="stanchion">stanchion</item>
-            <item>(flag) standard</item>
+            <item xml:id="flagstandard">(flag) standard</item>
             <item xml:id="stand">stand by</item>
             <item xml:id="staple">staple</item>
             <item xml:id="stapula">stapula</item>
@@ -2585,9 +2583,9 @@
             <item xml:id="stay">stay (2)</item>
             <item xml:id="stay">stay (various)</item>
             <item xml:id="stay">stay</item>
-            <item>(of mast) (jack) stay</item>
-            <item>(of yard) (jack) stay</item>
-            <item>(of yard) (jack) stay (1)</item>
+            <item xml:id="ofmast">(of mast) (jack) stay</item>
+            <item xml:id="ofyard">(of yard) (jack) stay</item>
+            <item xml:id="ofyard">(of yard) (jack) stay (1)</item>
             <item xml:id="spring">spring-stay</item>
             <item xml:id="staysail">staysail stay</item>
             <item xml:id="in">in stays</item>
@@ -2598,7 +2596,7 @@
             <item xml:id="upper">upper staysail</item>
             <item xml:id="steady">steady</item>
             <item xml:id="steady">steady!</item>
-            <item>(planking) stealer</item>
+            <item xml:id="plankingstealer">(planking) stealer</item>
             <item xml:id="steamer">steamer, ship</item>
             <item xml:id="steel">steel</item>
             <item xml:id="steep">steep</item>
@@ -2607,8 +2605,8 @@
             <item xml:id="steeve">steeve</item>
             <item xml:id="stem">stem</item>
             <item xml:id="from">from stem to stern</item>
-            <item>(current, wind) to stem</item>
-            <item>(mast-) step</item>
+            <item xml:id="currentwind">(current, wind) to stem</item>
+            <item xml:id="maststep">(mast-) step</item>
             <item xml:id="step">step</item>
             <item xml:id="to">to step</item>
             <item xml:id="sterling">sterling</item>
@@ -2626,7 +2624,7 @@
             <item xml:id="stitch">stitch</item>
             <item xml:id="stop">stop</item>
             <item xml:id="stockfish">stockfish</item>
-            <item>(shipbuilding) stocks</item>
+            <item xml:id="shipbuildingstocks">(shipbuilding) stocks</item>
             <item xml:id="stocks">stocks</item>
             <item xml:id="stop">stop!</item>
             <item xml:id="stop">stop (a leak)</item>
@@ -2662,22 +2660,22 @@
             <item xml:id="straits">straits (2)</item>
             <item xml:id="straits">straits (3)</item>
             <item xml:id="strake">strake</item>
-            <item>(bilge) strake</item>
-            <item>(of deck) (binding) strake</item>
+            <item xml:id="bilgestrake">(bilge) strake</item>
+            <item xml:id="ofdeck">(of deck) (binding) strake</item>
             <item xml:id="black">black strake</item>
-            <item>(limber) strake</item>
+            <item xml:id="limberstrake">(limber) strake</item>
             <item xml:id="sheer">sheer-strake</item>
-            <item>(thick) strake</item>
+            <item xml:id="thickstrake">(thick) strake</item>
             <item xml:id="strand">strand</item>
             <item xml:id="strand">strand (of rope)</item>
             <item xml:id="strand">strand (of rope) (1)</item>
             <item xml:id="streng">streng</item>
-            <item>(rowing) stretcher</item>
+            <item xml:id="rowingstretcher">(rowing) stretcher</item>
             <item xml:id="strickle">strickle</item>
             <item xml:id="strike">strike</item>
             <item xml:id="string">string</item>
             <item xml:id="stringer">stringer (1)</item>
-            <item>(hidden) stringer (2)</item>
+            <item xml:id="hiddenstringer">(hidden) stringer (2)</item>
             <item xml:id="strop">strop (1)</item>
             <item xml:id="strop">strop (2)</item>
             <item xml:id="strop">strop (3)</item>
@@ -2697,22 +2695,22 @@
             <item xml:id="sweep">sweep</item>
             <item xml:id="swell">swell</item>
             <item xml:id="to">to swig up</item>
-            <item>(at anchor) to swing</item>
-            <item>(at anchor) swing</item>
+            <item xml:id="atanchor">(at anchor) to swing</item>
+            <item xml:id="atanchor">(at anchor) swing</item>
             <item xml:id="swivel">swivel</item>
 
             <item xml:id="tabernacle">tabernacle</item>
             <item xml:id="table">table</item>
-            <item>(of sail) tabling</item>
-            <item>(rope) tack (1)</item>
-            <item>(rope) tack (2)</item>
+            <item xml:id="ofsail">(of sail) tabling</item>
+            <item xml:id="ropetack">(rope) tack (1)</item>
+            <item xml:id="ropetack">(rope) tack (2)</item>
             <item xml:id="tack">tack (3)</item>
-            <item>(rope) tack (misc.)</item>
-            <item>(sail-corner) tack</item>
-            <item>(of course) tack (1)</item>
-            <item>(of ship’s course) tack (2)</item>
-            <item>(of course) tack (3)</item>
-            <item>(of course) tack</item>
+            <item xml:id="ropetack">(rope) tack (misc.)</item>
+            <item xml:id="sailcorner">(sail-corner) tack</item>
+            <item xml:id="ofcourse">(of course) tack (1)</item>
+            <item xml:id="ofship">(of ship’s course) tack (2)</item>
+            <item xml:id="ofcourse">(of course) tack (3)</item>
+            <item xml:id="ofcourse">(of course) tack</item>
             <item xml:id="change">change tack</item>
             <item xml:id="to">to tack (1)</item>
             <item xml:id="to">to tack (2)</item>
@@ -2727,15 +2725,15 @@
             <item xml:id="tackle">tackle (4)</item>
             <item xml:id="tackle">tackle (5)</item>
             <item xml:id="reef">reef-tackle (6)</item>
-            <item>(winding) tackle (7a)</item>
-            <item>(winding) tackle (7b)</item>
+            <item xml:id="windingtackle">(winding) tackle (7a)</item>
+            <item xml:id="windingtackle">(winding) tackle (7b)</item>
             <item xml:id="winding">winding tackle (7c)</item>
-            <item>(whip) tackle (8)</item>
-            <item>(burton) tackle (9a)</item>
-            <item>(burton) tackle (9b)</item>
-            <item>(spanish burton) tackle (9c)</item>
-            <item>(top-burton) tackle (9d)</item>
-            <item>(burton) tackle (9)</item>
+            <item xml:id="whiptackle">(whip) tackle (8)</item>
+            <item xml:id="burtontackle">(burton) tackle (9a)</item>
+            <item xml:id="burtontackle">(burton) tackle (9b)</item>
+            <item xml:id="spanishburton">(spanish burton) tackle (9c)</item>
+            <item xml:id="topburton">(top-burton) tackle (9d)</item>
+            <item xml:id="burtontackle">(burton) tackle (9)</item>
             <item xml:id="tackle">tackle (10)</item>
             <item xml:id="fore">fore-/main-tackle (11)</item>
             <item xml:id="tackle">tackle (12)</item>
@@ -2757,7 +2755,7 @@
             <item xml:id="tally">tally</item>
             <item xml:id="la">la tana</item>
             <item xml:id="tank">tank</item>
-            <item>(top-side) tanks</item>
+            <item xml:id="topside">(top-side) tanks</item>
             <item xml:id="tapera">tapera</item>
             <item xml:id="tar">tar</item>
             <item xml:id="tar">tar (1)</item>
@@ -2783,7 +2781,7 @@
             <item xml:id="taut">taut (1)</item>
             <item xml:id="taut">taut (2)</item>
             <item xml:id="tavern">tavern</item>
-            <item>(crank) tender</item>
+            <item xml:id="cranktender">(crank) tender</item>
             <item xml:id="tenon">tenon</item>
             <item xml:id="terra">terra firma</item>
             <item xml:id="tertiariol">tertiariol-</item>
@@ -2796,7 +2794,7 @@
             <item xml:id="neap">neap-tide</item>
             <item xml:id="spring">spring-tide</item>
             <item xml:id="turn">turn of the tide</item>
-            <item>(secure) tie</item>
+            <item xml:id="securetie">(secure) tie</item>
             <item xml:id="tie">tie (v.)</item>
             <item xml:id="tier">tier</item>
             <item xml:id="tight">tight</item>
@@ -2808,8 +2806,8 @@
             <item xml:id="tiller">tiller (3)</item>
             <item xml:id="tiller">tiller</item>
             <item xml:id="tiller">tiller-rope</item>
-            <item>(compass) timber</item>
-            <item>(construction) timber</item>
+            <item xml:id="compasstimber">(compass) timber</item>
+            <item xml:id="constructiontimber">(construction) timber</item>
             <item xml:id="timber">timber-head</item>
             <item xml:id="timenoguy">timenoguy</item>
             <item xml:id="tiramola">tiramola</item>
@@ -2819,7 +2817,7 @@
             <item xml:id="tombar">tombar</item>
             <item xml:id="ton">ton</item>
             <item xml:id="tonnage">tonnage</item>
-            <item>(tax) tonnage</item>
+            <item xml:id="taxtonnage">(tax) tonnage</item>
             <item xml:id="top">top</item>
             <item xml:id="top">top (1)</item>
             <item xml:id="top">top (2)</item>
@@ -2836,7 +2834,7 @@
             <item xml:id="top">top-timber</item>
             <item xml:id="touch">touch</item>
             <item xml:id="touch">touch the wind</item>
-            <item>(by row-boat) tow (1)</item>
+            <item xml:id="byrow">(by row-boat) tow (1)</item>
             <item xml:id="tow">tow (2)</item>
             <item xml:id="tow">tow</item>
             <item xml:id="tow">tow (misc.)</item>
@@ -2852,7 +2850,7 @@
             <item xml:id="tranship">tranship</item>
             <item xml:id="transit">transit</item>
             <item xml:id="transom">transom</item>
-            <item>(upper stern) transom</item>
+            <item xml:id="upperstern">(upper stern) transom</item>
             <item xml:id="deck">deck-transom</item>
             <item xml:id="filling">filling-transom</item>
             <item xml:id="helm">helm-port transom</item>
@@ -2874,13 +2872,13 @@
             <item xml:id="to">to trice</item>
             <item xml:id="tricing">tricing-line</item>
             <item xml:id="trim">trim</item>
-            <item>(of cargo) trim</item>
-            <item>(of ship) trim</item>
-            <item>(sails) trim</item>
+            <item xml:id="ofcargo">(of cargo) trim</item>
+            <item xml:id="ofship">(of ship) trim</item>
+            <item xml:id="sailstrim">(sails) trim</item>
             <item xml:id="trink">trink-</item>
             <item xml:id="trout">trout</item>
             <item xml:id="truck">truck</item>
-            <item>(mast-) truck</item>
+            <item xml:id="masttruck">(mast-) truck</item>
             <item xml:id="speaking">speaking trumpet</item>
             <item xml:id="trunk">trunk</item>
             <item xml:id="truss">truss</item>
@@ -2892,12 +2890,12 @@
             <item xml:id="tumble">tumble home</item>
             <item xml:id="tuna">tuna</item>
             <item xml:id="turn">turn</item>
-            <item>(of rope) turn</item>
+            <item xml:id="ofrope">(of rope) turn</item>
             <item xml:id="turn">turn, knot (1)</item>
             <item xml:id="half">half-turn</item>
             <item xml:id="round">round turn</item>
             <item xml:id="round">round turn (2)</item>
-            <item>(of cable on the bitts) turn</item>
+            <item xml:id="ofcable">(of cable on the bitts) turn</item>
             <item xml:id="turn">turn in the hawse</item>
             <item xml:id="turner">turner</item>
             <item xml:id="turpentine">turpentine</item>
@@ -2910,7 +2908,7 @@
 
             <item xml:id="ullage">ullage</item>
             <item xml:id="underrun">underrun</item>
-            <item>(as a hawser with a boat) underrun</item>
+            <item xml:id="asa">(as a hawser with a boat) underrun</item>
             <item xml:id="undertow">undertow, surf, surge</item>
             <item xml:id="under">under way</item>
             <item xml:id="get">get underway</item>
@@ -2928,17 +2926,17 @@
 
             <item xml:id="valve">valve</item>
             <item xml:id="vane">vane</item>
-            <item>(weather) vane</item>
+            <item xml:id="weathervane">(weather) vane</item>
             <item xml:id="vane">vane</item>
-            <item>(weather) vane (1)</item>
+            <item xml:id="weathervane">(weather) vane (1)</item>
             <item xml:id="vang">vang (1)</item>
             <item xml:id="vang">vang (2)</item>
             <item xml:id="vang">vang (3)</item>
             <item xml:id="vang">vang (4)</item>
             <item xml:id="varnish">varnish</item>
             <item xml:id="veer">veer/wear</item>
-            <item>(wind) veer</item>
-            <item>(wind) veer aft</item>
+            <item xml:id="windveer">(wind) veer</item>
+            <item xml:id="windveer">(wind) veer aft</item>
             <item xml:id="veer">veer and haul</item>
             <item xml:id="venice">venice</item>
             <item xml:id="verga">verga</item>
@@ -2982,12 +2980,12 @@
             <item xml:id="willow">willow</item>
             <item xml:id="winch">winch</item>
             <item xml:id="winch">winch-barrel</item>
-            <item>*wind-</item>
+            <item xml:id="winditem">*wind-</item>
             <item xml:id="wind">wind</item>
-            <item>(relative) wind</item>
+            <item xml:id="relativewind">(relative) wind</item>
             <item xml:id="wind">wind (1)</item>
             <item xml:id="wind">wind (2)</item>
-            <item>(vent d’aval) wind (3)</item>
+            <item xml:id="ventd">(vent d’aval) wind (3)</item>
             <item xml:id="wind">wind (4)</item>
             <item xml:id="e">e wind</item>
             <item xml:id="n">n wind (1)</item>
@@ -3014,7 +3012,7 @@
             <item xml:id="wine">wine</item>
             <item xml:id="wing">wing and wing</item>
             <item xml:id="to">to winter</item>
-            <item>(fire) wood</item>
+            <item xml:id="firewood">(fire) wood</item>
             <item xml:id="woold">woold(ing)</item>
             <item xml:id="woolding">woolding</item>
             <item xml:id="lower">lower works</item>
@@ -3026,8 +3024,8 @@
             <item xml:id="yard">yard (meas.)</item>
             <item xml:id="yard">yard (1)</item>
             <item xml:id="yard">yard (2)</item>
-            <item>(peak of lateen) yard</item>
-            <item>(lower part of) yard</item>
+            <item xml:id="peakof">(peak of lateen) yard</item>
+            <item xml:id="lowerpart">(lower part of) yard</item>
             <item xml:id="yard">yard-arm</item>
             <item xml:id="yardarm">yardarm</item>
             <item xml:id="yard">yard-rope</item>
@@ -3040,11 +3038,11 @@
             <item xml:id="yawl">yawl</item>
             <item xml:id="yoke">yoke</item>
 
-            <item>(vessel) zabra</item>
+            <item xml:id="vesselzabra">(vessel) zabra</item>
             <item xml:id="zabra">zabra</item>
             <item xml:id="zaccaria">zaccaria, benedetto</item>
             <item xml:id="zero">zero</item>
-            <item>-zón</item>
+            <item xml:id="zon">-zón</item>
             <item xml:id="zonta">zonta</item>
 
             <item>greek and latin cargos - cone</item>
